@@ -6,49 +6,116 @@ date: "2022-03-16"
 
 ### 数组测试
 
-  通过javascript中的数组api，或手写一些api，来完成这些数组测试。
+   本章节主要通过es6的一些数组api,来完成以下的数组测试:
 
-```
-var arr = [1,2,'aaa',34,21,'str'];
-1.  声明一个变量，查找arr数组中的aaa并且返回。
+1. 声明一个变量，查找arr数组中的aaa并且返回。
 2.  声明一个变量，返回一个数组给arr数组内的每一项添加字符串"$"符号。
 3.  声明一个变量，返回一个数组arr中的字符串
 4.  声明一个变量，返回布尔值，如果arr数组中存在字符串则返回true,否则返回false
 5.  声明一个变量,返回布尔值，如果arr数组中所有值都是字符串，则返回true，否则返回false
 6.  声明一个变量,返回arr数组中数字的总和
-```
 
 
 
 ### 解题思路
 
-测试中使用到JS自带的数组api，及循环语句。
-
 题解1：
 
-使用map循环，返回含有'aaa'的数组，再用filter过滤不相关元素。
-
-考虑到传入数组中不一定只含有一个'aaa'，因此map返回时以映射的形式返回，方便数据区分。
-
 ```
- var arr = [1,2,'aaa',34,21,'str'];
- /**
-  * map迭代数组，返回(item,index)，作为每个数组元素的映射
-  * map无法跳出循环
-  * map不改变原数组
-  * filter迭代数组，返回(item,index),只返回布尔值为true的数据
-  * filter同样不改变原数组
-  */
-
-const strArray = arr.map((item,index)=> item=='aaa' && {item,index}).filter(item=>item);
-console(strArray); // {item:"aaa",index:"2"}
-
-
 /**
-  * 
+  * 声明一个变量，查找arr数组中的aaa并且返回。
   */
+
+var localArr = [1,2,'aaa',34,21,'str'];
+let goalStr = "";
+goalStr = localArr.filter(item=> item=='aaa')[0];// "aaa"
+return goalStr;
+```
+
+
+
+题解2：
+
+```
+/**
+  * 声明一个变量，返回一个数组给arr数组内的每一项添加字符串"$"符号。
+  */
+
+var arr = [1,2,'aaa',34,21,'str'];
+let dollarArr = new Array;
+//  其中1,2,34,21会被转换成字符串与"$"拼接
+dollarArr = arr.map(item=> "$"+item); // ["$1","$2",'$aaa',"$34","$21","$str"]
+return dollarArr;
 
 ```
 
 
+
+题解3：
+
+```
+/**
+  * 声明一个变量，返回一个数组arr中的字符串
+  */
+
+var arr = [1,2,'aaa',34,21,'str'];
+let strArr = new Array;
+strArr= arr.filter(item => typeof(item) == "string" ) // ['aaa','str']
+return strArr;
+
+```
+
+
+
+题解4：
+
+```
+/**
+  * 声明一个变量，返回布尔值，如果arr数组中存在字符串则返回true,否则返回false
+  */
+
+var localArr = [1,2,'aaa',34,21,'str'];
+let isHaveStr = undefined; // 是否存在字符串
+isHaveStr = localArr.some(item=> typeof(item)=="string");
+return isHaveStr;
+```
+
+
+
+题解5：
+
+```
+/**
+  * 声明一个变量,返回布尔值，如果arr数组中所有值都是字符串，则返回true，否则返回false
+  */
+
+var localArr = [1,2,'aaa',34,21,'str'];
+let isAllStr = undefined; // 是否所有值为字符串
+isAllStr = localArr.every(item=>typeof(item)=="string");
+return isAllStr; // false
+
+```
+
+
+
+题解6：
+
+```
+/**
+  * 声明一个变量,返回arr数组中数字的总和。
+  */
+
+var arr = [1,2,'aaa',34,21,'str'];
+let summary = 0; //计数数字总和
+
+for (let item of arr){
+   if(typeof(item)=="number"){
+   		summary+=item
+   }
+   continue;
+}
+
+return summary; //58
+
+```
 
