@@ -4,16 +4,16 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "C:\\Users\\91245\\Desktop\\wangzhe\\vuepress-starter\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "F:\\vuepress-learn-js\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-30fbd370",
+    name: "v-66c5182d",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-30fbd370").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-66c5182d").then(next)
     },
   },
   {
@@ -21,19 +21,59 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-2f895180",
-    path: "/handbook/ConditionalTypes.html",
+    name: "v-a0c7f98a",
+    path: "/bookCatagory/Template.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2f895180").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-a0c7f98a").then(next)
     },
   },
   {
-    name: "v-bde2b040",
-    path: "/handbook/Generics.html",
+    name: "v-014fcdca",
+    path: "/bookCatagory/Typeof.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-bde2b040").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-014fcdca").then(next)
+    },
+  },
+  {
+    name: "v-7a55579b",
+    path: "/home/home.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7a55579b").then(next)
+    },
+  },
+  {
+    name: "v-1c21fffb",
+    path: "/bookCatagory/dataType.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1c21fffb").then(next)
+    },
+  },
+  {
+    name: "v-7dfcb9ca",
+    path: "/homework/DataFilter.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7dfcb9ca").then(next)
+    },
+  },
+  {
+    name: "v-772f353b",
+    path: "/homework/Es6ArrayTest.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-772f353b").then(next)
+    },
+  },
+  {
+    name: "v-a3f1974a",
+    path: "/homework/Notice.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-a3f1974a").then(next)
     },
   },
   {
