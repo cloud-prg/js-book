@@ -41,7 +41,7 @@ let list = [
   { name: "bbb", age: 16 },
 ];
 
-// 双层遍历，返回无重复项数组
+// 单次遍历，返回无重复项数组
 const getUniqueArr = (arr) => {
   let memorize = {}; // 记忆对象
   arr.reduce((pre, cur) => {
@@ -87,7 +87,7 @@ let list = [
   { name: "bbb", age: 16 },
 ];
 
-// 双层遍历，返回重复项
+// 单次遍历，返回重复项
 const getMoreArr = (arr) => {
   let memorize = {}; // 记忆对象
   let more = {}; // 重复对象
@@ -139,7 +139,7 @@ let arr2 = [
   { name: "bbb", age: 16 },
 ];
 
-// 双层遍历，返回重复项
+// 单次遍历，返回重复项
 const getMoreArr = (arr) => {
   let memorize = {}; // 记忆对象
   let more = {}; // 重复对象

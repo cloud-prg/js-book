@@ -16,7 +16,7 @@ date: "2022-03-18"
 
 - 搜索一个单词的释义，每次搜索出结果，都将单词名称和释义，以键值对方式存储到记忆函数中。当下次搜索时，将优先在记忆函数中寻找，如果找到对应词汇，则无需调用接口发送请求，直接返回其值。
 - 有些需求中，地区列表是通过实时调用接口完成的，请求数据时将带有市区编号的payload发送出去，返回相关地段的信息。当下次请求时，携带的payload相同时，便可使用记忆函数，减少不必要的重复请求。
-- 剔除数组中相同数组元素，减少多层循环挨个对比。
+- 斐波那契数列。
 
 
 
@@ -40,26 +40,28 @@ date: "2022-03-18"
 
 ```javascript
 function memorize(f) {
-  var cache = {}; // 定义缓存对象
+    var cache = {}; // 定义缓存对象
+   console.log("cache",cache);
+    // 返回一个函数，即闭包
+    return function () {
+      // 将参数的长度 拼接 参数名字符串化(并以逗号隔开)，作为键名,传入缓存对象
+      var key = arguments.length + Array.prototype.join.call(arguments, ",");
 
-  // 返回一个函数，即闭包
-  return function () {
-    // 将参数的长度 拼接 参数名字符串化(并以逗号隔开)，作为键名,传入缓存对象
-    var key = arguments.length + Array.prototype.join.call(arguments, ",");
-    if (key in cache) {
-      return cache[key];
-    } else return (cache[key] = f.apply(this, arguments)); // 传入的数组或类数组,里面的元素将会被一一传入
-  };
-}
+      // 同cache.hasOwnProperty(key)
+      if (key in cache) {
+        return cache[key];
+      } else return (cache[key] = f.apply(this, arguments)); // 传入的数组或类数组,里面的元素将会被一一传入
+    };
+  }
 ```
 
 
 
 
 
-# 效率测试
+# 函数测试
 
-   以一个计算参数和的函数为例，使用记忆函数时，执行时间在37毫秒左右。不使用记忆函数时，执行时间在0.7毫秒左右。
+   以一个计算参数和的函数为例，使用记忆函数时，执行时间在37毫秒左右。不使用记忆函数时，执行时间在0.7毫秒左右。在这里，总是接受相同参数。计算结果没有变化，且循环量大的情况下，记忆函数不太适用。
 
 ```
 function sum(a, b, c) {
@@ -85,9 +87,34 @@ calcTime("sum", sum, Math.pow(10,5)); // 平均0.077ms
 
 
 
-再以寻找数组重复项为例，使用记忆函数时，执行时间在37毫秒左右。不使用记忆函数时，执行时间在0.7毫秒左右。
+再以寻找数组重复项为例，使用记忆函数时，执行次数是5。不使用时，执行次数为19。在这里，总是接受不同参数，计算结果多变，且循环量大的情况下，记忆函数的优势便凸显出来。
+
+```javascript
+// 斐波那契数列
+var count = 0; // 斐波那契数列循环次数
+
+// 如果n小于2，返回本身，反则返回前两项之和
+function fibonacci(n) {
+  count++;
+  return n < 2 ? n : fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+fibonacci = memorize(fibonacci);
+for (let i = 0; i < 5; i++) {
+  fibonacci(i);
+}
+
+// console.log(count); // 19 --未使用记忆函数
+console.log(count); // 5 -- 使用记忆函数
 
 ```
 
-```
 
+
+
+
+# 总结
+
+1.   记忆函数能够缓存计算结果，以参数作为映射。
+2.   记忆函数不能有副作用
+3.   记忆函数在参数多变，计算结果多变，且迭代次数多的情况下，才能显出优势。
