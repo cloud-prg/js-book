@@ -18,6 +18,8 @@ date: "2022-03-17"
 
 ### 题目详解
 
+   遵循了记忆函数的思想，将数据字符串化，以key形式保存在对象中。使用hasOwnProperty进行比对，这样循环讲至单次，且可读性提高。
+
 题解1：
 
 ```
@@ -37,14 +39,19 @@ let list = [
 
 // 双层遍历，返回无重复项数组
 const getUniqueArr = (arr) => {
-  for (let i = 0; i < arr.length; i++) {
-    for (let j = i + 1; j < arr.length; j++) {
-      if (list[i].name == list[j].name && list[i].age == list[j].age) {
-        arr.splice(j, 1);
-      }
+  let memorize = {}; // 记忆对象
+  arr.reduce((pre, cur) => {
+    let stringCur = JSON.stringify(cur); //对前一个数据字符串化
+
+    //如果记忆对象没有这个属性,则推进
+    if (!memorize.hasOwnProperty(stringCur)) {
+      memorize[stringCur] = cur;
+      return cur;
     }
-  }
-  return arr;
+
+    return cur;
+  }, {});
+  return Object.values(memorize);
 };
 
 console.log(getUniqueArr(list));
@@ -53,7 +60,7 @@ console.log(getUniqueArr(list));
 //   { name: 'bbb', age: 15 },
 //   { name: 'ccc', age: 17 },
 //   { name: 'ddd', age: 22 },
-//   { name: 'bbb', age: 16 }
+//   { name: 'bbb', age: 16 },
 // ]
 
 ```
@@ -77,21 +84,25 @@ let list = [
 ];
 
 // 双层遍历，返回重复项
-const getUniqueArr = (arr) => {
-  let moreEleArr = new Array();
-  if (arr instanceof Array == false) return;
-  for (let i = 0; i < arr.length; i++) {
-    for (let j = i + 1; j < arr.length; j++) {
-      if (list[i].name == list[j].name && list[i].age == list[j].age) {
-        moreEleArr.push(arr[j]);
-        arr.splice(j, 1);
-      }
+const getMoreArr = (arr) => {
+  let memorize = {}; // 记忆对象
+  let more = {}; // 重复对象
+  arr.reduce((pre, cur) => {
+    let stringCur = JSON.stringify(cur); //对前一个数据字符串化
+
+    //如果记忆对象没有这个属性,则推进。否则推入重复对象
+    if (!memorize.hasOwnProperty(stringCur)) {
+      memorize[stringCur] = cur;
+    } else {
+      more[stringCur] = cur;
     }
-  }
-  return moreEleArr;
+
+    return cur;
+  }, {});
+  return Object.values(more);
 };
 
-console.log(getUniqueArr(list)); // [ { name: 'aaa', age: 13 }, { name: 'bbb', age: 15 } ]
+console.log(getMoreArr(list)); // [ { name: 'aaa', age: 13 }, { name: 'bbb', age: 15 } ]
 
 ```
 
@@ -104,7 +115,7 @@ console.log(getUniqueArr(list)); // [ { name: 'aaa', age: 13 }, { name: 'bbb', a
  * 声明一个变量，返回arr1和arr2中重复的项
  */
 
-let arr1 = [
+ let arr1 = [
   { name: "aaa", age: 13 },
   { name: "bbb", age: 15 },
   { name: "ccc", age: 17 },
@@ -124,18 +135,23 @@ let arr2 = [
   { name: "bbb", age: 16 },
 ];
 
-// 双层遍历，返回重复项数组
+// 双层遍历，返回重复项
 const getMoreArr = (arr) => {
-  let moreArr = new Array();
-  for (let i = 0; i < arr.length; i++) {
-    for (let j = i + 1; j < arr.length; j++) {
-      if (arr[i].name == arr[j].name && arr[i].age == arr[j].age) {
-        moreArr.push(arr[j]);
-        arr.splice(j, 1);
-      }
+  let memorize = {}; // 记忆对象
+  let more = {}; // 重复对象
+  arr.reduce((pre, cur) => {
+    let stringCur = JSON.stringify(cur); //对前一个数据字符串化
+
+    //如果记忆对象没有这个属性,则推进。否则推入重复对象
+    if (!memorize.hasOwnProperty(stringCur)) {
+      memorize[stringCur] = cur;
+    } else {
+      more[stringCur] = cur;
     }
-  }
-  return moreArr;
+
+    return cur;
+  }, {});
+  return Object.values(more);
 };
 
 console.log(getMoreArr(arr1).concat(getMoreArr(arr2)));

@@ -16,8 +16,20 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-66c5182d",
+      "key": "v-e5c74524",
       "path": "/"
+    },
+    {
+      "title": "JS中的数据类型",
+      "frontmatter": {
+        "title": "JS中的数据类型",
+        "author": "云上舟",
+        "date": "2022-3-16"
+      },
+      "regularPath": "/bookCatagory/DataType.html",
+      "relativePath": "bookCatagory/DataType.md",
+      "key": "v-1e0b184c",
+      "path": "/bookCatagory/DataType.html"
     },
     {
       "title": "template",
@@ -28,7 +40,7 @@ export const siteData = {
       },
       "regularPath": "/bookCatagory/Template.html",
       "relativePath": "bookCatagory/Template.md",
-      "key": "v-a0c7f98a",
+      "key": "v-7f28db1a",
       "path": "/bookCatagory/Template.html"
     },
     {
@@ -40,7 +52,7 @@ export const siteData = {
       },
       "regularPath": "/bookCatagory/Typeof.html",
       "relativePath": "bookCatagory/Typeof.md",
-      "key": "v-014fcdca",
+      "key": "v-64dc8f0c",
       "path": "/bookCatagory/Typeof.html",
       "headers": [
         {
@@ -66,6 +78,30 @@ export const siteData = {
       ]
     },
     {
+      "title": "数据过滤",
+      "frontmatter": {
+        "title": "数据过滤",
+        "author": "云上舟",
+        "date": "2022-03-17"
+      },
+      "regularPath": "/homework/DataFilter.html",
+      "relativePath": "homework/DataFilter.md",
+      "key": "v-e1897b0c",
+      "path": "/homework/DataFilter.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "测试内容",
+          "slug": "测试内容"
+        },
+        {
+          "level": 3,
+          "title": "题目详解",
+          "slug": "题目详解"
+        }
+      ]
+    },
+    {
       "title": "序言",
       "frontmatter": {
         "title": "序言",
@@ -74,7 +110,7 @@ export const siteData = {
       },
       "regularPath": "/home/home.html",
       "relativePath": "home/home.md",
-      "key": "v-7a55579b",
+      "key": "v-27db1c7a",
       "path": "/home/home.html",
       "headers": [
         {
@@ -85,16 +121,16 @@ export const siteData = {
       ]
     },
     {
-      "title": "JS中的数据类型",
+      "title": "记忆函数",
       "frontmatter": {
-        "title": "JS中的数据类型",
+        "title": "记忆函数",
         "author": "云上舟",
-        "date": "2022-3-16"
+        "date": "2022-03-18"
       },
-      "regularPath": "/bookCatagory/dataType.html",
-      "relativePath": "bookCatagory/dataType.md",
-      "key": "v-1c21fffb",
-      "path": "/bookCatagory/dataType.html"
+      "regularPath": "/bookCatagory/Memorize.html",
+      "relativePath": "bookCatagory/Memorize.md",
+      "key": "v-79d690da",
+      "path": "/bookCatagory/Memorize.html"
     },
     {
       "title": "数据过滤",
@@ -103,10 +139,10 @@ export const siteData = {
         "author": "云上舟",
         "date": "2022-03-17"
       },
-      "regularPath": "/homework/DataFilter(%E7%AC%AC%E4%B8%89%E7%89%88)%20.html",
-      "relativePath": "homework/DataFilter(第三版) .md",
-      "key": "v-286e7ad5",
-      "path": "/homework/DataFilter(%E7%AC%AC%E4%B8%89%E7%89%88)%20.html",
+      "regularPath": "/homework/DataFilterV3.html",
+      "relativePath": "homework/DataFilterV3.md",
+      "key": "v-843e5ccc",
+      "path": "/homework/DataFilterV3.html",
       "headers": [
         {
           "level": 3,
@@ -127,10 +163,34 @@ export const siteData = {
         "author": "云上舟",
         "date": "2022-03-17"
       },
-      "regularPath": "/homework/DataFilter.html",
-      "relativePath": "homework/DataFilter.md",
-      "key": "v-7dfcb9ca",
-      "path": "/homework/DataFilter.html",
+      "regularPath": "/homework/DataFilterV2.html",
+      "relativePath": "homework/DataFilterV2.md",
+      "key": "v-b1799e8c",
+      "path": "/homework/DataFilterV2.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "测试内容",
+          "slug": "测试内容"
+        },
+        {
+          "level": 3,
+          "title": "题目详解",
+          "slug": "题目详解"
+        }
+      ]
+    },
+    {
+      "title": "Es6数组测试",
+      "frontmatter": {
+        "title": "Es6数组测试",
+        "author": "云上舟",
+        "date": "2022-03-16"
+      },
+      "regularPath": "/homework/Es6ArrayTest.html",
+      "relativePath": "homework/Es6ArrayTest.md",
+      "key": "v-46bc0d1a",
+      "path": "/homework/Es6ArrayTest.html",
       "headers": [
         {
           "level": 3,
@@ -153,56 +213,8 @@ export const siteData = {
       },
       "regularPath": "/homework/Notice.html",
       "relativePath": "homework/Notice.md",
-      "key": "v-a3f1974a",
+      "key": "v-5129a2ba",
       "path": "/homework/Notice.html"
-    },
-    {
-      "title": "Es6数组测试",
-      "frontmatter": {
-        "title": "Es6数组测试",
-        "author": "云上舟",
-        "date": "2022-03-16"
-      },
-      "regularPath": "/homework/Es6ArrayTest.html",
-      "relativePath": "homework/Es6ArrayTest.md",
-      "key": "v-772f353b",
-      "path": "/homework/Es6ArrayTest.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "测试内容",
-          "slug": "测试内容"
-        },
-        {
-          "level": 3,
-          "title": "题目详解",
-          "slug": "题目详解"
-        }
-      ]
-    },
-    {
-      "title": "数据过滤",
-      "frontmatter": {
-        "title": "数据过滤",
-        "author": "云上舟",
-        "date": "2022-03-17"
-      },
-      "regularPath": "/homework/DataFilter(%E7%AC%AC%E4%BA%8C%E7%89%88).html",
-      "relativePath": "homework/DataFilter(第二版).md",
-      "key": "v-7d48c27c",
-      "path": "/homework/DataFilter(%E7%AC%AC%E4%BA%8C%E7%89%88).html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "测试内容",
-          "slug": "测试内容"
-        },
-        {
-          "level": 3,
-          "title": "题目详解",
-          "slug": "题目详解"
-        }
-      ]
     },
     {
       "frontmatter": {
@@ -282,6 +294,14 @@ export const siteData = {
           {
             "title": "数组过滤",
             "path": "/homework/DataFilter"
+          },
+          {
+            "title": "数组过滤(第二版)",
+            "path": "/homework/DataFilterV2"
+          },
+          {
+            "title": "数组过滤(第三版)",
+            "path": "/homework/DataFilterV3"
           }
         ]
       }
