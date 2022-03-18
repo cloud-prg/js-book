@@ -53,11 +53,35 @@ export const routes = [
     },
   },
   {
+    name: "v-286e7ad5",
+    path: "/homework/DataFilter(%E7%AC%AC%E4%B8%89%E7%89%88)%20.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-286e7ad5").then(next)
+    },
+  },
+  {
+    path: "/homework/DataFilter(第三版) .html",
+    redirect: "/homework/DataFilter(%E7%AC%AC%E4%B8%89%E7%89%88)%20.html"
+  },
+  {
+    path: "/homework/DataFilter(第三版) .html",
+    redirect: "/homework/DataFilter(%E7%AC%AC%E4%B8%89%E7%89%88)%20.html"
+  },
+  {
     name: "v-7dfcb9ca",
     path: "/homework/DataFilter.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-7dfcb9ca").then(next)
+    },
+  },
+  {
+    name: "v-a3f1974a",
+    path: "/homework/Notice.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-a3f1974a").then(next)
     },
   },
   {
@@ -69,12 +93,20 @@ export const routes = [
     },
   },
   {
-    name: "v-a3f1974a",
-    path: "/homework/Notice.html",
+    name: "v-7d48c27c",
+    path: "/homework/DataFilter(%E7%AC%AC%E4%BA%8C%E7%89%88).html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a3f1974a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7d48c27c").then(next)
     },
+  },
+  {
+    path: "/homework/DataFilter(第二版).html",
+    redirect: "/homework/DataFilter(%E7%AC%AC%E4%BA%8C%E7%89%88).html"
+  },
+  {
+    path: "/homework/DataFilter(第二版).html",
+    redirect: "/homework/DataFilter(%E7%AC%AC%E4%BA%8C%E7%89%88).html"
   },
   {
     name: "v-b1564aac",

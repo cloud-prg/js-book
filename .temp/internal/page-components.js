@@ -7,7 +7,9 @@ export default {
   "v-014fcdca": () => import("F:\\vuepress-learn-js\\docs\\bookCatagory\\Typeof.md"),
   "v-7a55579b": () => import("F:\\vuepress-learn-js\\docs\\home\\home.md"),
   "v-1c21fffb": () => import("F:\\vuepress-learn-js\\docs\\bookCatagory\\dataType.md"),
+  "v-286e7ad5": () => import("F:\\vuepress-learn-js\\docs\\homework\\DataFilter(第三版) .md"),
   "v-7dfcb9ca": () => import("F:\\vuepress-learn-js\\docs\\homework\\DataFilter.md"),
+  "v-a3f1974a": () => import("F:\\vuepress-learn-js\\docs\\homework\\Notice.md"),
   "v-772f353b": () => import("F:\\vuepress-learn-js\\docs\\homework\\Es6ArrayTest.md"),
-  "v-a3f1974a": () => import("F:\\vuepress-learn-js\\docs\\homework\\Notice.md") 
+  "v-7d48c27c": () => import("F:\\vuepress-learn-js\\docs\\homework\\DataFilter(第二版).md") 
 }
