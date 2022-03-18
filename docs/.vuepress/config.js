@@ -26,18 +26,20 @@ module.exports = {
         path: "/home/home",
       },
       {
-        title: "学习记录",
-        path: "/bookCatagory/Typeof",
+        title: "想法/笔记",
+        path: "/bookCatagory/Memorize",
+        collapsable:false, //是否折叠
         children: [
-          { title: "Typeof判断", path: "/bookCatagory/Typeof" },
-          { title: "暂无", path: "/bookCatagory/Template" },
+          // { title: "Typeof判断", path: "/bookCatagory/Typeof" },
+          { title: "记忆函数", path: "/bookCatagory/Memorize" },
         ],
       },
       {
-        title: "个人小练习",
+        title: "日常练习",
         path: "/homework/Notice",
+        collapsable:false, //是否折叠
         children: [
-          { title: "阅读前言" , path: "/homework/Notice"},
+          { title: "前言" , path: "/homework/Notice"},
           { title: "ES6数组测试", path: "/homework/Es6ArrayTest" },
           { title: "数组过滤", path: "/homework/DataFilter" },
           { title: "数组过滤(第二版)", path: "/homework/DataFilterV2" },

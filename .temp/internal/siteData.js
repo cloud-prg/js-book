@@ -20,6 +20,37 @@ export const siteData = {
       "path": "/"
     },
     {
+      "title": "记忆函数",
+      "frontmatter": {
+        "title": "记忆函数",
+        "author": "云上舟",
+        "date": "2022-03-18"
+      },
+      "regularPath": "/bookCatagory/Memorize.html",
+      "relativePath": "bookCatagory/Memorize.md",
+      "key": "v-79d690da",
+      "path": "/bookCatagory/Memorize.html"
+    },
+    {
+      "title": "序言",
+      "frontmatter": {
+        "title": "序言",
+        "author": "云上舟",
+        "date": "2022-03-14"
+      },
+      "regularPath": "/home/home.html",
+      "relativePath": "home/home.md",
+      "key": "v-27db1c7a",
+      "path": "/home/home.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "介绍",
+          "slug": "介绍"
+        }
+      ]
+    },
+    {
       "title": "JS中的数据类型",
       "frontmatter": {
         "title": "JS中的数据类型",
@@ -30,18 +61,6 @@ export const siteData = {
       "relativePath": "bookCatagory/DataType.md",
       "key": "v-1e0b184c",
       "path": "/bookCatagory/DataType.html"
-    },
-    {
-      "title": "template",
-      "frontmatter": {
-        "title": "template",
-        "author": "云上",
-        "date": "2022-03-14"
-      },
-      "regularPath": "/bookCatagory/Template.html",
-      "relativePath": "bookCatagory/Template.md",
-      "key": "v-7f28db1a",
-      "path": "/bookCatagory/Template.html"
     },
     {
       "title": "typeof判断",
@@ -84,6 +103,30 @@ export const siteData = {
         "author": "云上舟",
         "date": "2022-03-17"
       },
+      "regularPath": "/homework/DataFilterV2.html",
+      "relativePath": "homework/DataFilterV2.md",
+      "key": "v-b1799e8c",
+      "path": "/homework/DataFilterV2.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "测试内容",
+          "slug": "测试内容"
+        },
+        {
+          "level": 3,
+          "title": "题目详解",
+          "slug": "题目详解"
+        }
+      ]
+    },
+    {
+      "title": "数据过滤",
+      "frontmatter": {
+        "title": "数据过滤",
+        "author": "云上舟",
+        "date": "2022-03-17"
+      },
       "regularPath": "/homework/DataFilter.html",
       "relativePath": "homework/DataFilter.md",
       "key": "v-e1897b0c",
@@ -102,37 +145,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "序言",
-      "frontmatter": {
-        "title": "序言",
-        "author": "云上舟",
-        "date": "2022-03-14"
-      },
-      "regularPath": "/home/home.html",
-      "relativePath": "home/home.md",
-      "key": "v-27db1c7a",
-      "path": "/home/home.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "介绍",
-          "slug": "介绍"
-        }
-      ]
-    },
-    {
-      "title": "记忆函数",
-      "frontmatter": {
-        "title": "记忆函数",
-        "author": "云上舟",
-        "date": "2022-03-18"
-      },
-      "regularPath": "/bookCatagory/Memorize.html",
-      "relativePath": "bookCatagory/Memorize.md",
-      "key": "v-79d690da",
-      "path": "/bookCatagory/Memorize.html"
-    },
-    {
       "title": "数据过滤",
       "frontmatter": {
         "title": "数据过滤",
@@ -143,30 +155,6 @@ export const siteData = {
       "relativePath": "homework/DataFilterV3.md",
       "key": "v-843e5ccc",
       "path": "/homework/DataFilterV3.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "测试内容",
-          "slug": "测试内容"
-        },
-        {
-          "level": 3,
-          "title": "题目详解",
-          "slug": "题目详解"
-        }
-      ]
-    },
-    {
-      "title": "数据过滤",
-      "frontmatter": {
-        "title": "数据过滤",
-        "author": "云上舟",
-        "date": "2022-03-17"
-      },
-      "regularPath": "/homework/DataFilterV2.html",
-      "relativePath": "homework/DataFilterV2.md",
-      "key": "v-b1799e8c",
-      "path": "/homework/DataFilterV2.html",
       "headers": [
         {
           "level": 3,
@@ -266,25 +254,23 @@ export const siteData = {
         "path": "/home/home"
       },
       {
-        "title": "学习记录",
-        "path": "/bookCatagory/Typeof",
+        "title": "想法/笔记",
+        "path": "/bookCatagory/Memorize",
+        "collapsable": false,
         "children": [
           {
-            "title": "Typeof判断",
-            "path": "/bookCatagory/Typeof"
-          },
-          {
-            "title": "暂无",
-            "path": "/bookCatagory/Template"
+            "title": "记忆函数",
+            "path": "/bookCatagory/Memorize"
           }
         ]
       },
       {
-        "title": "个人小练习",
+        "title": "日常练习",
         "path": "/homework/Notice",
+        "collapsable": false,
         "children": [
           {
-            "title": "阅读前言",
+            "title": "前言",
             "path": "/homework/Notice"
           },
           {

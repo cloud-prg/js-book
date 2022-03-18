@@ -21,35 +21,11 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-1e0b184c",
-    path: "/bookCatagory/DataType.html",
+    name: "v-79d690da",
+    path: "/bookCatagory/Memorize.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1e0b184c").then(next)
-    },
-  },
-  {
-    name: "v-7f28db1a",
-    path: "/bookCatagory/Template.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7f28db1a").then(next)
-    },
-  },
-  {
-    name: "v-64dc8f0c",
-    path: "/bookCatagory/Typeof.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-64dc8f0c").then(next)
-    },
-  },
-  {
-    name: "v-e1897b0c",
-    path: "/homework/DataFilter.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e1897b0c").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-79d690da").then(next)
     },
   },
   {
@@ -61,19 +37,19 @@ export const routes = [
     },
   },
   {
-    name: "v-79d690da",
-    path: "/bookCatagory/Memorize.html",
+    name: "v-1e0b184c",
+    path: "/bookCatagory/DataType.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-79d690da").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1e0b184c").then(next)
     },
   },
   {
-    name: "v-843e5ccc",
-    path: "/homework/DataFilterV3.html",
+    name: "v-64dc8f0c",
+    path: "/bookCatagory/Typeof.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-843e5ccc").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-64dc8f0c").then(next)
     },
   },
   {
@@ -82,6 +58,22 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-b1799e8c").then(next)
+    },
+  },
+  {
+    name: "v-e1897b0c",
+    path: "/homework/DataFilter.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-e1897b0c").then(next)
+    },
+  },
+  {
+    name: "v-843e5ccc",
+    path: "/homework/DataFilterV3.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-843e5ccc").then(next)
     },
   },
   {

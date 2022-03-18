@@ -3,14 +3,13 @@
  */
 export default {
   "v-e5c74524": () => import("C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-tem\\docs\\README.md"),
-  "v-1e0b184c": () => import("C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-tem\\docs\\bookCatagory\\DataType.md"),
-  "v-7f28db1a": () => import("C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-tem\\docs\\bookCatagory\\Template.md"),
-  "v-64dc8f0c": () => import("C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-tem\\docs\\bookCatagory\\Typeof.md"),
-  "v-e1897b0c": () => import("C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-tem\\docs\\homework\\DataFilter.md"),
-  "v-27db1c7a": () => import("C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-tem\\docs\\home\\home.md"),
   "v-79d690da": () => import("C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-tem\\docs\\bookCatagory\\Memorize.md"),
-  "v-843e5ccc": () => import("C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-tem\\docs\\homework\\DataFilterV3.md"),
+  "v-27db1c7a": () => import("C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-tem\\docs\\home\\home.md"),
+  "v-1e0b184c": () => import("C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-tem\\docs\\bookCatagory\\DataType.md"),
+  "v-64dc8f0c": () => import("C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-tem\\docs\\bookCatagory\\Typeof.md"),
   "v-b1799e8c": () => import("C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-tem\\docs\\homework\\DataFilterV2.md"),
+  "v-e1897b0c": () => import("C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-tem\\docs\\homework\\DataFilter.md"),
+  "v-843e5ccc": () => import("C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-tem\\docs\\homework\\DataFilterV3.md"),
   "v-46bc0d1a": () => import("C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-tem\\docs\\homework\\Es6ArrayTest.md"),
   "v-5129a2ba": () => import("C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-tem\\docs\\homework\\Notice.md") 
 }
