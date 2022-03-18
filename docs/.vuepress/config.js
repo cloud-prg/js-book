@@ -40,6 +40,8 @@ module.exports = {
           { title: "阅读前言" , path: "/homework/Notice"},
           { title: "ES6数组测试", path: "/homework/Es6ArrayTest" },
           { title: "数组过滤", path: "/homework/DataFilter" },
+          { title: "数组过滤(第二版)", path: "/homework/DataFilterV2" },
+          { title: "数组过滤(第三版)", path: "/homework/DataFilterV3" },
         ],
       },
     ],
