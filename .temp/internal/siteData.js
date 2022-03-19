@@ -20,18 +20,6 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "JS中的数据类型",
-      "frontmatter": {
-        "title": "JS中的数据类型",
-        "author": "云上舟",
-        "date": "2022-3-16"
-      },
-      "regularPath": "/bookCatagory/DataType.html",
-      "relativePath": "bookCatagory/DataType.md",
-      "key": "v-216d9bfb",
-      "path": "/bookCatagory/DataType.html"
-    },
-    {
       "title": "ES6之变量声明",
       "frontmatter": {
         "title": "ES6之变量声明",
@@ -100,6 +88,18 @@ export const siteData = {
       ]
     },
     {
+      "title": "JS中的数据类型",
+      "frontmatter": {
+        "title": "JS中的数据类型",
+        "author": "云上舟",
+        "date": "2022-3-16"
+      },
+      "regularPath": "/bookCatagory/DataType.html",
+      "relativePath": "bookCatagory/DataType.md",
+      "key": "v-216d9bfb",
+      "path": "/bookCatagory/DataType.html"
+    },
+    {
       "title": "typeof判断",
       "frontmatter": {
         "title": "typeof判断",
@@ -134,6 +134,37 @@ export const siteData = {
       ]
     },
     {
+      "title": "数据过滤",
+      "frontmatter": {
+        "title": "数据过滤",
+        "author": "云上舟",
+        "date": "2022-03-17"
+      },
+      "regularPath": "/homework/DataFilter.html",
+      "relativePath": "homework/DataFilter.md",
+      "key": "v-7dfcb9ca",
+      "path": "/homework/DataFilter.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "测试内容",
+          "slug": "测试内容"
+        },
+        {
+          "level": 3,
+          "title": "题目详解",
+          "slug": "题目详解"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/bookCatagory/%E9%97%AD%E5%8C%85.html",
+      "relativePath": "bookCatagory/闭包.md",
+      "key": "v-199e6cca",
+      "path": "/bookCatagory/%E9%97%AD%E5%8C%85.html"
+    },
+    {
       "title": "序言",
       "frontmatter": {
         "title": "序言",
@@ -153,23 +184,16 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/bookCatagory/%E9%97%AD%E5%8C%85.html",
-      "relativePath": "bookCatagory/闭包.md",
-      "key": "v-199e6cca",
-      "path": "/bookCatagory/%E9%97%AD%E5%8C%85.html"
-    },
-    {
-      "title": "数据过滤",
+      "title": "数据过滤（第三版）",
       "frontmatter": {
-        "title": "数据过滤",
+        "title": "数据过滤（第三版）",
         "author": "云上舟",
         "date": "2022-03-17"
       },
-      "regularPath": "/homework/DataFilter.html",
-      "relativePath": "homework/DataFilter.md",
-      "key": "v-7dfcb9ca",
-      "path": "/homework/DataFilter.html",
+      "regularPath": "/homework/DataFilterV3.html",
+      "relativePath": "homework/DataFilterV3.md",
+      "key": "v-23580c8a",
+      "path": "/homework/DataFilterV3.html",
       "headers": [
         {
           "level": 3,
@@ -208,40 +232,16 @@ export const siteData = {
       ]
     },
     {
-      "title": "数据过滤（第三版）",
+      "title": "数据过滤(末版)",
       "frontmatter": {
-        "title": "数据过滤（第三版）",
+        "title": "数据过滤(末版)",
         "author": "云上舟",
         "date": "2022-03-17"
       },
-      "regularPath": "/homework/DataFilterV3.html",
-      "relativePath": "homework/DataFilterV3.md",
-      "key": "v-23580c8a",
-      "path": "/homework/DataFilterV3.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "测试内容",
-          "slug": "测试内容"
-        },
-        {
-          "level": 3,
-          "title": "题目详解",
-          "slug": "题目详解"
-        }
-      ]
-    },
-    {
-      "title": "Es6数组测试",
-      "frontmatter": {
-        "title": "Es6数组测试",
-        "author": "云上舟",
-        "date": "2022-03-16"
-      },
-      "regularPath": "/homework/Es6ArrayTest.html",
-      "relativePath": "homework/Es6ArrayTest.md",
-      "key": "v-772f353b",
-      "path": "/homework/Es6ArrayTest.html",
+      "regularPath": "/homework/DataFilterV4.html",
+      "relativePath": "homework/DataFilterV4.md",
+      "key": "v-04f19a9b",
+      "path": "/homework/DataFilterV4.html",
       "headers": [
         {
           "level": 3,
@@ -268,16 +268,16 @@ export const siteData = {
       "path": "/homework/Notice.html"
     },
     {
-      "title": "数据过滤(末版)",
+      "title": "Es6数组测试",
       "frontmatter": {
-        "title": "数据过滤(末版)",
+        "title": "Es6数组测试",
         "author": "云上舟",
-        "date": "2022-03-17"
+        "date": "2022-03-16"
       },
-      "regularPath": "/homework/DataFilterV4.html",
-      "relativePath": "homework/DataFilterV4.md",
-      "key": "v-04f19a9b",
-      "path": "/homework/DataFilterV4.html",
+      "regularPath": "/homework/Es6ArrayTest.html",
+      "relativePath": "homework/Es6ArrayTest.md",
+      "key": "v-772f353b",
+      "path": "/homework/Es6ArrayTest.html",
       "headers": [
         {
           "level": 3,
@@ -381,7 +381,7 @@ export const siteData = {
             "path": "/homework/DataFilterV3"
           },
           {
-            "title": "数组过滤(解法四)",
+            "title": "数组过滤(末版)",
             "path": "/homework/DataFilterV4"
           }
         ]

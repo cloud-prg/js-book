@@ -4,6 +4,9 @@ module.exports = {
   theme: "reco",
   // 路径名为 "/<REPO>/"
   base: "/learn-javascript/",
+  markdown:{
+    auchor:{ permalink: true, permalinkBefore: true, permalinkSymbol: '#' },
+  },
   locales: {
     "/": {
       lang: "zh-CN",
@@ -28,25 +31,25 @@ module.exports = {
       {
         title: "想法/笔记",
         path: "/bookCatagory/Memorize",
-        collapsable:false, //是否折叠
+        collapsable: false, //是否折叠
         children: [
           // { title: "Typeof判断", path: "/bookCatagory/Typeof" },
           { title: "记忆函数", path: "/bookCatagory/Memorize" },
-          
+
           { title: "ES6之变量声明", path: "/bookCatagory/ES6之变量声明.md" },
         ],
       },
       {
         title: "日常练习",
         path: "/homework/Notice",
-        collapsable:false, //是否折叠
+        collapsable: false, //是否折叠
         children: [
-          { title: "前言" , path: "/homework/Notice"},
+          { title: "前言", path: "/homework/Notice" },
           { title: "ES6数组测试", path: "/homework/Es6ArrayTest" },
           { title: "数组过滤", path: "/homework/DataFilter" },
           { title: "数组过滤(解法二)", path: "/homework/DataFilterV2" },
           { title: "数组过滤(解法三)", path: "/homework/DataFilterV3" },
-          { title: "数组过滤(解法四)", path: "/homework/DataFilterV4" },
+          { title: "数组过滤(末版)", path: "/homework/DataFilterV4" },
         ],
       },
     ],
