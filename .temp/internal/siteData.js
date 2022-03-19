@@ -8,16 +8,16 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "记忆函数",
+      "title": "主题",
       "frontmatter": {
-        "title": "记忆函数",
-        "author": "云上舟",
-        "date": "2022-03-18"
+        "title": "主题",
+        "author": "云上",
+        "date": "2022-03-14"
       },
-      "regularPath": "/bookCatagory/Memorize.html",
-      "relativePath": "bookCatagory/Memorize.md",
-      "key": "v-ab6c8e0a",
-      "path": "/bookCatagory/Memorize.html"
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-66c5182d",
+      "path": "/"
     },
     {
       "title": "JS中的数据类型",
@@ -32,16 +32,132 @@ export const siteData = {
       "path": "/bookCatagory/DataType.html"
     },
     {
-      "title": "主题",
+      "title": "ES6之变量声明",
       "frontmatter": {
-        "title": "主题",
+        "title": "ES6之变量声明",
+        "author": "云上舟",
+        "date": "2022-03-19"
+      },
+      "regularPath": "/bookCatagory/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html",
+      "relativePath": "bookCatagory/ES6之变量声明.md",
+      "key": "v-168ef11f",
+      "path": "/bookCatagory/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "let的用法及注意点",
+          "slug": "let的用法及注意点"
+        },
+        {
+          "level": 2,
+          "title": "const的用法及注意点",
+          "slug": "const的用法及注意点"
+        }
+      ]
+    },
+    {
+      "title": "记忆函数",
+      "frontmatter": {
+        "title": "记忆函数",
+        "author": "云上舟",
+        "date": "2022-03-18"
+      },
+      "regularPath": "/bookCatagory/Memorize.html",
+      "relativePath": "bookCatagory/Memorize.md",
+      "key": "v-ab6c8e0a",
+      "path": "/bookCatagory/Memorize.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "什么是记忆函数？",
+          "slug": "什么是记忆函数"
+        },
+        {
+          "level": 2,
+          "title": "记忆函数使用在哪些场景?",
+          "slug": "记忆函数使用在哪些场景"
+        },
+        {
+          "level": 2,
+          "title": "记忆函数的原理",
+          "slug": "记忆函数的原理"
+        },
+        {
+          "level": 2,
+          "title": "记忆函数的实现",
+          "slug": "记忆函数的实现"
+        },
+        {
+          "level": 2,
+          "title": "函数测试",
+          "slug": "函数测试"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
+        }
+      ]
+    },
+    {
+      "title": "typeof判断",
+      "frontmatter": {
+        "title": "typeof判断",
         "author": "云上",
+        "date": "2022-03-15"
+      },
+      "regularPath": "/bookCatagory/Typeof.html",
+      "relativePath": "bookCatagory/Typeof.md",
+      "key": "v-014fcdca",
+      "path": "/bookCatagory/Typeof.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "数据类型",
+          "slug": "数据类型"
+        },
+        {
+          "level": 3,
+          "title": "typeof的通常用途",
+          "slug": "typeof的通常用途"
+        },
+        {
+          "level": 3,
+          "title": "typeof的缺陷",
+          "slug": "typeof的缺陷"
+        },
+        {
+          "level": 3,
+          "title": "总结",
+          "slug": "总结"
+        }
+      ]
+    },
+    {
+      "title": "序言",
+      "frontmatter": {
+        "title": "序言",
+        "author": "云上舟",
         "date": "2022-03-14"
       },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-66c5182d",
-      "path": "/"
+      "regularPath": "/home/home.html",
+      "relativePath": "home/home.md",
+      "key": "v-7a55579b",
+      "path": "/home/home.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "介绍",
+          "slug": "介绍"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/bookCatagory/%E9%97%AD%E5%8C%85.html",
+      "relativePath": "bookCatagory/闭包.md",
+      "key": "v-199e6cca",
+      "path": "/bookCatagory/%E9%97%AD%E5%8C%85.html"
     },
     {
       "title": "数据过滤",
@@ -54,6 +170,54 @@ export const siteData = {
       "relativePath": "homework/DataFilter.md",
       "key": "v-7dfcb9ca",
       "path": "/homework/DataFilter.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "测试内容",
+          "slug": "测试内容"
+        },
+        {
+          "level": 3,
+          "title": "题目详解",
+          "slug": "题目详解"
+        }
+      ]
+    },
+    {
+      "title": "数据过滤（第二版）",
+      "frontmatter": {
+        "title": "数据过滤（第二版）",
+        "author": "云上舟",
+        "date": "2022-03-17"
+      },
+      "regularPath": "/homework/DataFilterV2.html",
+      "relativePath": "homework/DataFilterV2.md",
+      "key": "v-50934e4a",
+      "path": "/homework/DataFilterV2.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "测试内容",
+          "slug": "测试内容"
+        },
+        {
+          "level": 3,
+          "title": "题目详解",
+          "slug": "题目详解"
+        }
+      ]
+    },
+    {
+      "title": "数据过滤（第三版）",
+      "frontmatter": {
+        "title": "数据过滤（第三版）",
+        "author": "云上舟",
+        "date": "2022-03-17"
+      },
+      "regularPath": "/homework/DataFilterV3.html",
+      "relativePath": "homework/DataFilterV3.md",
+      "key": "v-23580c8a",
+      "path": "/homework/DataFilterV3.html",
       "headers": [
         {
           "level": 3,
@@ -92,25 +256,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "序言",
-      "frontmatter": {
-        "title": "序言",
-        "author": "云上舟",
-        "date": "2022-03-14"
-      },
-      "regularPath": "/home/home.html",
-      "relativePath": "home/home.md",
-      "key": "v-7a55579b",
-      "path": "/home/home.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "介绍",
-          "slug": "介绍"
-        }
-      ]
-    },
-    {
       "title": "阅读前言",
       "frontmatter": {
         "title": "阅读前言",
@@ -123,16 +268,16 @@ export const siteData = {
       "path": "/homework/Notice.html"
     },
     {
-      "title": "数据过滤",
+      "title": "数据过滤(末版)",
       "frontmatter": {
-        "title": "数据过滤",
+        "title": "数据过滤(末版)",
         "author": "云上舟",
         "date": "2022-03-17"
       },
-      "regularPath": "/homework/DataFilterV2.html",
-      "relativePath": "homework/DataFilterV2.md",
-      "key": "v-50934e4a",
-      "path": "/homework/DataFilterV2.html",
+      "regularPath": "/homework/DataFilterV4.html",
+      "relativePath": "homework/DataFilterV4.md",
+      "key": "v-04f19a9b",
+      "path": "/homework/DataFilterV4.html",
       "headers": [
         {
           "level": 3,
@@ -143,64 +288,6 @@ export const siteData = {
           "level": 3,
           "title": "题目详解",
           "slug": "题目详解"
-        }
-      ]
-    },
-    {
-      "title": "数据过滤",
-      "frontmatter": {
-        "title": "数据过滤",
-        "author": "云上舟",
-        "date": "2022-03-17"
-      },
-      "regularPath": "/homework/DataFilterV3.html",
-      "relativePath": "homework/DataFilterV3.md",
-      "key": "v-23580c8a",
-      "path": "/homework/DataFilterV3.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "测试内容",
-          "slug": "测试内容"
-        },
-        {
-          "level": 3,
-          "title": "题目详解",
-          "slug": "题目详解"
-        }
-      ]
-    },
-    {
-      "title": "typeof判断",
-      "frontmatter": {
-        "title": "typeof判断",
-        "author": "云上",
-        "date": "2022-03-15"
-      },
-      "regularPath": "/bookCatagory/Typeof.html",
-      "relativePath": "bookCatagory/Typeof.md",
-      "key": "v-014fcdca",
-      "path": "/bookCatagory/Typeof.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "数据类型",
-          "slug": "数据类型"
-        },
-        {
-          "level": 3,
-          "title": "typeof的通常用途",
-          "slug": "typeof的通常用途"
-        },
-        {
-          "level": 3,
-          "title": "typeof的缺陷",
-          "slug": "typeof的缺陷"
-        },
-        {
-          "level": 3,
-          "title": "总结",
-          "slug": "总结"
         }
       ]
     },
@@ -261,6 +348,10 @@ export const siteData = {
           {
             "title": "记忆函数",
             "path": "/bookCatagory/Memorize"
+          },
+          {
+            "title": "ES6之变量声明",
+            "path": "/bookCatagory/ES6之变量声明.md"
           }
         ]
       },
@@ -282,12 +373,16 @@ export const siteData = {
             "path": "/homework/DataFilter"
           },
           {
-            "title": "数组过滤(第二版)",
+            "title": "数组过滤(解法二)",
             "path": "/homework/DataFilterV2"
           },
           {
-            "title": "数组过滤(第三版)",
+            "title": "数组过滤(解法三)",
             "path": "/homework/DataFilterV3"
+          },
+          {
+            "title": "数组过滤(解法四)",
+            "path": "/homework/DataFilterV4"
           }
         ]
       }

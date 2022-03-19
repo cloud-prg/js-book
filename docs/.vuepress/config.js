@@ -32,6 +32,8 @@ module.exports = {
         children: [
           // { title: "Typeof判断", path: "/bookCatagory/Typeof" },
           { title: "记忆函数", path: "/bookCatagory/Memorize" },
+          
+          { title: "ES6之变量声明", path: "/bookCatagory/ES6之变量声明.md" },
         ],
       },
       {
@@ -42,8 +44,9 @@ module.exports = {
           { title: "前言" , path: "/homework/Notice"},
           { title: "ES6数组测试", path: "/homework/Es6ArrayTest" },
           { title: "数组过滤", path: "/homework/DataFilter" },
-          { title: "数组过滤(第二版)", path: "/homework/DataFilterV2" },
-          { title: "数组过滤(第三版)", path: "/homework/DataFilterV3" },
+          { title: "数组过滤(解法二)", path: "/homework/DataFilterV2" },
+          { title: "数组过滤(解法三)", path: "/homework/DataFilterV3" },
+          { title: "数组过滤(解法四)", path: "/homework/DataFilterV4" },
         ],
       },
     ],
