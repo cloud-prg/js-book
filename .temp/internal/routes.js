@@ -9,6 +9,14 @@ import GlobalLayout from "F:\\vuepress-learn-js\\node_modules\\@vuepress\\core\\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-216d9bfb",
+    path: "/bookCatagory/DataType.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-216d9bfb").then(next)
+    },
+  },
+  {
     name: "v-66c5182d",
     path: "/",
     component: GlobalLayout,
@@ -19,6 +27,22 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
+  },
+  {
+    name: "v-ab6c8e0a",
+    path: "/bookCatagory/Memorize.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ab6c8e0a").then(next)
+    },
+  },
+  {
+    name: "v-014fcdca",
+    path: "/bookCatagory/Typeof.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-014fcdca").then(next)
+    },
   },
   {
     name: "v-a39a9ae0",
@@ -37,59 +61,11 @@ export const routes = [
     redirect: "/bookCatagory/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html"
   },
   {
-    name: "v-168ef11f",
-    path: "/bookCatagory/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-168ef11f").then(next)
-    },
-  },
-  {
-    path: "/bookCatagory/ES6之变量声明.html",
-    redirect: "/bookCatagory/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html"
-  },
-  {
-    path: "/bookCatagory/ES6之变量声明.html",
-    redirect: "/bookCatagory/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html"
-  },
-  {
-    name: "v-216d9bfb",
-    path: "/bookCatagory/DataType.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-216d9bfb").then(next)
-    },
-  },
-  {
-    name: "v-014fcdca",
-    path: "/bookCatagory/Typeof.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-014fcdca").then(next)
-    },
-  },
-  {
     name: "v-7a55579b",
     path: "/home/home.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-7a55579b").then(next)
-    },
-  },
-  {
-    name: "v-ab6c8e0a",
-    path: "/bookCatagory/Memorize.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ab6c8e0a").then(next)
-    },
-  },
-  {
-    name: "v-04f19a9b",
-    path: "/homework/DataFilterV4.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-04f19a9b").then(next)
     },
   },
   {
@@ -101,14 +77,6 @@ export const routes = [
     },
   },
   {
-    name: "v-50934e4a",
-    path: "/homework/DataFilterV2.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-50934e4a").then(next)
-    },
-  },
-  {
     name: "v-23580c8a",
     path: "/homework/DataFilterV3.html",
     component: GlobalLayout,
@@ -117,11 +85,11 @@ export const routes = [
     },
   },
   {
-    name: "v-772f353b",
-    path: "/homework/Es6ArrayTest.html",
+    name: "v-50934e4a",
+    path: "/homework/DataFilterV2.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-772f353b").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-50934e4a").then(next)
     },
   },
   {
@@ -141,12 +109,52 @@ export const routes = [
     redirect: "/homework/ES6%E9%9D%A2%E8%AF%95%E9%A2%98.html"
   },
   {
+    name: "v-04f19a9b",
+    path: "/homework/DataFilterV4.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-04f19a9b").then(next)
+    },
+  },
+  {
+    name: "v-297c225b",
+    path: "/zufang/zufang.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-297c225b").then(next)
+    },
+  },
+  {
+    name: "v-772f353b",
+    path: "/homework/Es6ArrayTest.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-772f353b").then(next)
+    },
+  },
+  {
     name: "v-a3f1974a",
     path: "/homework/Notice.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-a3f1974a").then(next)
     },
+  },
+  {
+    name: "v-168ef11f",
+    path: "/bookCatagory/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-168ef11f").then(next)
+    },
+  },
+  {
+    path: "/bookCatagory/ES6之变量声明.html",
+    redirect: "/bookCatagory/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html"
+  },
+  {
+    path: "/bookCatagory/ES6之变量声明.html",
+    redirect: "/bookCatagory/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html"
   },
   {
     name: "v-b1564aac",
