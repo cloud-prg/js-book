@@ -20,6 +20,18 @@ export const siteData = {
       "path": "/"
     },
     {
+      "title": "reducer的各类用法",
+      "frontmatter": {
+        "title": "reducer的各类用法",
+        "author": "云上舟",
+        "date": "2022-03-20"
+      },
+      "regularPath": "/bookCatagory/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html",
+      "relativePath": "bookCatagory/reducer的妙用.md",
+      "key": "v-a39a9ae0",
+      "path": "/bookCatagory/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html"
+    },
+    {
       "title": "ES6之变量声明",
       "frontmatter": {
         "title": "ES6之变量声明",
@@ -40,50 +52,6 @@ export const siteData = {
           "level": 2,
           "title": "const的用法及注意点",
           "slug": "const的用法及注意点"
-        }
-      ]
-    },
-    {
-      "title": "记忆函数",
-      "frontmatter": {
-        "title": "记忆函数",
-        "author": "云上舟",
-        "date": "2022-03-18"
-      },
-      "regularPath": "/bookCatagory/Memorize.html",
-      "relativePath": "bookCatagory/Memorize.md",
-      "key": "v-ab6c8e0a",
-      "path": "/bookCatagory/Memorize.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "什么是记忆函数？",
-          "slug": "什么是记忆函数"
-        },
-        {
-          "level": 2,
-          "title": "记忆函数使用在哪些场景?",
-          "slug": "记忆函数使用在哪些场景"
-        },
-        {
-          "level": 2,
-          "title": "记忆函数的原理",
-          "slug": "记忆函数的原理"
-        },
-        {
-          "level": 2,
-          "title": "记忆函数的实现",
-          "slug": "记忆函数的实现"
-        },
-        {
-          "level": 2,
-          "title": "函数测试",
-          "slug": "函数测试"
-        },
-        {
-          "level": 2,
-          "title": "总结",
-          "slug": "总结"
         }
       ]
     },
@@ -134,37 +102,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "数据过滤",
-      "frontmatter": {
-        "title": "数据过滤",
-        "author": "云上舟",
-        "date": "2022-03-17"
-      },
-      "regularPath": "/homework/DataFilter.html",
-      "relativePath": "homework/DataFilter.md",
-      "key": "v-7dfcb9ca",
-      "path": "/homework/DataFilter.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "测试内容",
-          "slug": "测试内容"
-        },
-        {
-          "level": 3,
-          "title": "题目详解",
-          "slug": "题目详解"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/bookCatagory/%E9%97%AD%E5%8C%85.html",
-      "relativePath": "bookCatagory/闭包.md",
-      "key": "v-199e6cca",
-      "path": "/bookCatagory/%E9%97%AD%E5%8C%85.html"
-    },
-    {
       "title": "序言",
       "frontmatter": {
         "title": "序言",
@@ -184,16 +121,84 @@ export const siteData = {
       ]
     },
     {
-      "title": "数据过滤（第三版）",
+      "title": "记忆函数",
       "frontmatter": {
-        "title": "数据过滤（第三版）",
+        "title": "记忆函数",
+        "author": "云上舟",
+        "date": "2022-03-18"
+      },
+      "regularPath": "/bookCatagory/Memorize.html",
+      "relativePath": "bookCatagory/Memorize.md",
+      "key": "v-ab6c8e0a",
+      "path": "/bookCatagory/Memorize.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "什么是记忆函数？",
+          "slug": "什么是记忆函数"
+        },
+        {
+          "level": 2,
+          "title": "记忆函数使用在哪些场景?",
+          "slug": "记忆函数使用在哪些场景"
+        },
+        {
+          "level": 2,
+          "title": "记忆函数的原理",
+          "slug": "记忆函数的原理"
+        },
+        {
+          "level": 2,
+          "title": "记忆函数的实现",
+          "slug": "记忆函数的实现"
+        },
+        {
+          "level": 2,
+          "title": "函数测试",
+          "slug": "函数测试"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
+        }
+      ]
+    },
+    {
+      "title": "数据过滤(末版)",
+      "frontmatter": {
+        "title": "数据过滤(末版)",
         "author": "云上舟",
         "date": "2022-03-17"
       },
-      "regularPath": "/homework/DataFilterV3.html",
-      "relativePath": "homework/DataFilterV3.md",
-      "key": "v-23580c8a",
-      "path": "/homework/DataFilterV3.html",
+      "regularPath": "/homework/DataFilterV4.html",
+      "relativePath": "homework/DataFilterV4.md",
+      "key": "v-04f19a9b",
+      "path": "/homework/DataFilterV4.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "测试内容",
+          "slug": "测试内容"
+        },
+        {
+          "level": 3,
+          "title": "题目详解",
+          "slug": "题目详解"
+        }
+      ]
+    },
+    {
+      "title": "数据过滤",
+      "frontmatter": {
+        "title": "数据过滤",
+        "author": "云上舟",
+        "date": "2022-03-17"
+      },
+      "regularPath": "/homework/DataFilter.html",
+      "relativePath": "homework/DataFilter.md",
+      "key": "v-7dfcb9ca",
+      "path": "/homework/DataFilter.html",
       "headers": [
         {
           "level": 3,
@@ -232,16 +237,16 @@ export const siteData = {
       ]
     },
     {
-      "title": "数据过滤(末版)",
+      "title": "数据过滤（第三版）",
       "frontmatter": {
-        "title": "数据过滤(末版)",
+        "title": "数据过滤（第三版）",
         "author": "云上舟",
         "date": "2022-03-17"
       },
-      "regularPath": "/homework/DataFilterV4.html",
-      "relativePath": "homework/DataFilterV4.md",
-      "key": "v-04f19a9b",
-      "path": "/homework/DataFilterV4.html",
+      "regularPath": "/homework/DataFilterV3.html",
+      "relativePath": "homework/DataFilterV3.md",
+      "key": "v-23580c8a",
+      "path": "/homework/DataFilterV3.html",
       "headers": [
         {
           "level": 3,
@@ -254,18 +259,6 @@ export const siteData = {
           "slug": "题目详解"
         }
       ]
-    },
-    {
-      "title": "阅读前言",
-      "frontmatter": {
-        "title": "阅读前言",
-        "author": "云上舟",
-        "date": "2022-03-14"
-      },
-      "regularPath": "/homework/Notice.html",
-      "relativePath": "homework/Notice.md",
-      "key": "v-a3f1974a",
-      "path": "/homework/Notice.html"
     },
     {
       "title": "Es6数组测试",
@@ -290,6 +283,122 @@ export const siteData = {
           "slug": "题目详解"
         }
       ]
+    },
+    {
+      "title": "ES6面试题",
+      "frontmatter": {
+        "title": "ES6面试题",
+        "author": "云上舟",
+        "date": "2022-03-20"
+      },
+      "regularPath": "/homework/ES6%E9%9D%A2%E8%AF%95%E9%A2%98.html",
+      "relativePath": "homework/ES6面试题.md",
+      "key": "v-39a86269",
+      "path": "/homework/ES6%E9%9D%A2%E8%AF%95%E9%A2%98.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "说明数组中map和forEach的区别？",
+          "slug": "说明数组中map和foreach的区别"
+        },
+        {
+          "level": 2,
+          "title": "数组的find中，如果有两个以上条件满足，则返回?",
+          "slug": "数组的find中-如果有两个以上条件满足-则返回"
+        },
+        {
+          "level": 2,
+          "title": "解释说明js的深拷贝和浅拷贝的区别",
+          "slug": "解释说明js的深拷贝和浅拷贝的区别"
+        },
+        {
+          "level": 3,
+          "title": "什么是浅拷贝？",
+          "slug": "什么是浅拷贝"
+        },
+        {
+          "level": 3,
+          "title": "什么是深拷贝？",
+          "slug": "什么是深拷贝"
+        },
+        {
+          "level": 3,
+          "title": "两者的区别",
+          "slug": "两者的区别"
+        },
+        {
+          "level": 3,
+          "title": "浅拷贝举例",
+          "slug": "浅拷贝举例"
+        },
+        {
+          "level": 3,
+          "title": "深拷贝举例",
+          "slug": "深拷贝举例"
+        },
+        {
+          "level": 3,
+          "title": "浅拷贝的方法有哪些？",
+          "slug": "浅拷贝的方法有哪些"
+        },
+        {
+          "level": 3,
+          "title": "深拷贝的实现方式有哪些？",
+          "slug": "深拷贝的实现方式有哪些"
+        },
+        {
+          "level": 2,
+          "title": "说明es6中箭头函数的特点和作用",
+          "slug": "说明es6中箭头函数的特点和作用"
+        },
+        {
+          "level": 2,
+          "title": "说明所有js类型转换成的布尔值是?",
+          "slug": "说明所有js类型转换成的布尔值是"
+        },
+        {
+          "level": 2,
+          "title": "解释说明什么是递归，并且手写一个递归函数出来",
+          "slug": "解释说明什么是递归-并且手写一个递归函数出来"
+        },
+        {
+          "level": 2,
+          "title": "解释说明函数节流和函数防抖，并且分别手写出来。",
+          "slug": "解释说明函数节流和函数防抖-并且分别手写出来。"
+        },
+        {
+          "level": 3,
+          "title": "什么是防抖？",
+          "slug": "什么是防抖"
+        },
+        {
+          "level": 3,
+          "title": "什么是节流",
+          "slug": "什么是节流"
+        },
+        {
+          "level": 2,
+          "title": "编程题",
+          "slug": "编程题"
+        },
+        {
+          "level": 3,
+          "title": "写一个getColor函数，返回随机十六进制颜色",
+          "slug": "写一个getcolor函数-返回随机十六进制颜色"
+        }
+      ]
+    },
+    {
+      "title": "阅读前言",
+      "frontmatter": {
+        "title": "阅读前言",
+        "author": "云上舟",
+        "date": "2022-03-14"
+      },
+      "regularPath": "/homework/Notice.html",
+      "relativePath": "homework/Notice.md",
+      "key": "v-a3f1974a",
+      "path": "/homework/Notice.html"
     },
     {
       "frontmatter": {
@@ -383,6 +492,10 @@ export const siteData = {
           {
             "title": "数组过滤(末版)",
             "path": "/homework/DataFilterV4"
+          },
+          {
+            "title": "ES6面试题",
+            "path": "/homework/ES6面试题"
           }
         ]
       }

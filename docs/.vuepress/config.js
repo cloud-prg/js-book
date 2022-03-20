@@ -4,8 +4,8 @@ module.exports = {
   theme: "reco",
   // 路径名为 "/<REPO>/"
   base: "/learn-javascript/",
-  markdown:{
-    auchor:{ permalink: true, permalinkBefore: true, permalinkSymbol: '#' },
+  markdown: {
+    auchor: { permalink: true, permalinkBefore: true, permalinkSymbol: "#" },
   },
   locales: {
     "/": {
@@ -50,6 +50,7 @@ module.exports = {
           { title: "数组过滤(解法二)", path: "/homework/DataFilterV2" },
           { title: "数组过滤(解法三)", path: "/homework/DataFilterV3" },
           { title: "数组过滤(末版)", path: "/homework/DataFilterV4" },
+          { title: "ES6面试题", path: "/homework/ES6面试题" },
         ],
       },
     ],
