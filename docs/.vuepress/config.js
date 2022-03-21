@@ -29,14 +29,19 @@ module.exports = {
         path: "/home/home",
       },
       {
+        title: "博客",
+        path: "/book/Memorize",
+        collapsable: false, //是否折叠
+        children: [{ title: "记忆函数", path: "/book/Memorize" }],
+      },
+      {
         title: "想法/笔记",
-        path: "/bookCatagory/Memorize",
+        path: "/note/ES6之变量声明",
         collapsable: false, //是否折叠
         children: [
-          // { title: "Typeof判断", path: "/bookCatagory/Typeof" },
-          { title: "记忆函数", path: "/bookCatagory/Memorize" },
-
-          { title: "ES6之变量声明", path: "/bookCatagory/ES6之变量声明.md" },
+          // { title: "Typeof判断", path: "/note/Typeof" },
+          { title: "ES6之变量声明", path: "/note/ES6之变量声明.md" },
+          { title: "ES6之解构赋值", path: "/note/ES6之解构赋值.md" },
         ],
       },
       {

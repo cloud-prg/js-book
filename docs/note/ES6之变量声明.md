@@ -32,7 +32,7 @@ let bar = 2;
 
 2. 作用域为当前代码段
 
-   ```
+   ```js
    var outer = 123;
    console.log(inner); // inner is undefined
    
@@ -43,7 +43,7 @@ let bar = 2;
 
 3. 在for循环中有特别之处，for中的作用域，与代码块里的作用域是互相独立的。
 
-   ```
+   ```js
    for(let i = 0 ; i< 3;i++) {
      let i = 'abc';
      console.log(i);
@@ -109,7 +109,7 @@ const的用法及注意点和let相似，异同点如下:
 
   JS中除了有var这样声明全局变量，还有顶层对象window,如果给window添加属性，则会和全局变量混淆，这是**JS中设计失误的地方。**
 
-```
+```js
 window.a = 1;
 a // 1
 
@@ -121,7 +121,7 @@ window.a // 2
 
 但好在**let**可以解决var污染顶层对象属性这一情况
 
-```
+```js
 var a = 1;
 // 如果在 Node 的 REPL 环境，可以写成 global.a
 // 或者采用通用方法，写成 this.a

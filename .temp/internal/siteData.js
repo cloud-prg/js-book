@@ -8,18 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "JS中的数据类型",
-      "frontmatter": {
-        "title": "JS中的数据类型",
-        "author": "云上舟",
-        "date": "2022-3-16"
-      },
-      "regularPath": "/bookCatagory/DataType.html",
-      "relativePath": "bookCatagory/DataType.md",
-      "key": "v-216d9bfb",
-      "path": "/bookCatagory/DataType.html"
-    },
-    {
       "title": "主题",
       "frontmatter": {
         "title": "主题",
@@ -28,8 +16,27 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-66c5182d",
+      "key": "v-e5c74524",
       "path": "/"
+    },
+    {
+      "title": "序言",
+      "frontmatter": {
+        "title": "序言",
+        "author": "云上舟",
+        "date": "2022-03-14"
+      },
+      "regularPath": "/home/home.html",
+      "relativePath": "home/home.md",
+      "key": "v-27db1c7a",
+      "path": "/home/home.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "介绍",
+          "slug": "介绍"
+        }
+      ]
     },
     {
       "title": "记忆函数",
@@ -38,10 +45,10 @@ export const siteData = {
         "author": "云上舟",
         "date": "2022-03-18"
       },
-      "regularPath": "/bookCatagory/Memorize.html",
-      "relativePath": "bookCatagory/Memorize.md",
-      "key": "v-ab6c8e0a",
-      "path": "/bookCatagory/Memorize.html",
+      "regularPath": "/book/Memorize.html",
+      "relativePath": "book/Memorize.md",
+      "key": "v-569c66cc",
+      "path": "/book/Memorize.html",
       "headers": [
         {
           "level": 2,
@@ -76,67 +83,26 @@ export const siteData = {
       ]
     },
     {
-      "title": "typeof判断",
+      "title": "数据过滤（第二版）",
       "frontmatter": {
-        "title": "typeof判断",
-        "author": "云上",
-        "date": "2022-03-15"
+        "title": "数据过滤（第二版）",
+        "author": "云上舟",
+        "date": "2022-03-17"
       },
-      "regularPath": "/bookCatagory/Typeof.html",
-      "relativePath": "bookCatagory/Typeof.md",
-      "key": "v-014fcdca",
-      "path": "/bookCatagory/Typeof.html",
+      "regularPath": "/homework/DataFilterV2.html",
+      "relativePath": "homework/DataFilterV2.md",
+      "key": "v-b1799e8c",
+      "path": "/homework/DataFilterV2.html",
       "headers": [
         {
           "level": 3,
-          "title": "数据类型",
-          "slug": "数据类型"
+          "title": "测试内容",
+          "slug": "测试内容"
         },
         {
           "level": 3,
-          "title": "typeof的通常用途",
-          "slug": "typeof的通常用途"
-        },
-        {
-          "level": 3,
-          "title": "typeof的缺陷",
-          "slug": "typeof的缺陷"
-        },
-        {
-          "level": 3,
-          "title": "总结",
-          "slug": "总结"
-        }
-      ]
-    },
-    {
-      "title": "reducer的各类用法",
-      "frontmatter": {
-        "title": "reducer的各类用法",
-        "author": "云上舟",
-        "date": "2022-03-20"
-      },
-      "regularPath": "/bookCatagory/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html",
-      "relativePath": "bookCatagory/reducer的妙用.md",
-      "key": "v-a39a9ae0",
-      "path": "/bookCatagory/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html"
-    },
-    {
-      "title": "序言",
-      "frontmatter": {
-        "title": "序言",
-        "author": "云上舟",
-        "date": "2022-03-14"
-      },
-      "regularPath": "/home/home.html",
-      "relativePath": "home/home.md",
-      "key": "v-7a55579b",
-      "path": "/home/home.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "介绍",
-          "slug": "介绍"
+          "title": "题目详解",
+          "slug": "题目详解"
         }
       ]
     },
@@ -149,7 +115,7 @@ export const siteData = {
       },
       "regularPath": "/homework/DataFilter.html",
       "relativePath": "homework/DataFilter.md",
-      "key": "v-7dfcb9ca",
+      "key": "v-e1897b0c",
       "path": "/homework/DataFilter.html",
       "headers": [
         {
@@ -165,40 +131,16 @@ export const siteData = {
       ]
     },
     {
-      "title": "数据过滤（第三版）",
+      "title": "数据过滤(末版)",
       "frontmatter": {
-        "title": "数据过滤（第三版）",
+        "title": "数据过滤(末版)",
         "author": "云上舟",
         "date": "2022-03-17"
       },
-      "regularPath": "/homework/DataFilterV3.html",
-      "relativePath": "homework/DataFilterV3.md",
-      "key": "v-23580c8a",
-      "path": "/homework/DataFilterV3.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "测试内容",
-          "slug": "测试内容"
-        },
-        {
-          "level": 3,
-          "title": "题目详解",
-          "slug": "题目详解"
-        }
-      ]
-    },
-    {
-      "title": "数据过滤（第二版）",
-      "frontmatter": {
-        "title": "数据过滤（第二版）",
-        "author": "云上舟",
-        "date": "2022-03-17"
-      },
-      "regularPath": "/homework/DataFilterV2.html",
-      "relativePath": "homework/DataFilterV2.md",
-      "key": "v-50934e4a",
-      "path": "/homework/DataFilterV2.html",
+      "regularPath": "/homework/DataFilterV4.html",
+      "relativePath": "homework/DataFilterV4.md",
+      "key": "v-57031b0c",
+      "path": "/homework/DataFilterV4.html",
       "headers": [
         {
           "level": 3,
@@ -221,23 +163,23 @@ export const siteData = {
       },
       "regularPath": "/homework/ES6%E9%9D%A2%E8%AF%95%E9%A2%98.html",
       "relativePath": "homework/ES6面试题.md",
-      "key": "v-39a86269",
+      "key": "v-34653870",
       "path": "/homework/ES6%E9%9D%A2%E8%AF%95%E9%A2%98.html",
       "headers": [
         {
           "level": 2,
-          "title": "说明数组中map和forEach的区别？",
-          "slug": "说明数组中map和foreach的区别"
+          "title": "说明数组中 map 和 forEach 的区别？",
+          "slug": "说明数组中-map-和-foreach-的区别"
         },
         {
           "level": 2,
-          "title": "数组的find中，如果有两个以上条件满足，则返回?",
-          "slug": "数组的find中-如果有两个以上条件满足-则返回"
+          "title": "数组的 find 中，如果有两个以上条件满足，则返回?",
+          "slug": "数组的-find-中-如果有两个以上条件满足-则返回"
         },
         {
           "level": 2,
-          "title": "解释说明js的深拷贝和浅拷贝的区别",
-          "slug": "解释说明js的深拷贝和浅拷贝的区别"
+          "title": "解释说明 js 的深拷贝和浅拷贝的区别",
+          "slug": "解释说明-js-的深拷贝和浅拷贝的区别"
         },
         {
           "level": 3,
@@ -276,13 +218,13 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "说明es6中箭头函数的特点和作用",
-          "slug": "说明es6中箭头函数的特点和作用"
+          "title": "说明 es6 中箭头函数的特点和作用",
+          "slug": "说明-es6-中箭头函数的特点和作用"
         },
         {
           "level": 2,
-          "title": "说明所有js类型转换成的布尔值是?",
-          "slug": "说明所有js类型转换成的布尔值是"
+          "title": "说明所有 js 类型转换成的布尔值是?",
+          "slug": "说明所有-js-类型转换成的布尔值是"
         },
         {
           "level": 2,
@@ -311,22 +253,22 @@ export const siteData = {
         },
         {
           "level": 3,
-          "title": "写一个getColor函数，返回随机十六进制颜色",
-          "slug": "写一个getcolor函数-返回随机十六进制颜色"
+          "title": "写一个 getColor 函数，返回随机十六进制颜色",
+          "slug": "写一个-getcolor-函数-返回随机十六进制颜色"
         }
       ]
     },
     {
-      "title": "数据过滤(末版)",
+      "title": "Es6数组测试",
       "frontmatter": {
-        "title": "数据过滤(末版)",
+        "title": "Es6数组测试",
         "author": "云上舟",
-        "date": "2022-03-17"
+        "date": "2022-03-16"
       },
-      "regularPath": "/homework/DataFilterV4.html",
-      "relativePath": "homework/DataFilterV4.md",
-      "key": "v-04f19a9b",
-      "path": "/homework/DataFilterV4.html",
+      "regularPath": "/homework/Es6ArrayTest.html",
+      "relativePath": "homework/Es6ArrayTest.md",
+      "key": "v-46bc0d1a",
+      "path": "/homework/Es6ArrayTest.html",
       "headers": [
         {
           "level": 3,
@@ -341,28 +283,16 @@ export const siteData = {
       ]
     },
     {
-      "title": "租房信息记录",
+      "title": "数据过滤（第三版）",
       "frontmatter": {
-        "title": "租房信息记录",
+        "title": "数据过滤（第三版）",
         "author": "云上舟",
-        "date": "2022-03-20"
+        "date": "2022-03-17"
       },
-      "regularPath": "/zufang/zufang.html",
-      "relativePath": "zufang/zufang.md",
-      "key": "v-297c225b",
-      "path": "/zufang/zufang.html"
-    },
-    {
-      "title": "Es6数组测试",
-      "frontmatter": {
-        "title": "Es6数组测试",
-        "author": "云上舟",
-        "date": "2022-03-16"
-      },
-      "regularPath": "/homework/Es6ArrayTest.html",
-      "relativePath": "homework/Es6ArrayTest.md",
-      "key": "v-772f353b",
-      "path": "/homework/Es6ArrayTest.html",
+      "regularPath": "/homework/DataFilterV3.html",
+      "relativePath": "homework/DataFilterV3.md",
+      "key": "v-843e5ccc",
+      "path": "/homework/DataFilterV3.html",
       "headers": [
         {
           "level": 3,
@@ -385,8 +315,20 @@ export const siteData = {
       },
       "regularPath": "/homework/Notice.html",
       "relativePath": "homework/Notice.md",
-      "key": "v-a3f1974a",
+      "key": "v-5129a2ba",
       "path": "/homework/Notice.html"
+    },
+    {
+      "title": "JS中的数据类型",
+      "frontmatter": {
+        "title": "JS中的数据类型",
+        "author": "云上舟",
+        "date": "2022-3-16"
+      },
+      "regularPath": "/note/DataType.html",
+      "relativePath": "note/DataType.md",
+      "key": "v-a84c1a8c",
+      "path": "/note/DataType.html"
     },
     {
       "title": "ES6之变量声明",
@@ -395,10 +337,10 @@ export const siteData = {
         "author": "云上舟",
         "date": "2022-03-19"
       },
-      "regularPath": "/bookCatagory/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html",
-      "relativePath": "bookCatagory/ES6之变量声明.md",
-      "key": "v-168ef11f",
-      "path": "/bookCatagory/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html",
+      "regularPath": "/note/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html",
+      "relativePath": "note/ES6之变量声明.md",
+      "key": "v-65475e44",
+      "path": "/note/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html",
       "headers": [
         {
           "level": 2,
@@ -411,6 +353,118 @@ export const siteData = {
           "slug": "const的用法及注意点"
         }
       ]
+    },
+    {
+      "title": "typeof判断",
+      "frontmatter": {
+        "title": "typeof判断",
+        "author": "云上",
+        "date": "2022-03-15"
+      },
+      "regularPath": "/note/Typeof.html",
+      "relativePath": "note/Typeof.md",
+      "key": "v-7414349a",
+      "path": "/note/Typeof.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "数据类型",
+          "slug": "数据类型"
+        },
+        {
+          "level": 3,
+          "title": "typeof的通常用途",
+          "slug": "typeof的通常用途"
+        },
+        {
+          "level": 3,
+          "title": "typeof的缺陷",
+          "slug": "typeof的缺陷"
+        },
+        {
+          "level": 3,
+          "title": "总结",
+          "slug": "总结"
+        }
+      ]
+    },
+    {
+      "title": "解构赋值",
+      "frontmatter": {
+        "title": "解构赋值",
+        "author": "云上舟",
+        "date": "2022-03-21"
+      },
+      "regularPath": "/note/ES6%E4%B9%8B%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.html",
+      "relativePath": "note/ES6之解构赋值.md",
+      "key": "v-8c28fde2",
+      "path": "/note/ES6%E4%B9%8B%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "数组的解构赋值",
+          "slug": "数组的解构赋值"
+        },
+        {
+          "level": 2,
+          "title": "对象的解构赋值",
+          "slug": "对象的解构赋值"
+        },
+        {
+          "level": 2,
+          "title": "字符串的解构赋值",
+          "slug": "字符串的解构赋值"
+        },
+        {
+          "level": 2,
+          "title": "数值和布尔值的解构赋值",
+          "slug": "数值和布尔值的解构赋值"
+        },
+        {
+          "level": 2,
+          "title": "函数参数的解构赋值",
+          "slug": "函数参数的解构赋值"
+        },
+        {
+          "level": 2,
+          "title": "不能使用圆括号的情况",
+          "slug": "不能使用圆括号的情况"
+        },
+        {
+          "level": 2,
+          "title": "可以使用圆括号的情况",
+          "slug": "可以使用圆括号的情况"
+        },
+        {
+          "level": 2,
+          "title": "用途",
+          "slug": "用途"
+        }
+      ]
+    },
+    {
+      "title": "reducer的各类用法",
+      "frontmatter": {
+        "title": "reducer的各类用法",
+        "author": "云上舟",
+        "date": "2022-03-20"
+      },
+      "regularPath": "/note/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html",
+      "relativePath": "note/reducer的妙用.md",
+      "key": "v-d49e90e2",
+      "path": "/note/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html"
+    },
+    {
+      "title": "租房信息记录",
+      "frontmatter": {
+        "title": "租房信息记录",
+        "author": "云上舟",
+        "date": "2022-03-20"
+      },
+      "regularPath": "/zufang/zufang.html",
+      "relativePath": "zufang/zufang.md",
+      "key": "v-0e9a983a",
+      "path": "/zufang/zufang.html"
     },
     {
       "frontmatter": {
@@ -462,17 +516,28 @@ export const siteData = {
         "path": "/home/home"
       },
       {
-        "title": "想法/笔记",
-        "path": "/bookCatagory/Memorize",
+        "title": "博客",
+        "path": "/book/Memorize",
         "collapsable": false,
         "children": [
           {
             "title": "记忆函数",
-            "path": "/bookCatagory/Memorize"
-          },
+            "path": "/book/Memorize"
+          }
+        ]
+      },
+      {
+        "title": "想法/笔记",
+        "path": "/note/ES6之变量声明",
+        "collapsable": false,
+        "children": [
           {
             "title": "ES6之变量声明",
-            "path": "/bookCatagory/ES6之变量声明.md"
+            "path": "/note/ES6之变量声明.md"
+          },
+          {
+            "title": "ES6之解构赋值",
+            "path": "/note/ES6之解构赋值.md"
           }
         ]
       },

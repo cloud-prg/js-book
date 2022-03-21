@@ -4,24 +4,16 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "F:\\vuepress-learn-js\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-tem\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-216d9bfb",
-    path: "/bookCatagory/DataType.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-216d9bfb").then(next)
-    },
-  },
-  {
-    name: "v-66c5182d",
+    name: "v-e5c74524",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-66c5182d").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-e5c74524").then(next)
     },
   },
   {
@@ -29,132 +21,156 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-ab6c8e0a",
-    path: "/bookCatagory/Memorize.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ab6c8e0a").then(next)
-    },
-  },
-  {
-    name: "v-014fcdca",
-    path: "/bookCatagory/Typeof.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-014fcdca").then(next)
-    },
-  },
-  {
-    name: "v-a39a9ae0",
-    path: "/bookCatagory/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a39a9ae0").then(next)
-    },
-  },
-  {
-    path: "/bookCatagory/reducer的妙用.html",
-    redirect: "/bookCatagory/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html"
-  },
-  {
-    path: "/bookCatagory/reducer的妙用.html",
-    redirect: "/bookCatagory/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html"
-  },
-  {
-    name: "v-7a55579b",
+    name: "v-27db1c7a",
     path: "/home/home.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7a55579b").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-27db1c7a").then(next)
     },
   },
   {
-    name: "v-7dfcb9ca",
-    path: "/homework/DataFilter.html",
+    name: "v-569c66cc",
+    path: "/book/Memorize.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7dfcb9ca").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-569c66cc").then(next)
     },
   },
   {
-    name: "v-23580c8a",
-    path: "/homework/DataFilterV3.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-23580c8a").then(next)
-    },
-  },
-  {
-    name: "v-50934e4a",
+    name: "v-b1799e8c",
     path: "/homework/DataFilterV2.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-50934e4a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-b1799e8c").then(next)
     },
   },
   {
-    name: "v-39a86269",
-    path: "/homework/ES6%E9%9D%A2%E8%AF%95%E9%A2%98.html",
+    name: "v-e1897b0c",
+    path: "/homework/DataFilter.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-39a86269").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-e1897b0c").then(next)
     },
   },
   {
-    path: "/homework/ES6面试题.html",
-    redirect: "/homework/ES6%E9%9D%A2%E8%AF%95%E9%A2%98.html"
-  },
-  {
-    path: "/homework/ES6面试题.html",
-    redirect: "/homework/ES6%E9%9D%A2%E8%AF%95%E9%A2%98.html"
-  },
-  {
-    name: "v-04f19a9b",
+    name: "v-57031b0c",
     path: "/homework/DataFilterV4.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-04f19a9b").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-57031b0c").then(next)
     },
   },
   {
-    name: "v-297c225b",
-    path: "/zufang/zufang.html",
+    name: "v-34653870",
+    path: "/homework/ES6%E9%9D%A2%E8%AF%95%E9%A2%98.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-297c225b").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-34653870").then(next)
     },
   },
   {
-    name: "v-772f353b",
+    path: "/homework/ES6面试题.html",
+    redirect: "/homework/ES6%E9%9D%A2%E8%AF%95%E9%A2%98.html"
+  },
+  {
+    path: "/homework/ES6面试题.html",
+    redirect: "/homework/ES6%E9%9D%A2%E8%AF%95%E9%A2%98.html"
+  },
+  {
+    name: "v-46bc0d1a",
     path: "/homework/Es6ArrayTest.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-772f353b").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-46bc0d1a").then(next)
     },
   },
   {
-    name: "v-a3f1974a",
+    name: "v-843e5ccc",
+    path: "/homework/DataFilterV3.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-843e5ccc").then(next)
+    },
+  },
+  {
+    name: "v-5129a2ba",
     path: "/homework/Notice.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a3f1974a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5129a2ba").then(next)
     },
   },
   {
-    name: "v-168ef11f",
-    path: "/bookCatagory/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html",
+    name: "v-a84c1a8c",
+    path: "/note/DataType.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-168ef11f").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-a84c1a8c").then(next)
     },
   },
   {
-    path: "/bookCatagory/ES6之变量声明.html",
-    redirect: "/bookCatagory/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html"
+    name: "v-65475e44",
+    path: "/note/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-65475e44").then(next)
+    },
   },
   {
-    path: "/bookCatagory/ES6之变量声明.html",
-    redirect: "/bookCatagory/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html"
+    path: "/note/ES6之变量声明.html",
+    redirect: "/note/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html"
+  },
+  {
+    path: "/note/ES6之变量声明.html",
+    redirect: "/note/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html"
+  },
+  {
+    name: "v-7414349a",
+    path: "/note/Typeof.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7414349a").then(next)
+    },
+  },
+  {
+    name: "v-8c28fde2",
+    path: "/note/ES6%E4%B9%8B%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-8c28fde2").then(next)
+    },
+  },
+  {
+    path: "/note/ES6之解构赋值.html",
+    redirect: "/note/ES6%E4%B9%8B%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.html"
+  },
+  {
+    path: "/note/ES6之解构赋值.html",
+    redirect: "/note/ES6%E4%B9%8B%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.html"
+  },
+  {
+    name: "v-d49e90e2",
+    path: "/note/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d49e90e2").then(next)
+    },
+  },
+  {
+    path: "/note/reducer的妙用.html",
+    redirect: "/note/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html"
+  },
+  {
+    path: "/note/reducer的妙用.html",
+    redirect: "/note/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html"
+  },
+  {
+    name: "v-0e9a983a",
+    path: "/zufang/zufang.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0e9a983a").then(next)
+    },
   },
   {
     name: "v-b1564aac",
