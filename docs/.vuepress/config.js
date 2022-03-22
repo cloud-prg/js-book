@@ -56,6 +56,7 @@ module.exports = {
           { title: "数组过滤(解法三)", path: "/homework/DataFilterV3" },
           { title: "数组过滤(末版)", path: "/homework/DataFilterV4" },
           { title: "ES6面试题", path: "/homework/ES6面试题" },
+          { title: "事件委托", path: "/homework/事件委托" },
         ],
       },
     ],
