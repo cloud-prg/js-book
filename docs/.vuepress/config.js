@@ -42,6 +42,7 @@ module.exports = {
           // { title: "Typeof判断", path: "/note/Typeof" },
           { title: "ES6之变量声明", path: "/note/ES6之变量声明.md" },
           { title: "ES6之解构赋值", path: "/note/ES6之解构赋值.md" },
+          { title: "Vue3基本使用", path: "/note/Vue3基本使用.md" },
         ],
       },
       {
