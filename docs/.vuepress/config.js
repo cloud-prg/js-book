@@ -32,7 +32,10 @@ module.exports = {
         title: "博客",
         path: "/book/Memorize",
         collapsable: false, //是否折叠
-        children: [{ title: "记忆函数", path: "/book/Memorize" }],
+        children: [{ title: "记忆函数", path: "/book/Memorize" },
+        { title: "事件循环", path: "/book/事件循环.md" }
+      
+      ],
       },
       {
         title: "想法/笔记",
