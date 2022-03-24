@@ -65,29 +65,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/book/Vue%E5%BA%94%E6%9C%89%E7%9A%84%E6%9E%B6%E6%9E%84.html",
+      "relativePath": "book/Vue应有的架构.md",
+      "key": "v-ec7c2680",
+      "path": "/book/Vue%E5%BA%94%E6%9C%89%E7%9A%84%E6%9E%B6%E6%9E%84.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/book/Vue3%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.html",
       "relativePath": "book/Vue3的基本用法.md",
       "key": "v-33c9a189",
       "path": "/book/Vue3%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/book/Vuex%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.html",
-      "relativePath": "book/Vuex的基本用法.md",
-      "key": "v-73445453",
-      "path": "/book/Vuex%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.html"
-    },
-    {
-      "title": "Node安装及版本控制",
-      "frontmatter": {
-        "title": "Node安装及版本控制",
-        "author": "云上舟",
-        "date": "“2022-03-22”"
-      },
-      "regularPath": "/book/Node%E5%8D%B8%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E5%8F%8A%E7%89%88%E6%9C%AC%E5%88%87%E6%8D%A2.html",
-      "relativePath": "book/Node卸载、安装及版本切换.md",
-      "key": "v-59642870",
-      "path": "/book/Node%E5%8D%B8%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E5%8F%8A%E7%89%88%E6%9C%AC%E5%88%87%E6%8D%A2.html"
     },
     {
       "title": "事件循环",
@@ -179,42 +167,16 @@ export const siteData = {
       ]
     },
     {
-      "title": "序言",
+      "title": "数据过滤（第三版）",
       "frontmatter": {
-        "title": "序言",
-        "author": "云上舟",
-        "date": "2022-03-14"
-      },
-      "regularPath": "/home/home.html",
-      "relativePath": "home/home.md",
-      "key": "v-27db1c7a",
-      "path": "/home/home.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "介绍",
-          "slug": "介绍"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/book/Vue%E5%BA%94%E6%9C%89%E7%9A%84%E6%9E%B6%E6%9E%84.html",
-      "relativePath": "book/Vue应有的架构.md",
-      "key": "v-ec7c2680",
-      "path": "/book/Vue%E5%BA%94%E6%9C%89%E7%9A%84%E6%9E%B6%E6%9E%84.html"
-    },
-    {
-      "title": "数据过滤",
-      "frontmatter": {
-        "title": "数据过滤",
+        "title": "数据过滤（第三版）",
         "author": "云上舟",
         "date": "2022-03-17"
       },
-      "regularPath": "/homework/DataFilter.html",
-      "relativePath": "homework/DataFilter.md",
-      "key": "v-e1897b0c",
-      "path": "/homework/DataFilter.html",
+      "regularPath": "/homework/DataFilterV3.html",
+      "relativePath": "homework/DataFilterV3.md",
+      "key": "v-843e5ccc",
+      "path": "/homework/DataFilterV3.html",
       "headers": [
         {
           "level": 3,
@@ -227,6 +189,25 @@ export const siteData = {
           "slug": "题目详解"
         }
       ]
+    },
+    {
+      "title": "Node安装及版本控制",
+      "frontmatter": {
+        "title": "Node安装及版本控制",
+        "author": "云上舟",
+        "date": "2022-03-22"
+      },
+      "regularPath": "/book/Node%E5%8D%B8%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E5%8F%8A%E7%89%88%E6%9C%AC%E5%88%87%E6%8D%A2.html",
+      "relativePath": "book/Node卸载、安装及版本切换.md",
+      "key": "v-59642870",
+      "path": "/book/Node%E5%8D%B8%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E5%8F%8A%E7%89%88%E6%9C%AC%E5%88%87%E6%8D%A2.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/book/Vuex%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.html",
+      "relativePath": "book/Vuex的基本用法.md",
+      "key": "v-73445453",
+      "path": "/book/Vuex%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.html"
     },
     {
       "title": "数据过滤（第二版）",
@@ -253,40 +234,16 @@ export const siteData = {
       ]
     },
     {
-      "title": "数据过滤(末版)",
+      "title": "数据过滤",
       "frontmatter": {
-        "title": "数据过滤(末版)",
+        "title": "数据过滤",
         "author": "云上舟",
         "date": "2022-03-17"
       },
-      "regularPath": "/homework/DataFilterV4.html",
-      "relativePath": "homework/DataFilterV4.md",
-      "key": "v-57031b0c",
-      "path": "/homework/DataFilterV4.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "测试内容",
-          "slug": "测试内容"
-        },
-        {
-          "level": 3,
-          "title": "题目详解",
-          "slug": "题目详解"
-        }
-      ]
-    },
-    {
-      "title": "数据过滤（第三版）",
-      "frontmatter": {
-        "title": "数据过滤（第三版）",
-        "author": "云上舟",
-        "date": "2022-03-17"
-      },
-      "regularPath": "/homework/DataFilterV3.html",
-      "relativePath": "homework/DataFilterV3.md",
-      "key": "v-843e5ccc",
-      "path": "/homework/DataFilterV3.html",
+      "regularPath": "/homework/DataFilter.html",
+      "relativePath": "homework/DataFilter.md",
+      "key": "v-e1897b0c",
+      "path": "/homework/DataFilter.html",
       "headers": [
         {
           "level": 3,
@@ -311,6 +268,42 @@ export const siteData = {
       "relativePath": "homework/Es6ArrayTest.md",
       "key": "v-46bc0d1a",
       "path": "/homework/Es6ArrayTest.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "测试内容",
+          "slug": "测试内容"
+        },
+        {
+          "level": 3,
+          "title": "题目详解",
+          "slug": "题目详解"
+        }
+      ]
+    },
+    {
+      "title": "阅读前言",
+      "frontmatter": {
+        "title": "阅读前言",
+        "author": "云上舟",
+        "date": "2022-03-14"
+      },
+      "regularPath": "/homework/Notice.html",
+      "relativePath": "homework/Notice.md",
+      "key": "v-5129a2ba",
+      "path": "/homework/Notice.html"
+    },
+    {
+      "title": "数据过滤(末版)",
+      "frontmatter": {
+        "title": "数据过滤(末版)",
+        "author": "云上舟",
+        "date": "2022-03-17"
+      },
+      "regularPath": "/homework/DataFilterV4.html",
+      "relativePath": "homework/DataFilterV4.md",
+      "key": "v-57031b0c",
+      "path": "/homework/DataFilterV4.html",
       "headers": [
         {
           "level": 3,
@@ -429,108 +422,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "阅读前言",
-      "frontmatter": {
-        "title": "阅读前言",
-        "author": "云上舟",
-        "date": "2022-03-14"
-      },
-      "regularPath": "/homework/Notice.html",
-      "relativePath": "homework/Notice.md",
-      "key": "v-5129a2ba",
-      "path": "/homework/Notice.html"
-    },
-    {
-      "title": "JS中的数据类型",
-      "frontmatter": {
-        "title": "JS中的数据类型",
-        "author": "云上舟",
-        "date": "2022-3-16"
-      },
-      "regularPath": "/note/DataType.html",
-      "relativePath": "note/DataType.md",
-      "key": "v-a84c1a8c",
-      "path": "/note/DataType.html"
-    },
-    {
-      "title": "需求分析",
-      "frontmatter": {},
-      "regularPath": "/homework/todolist.html",
-      "relativePath": "homework/todolist.md",
-      "key": "v-1a2ce10c",
-      "path": "/homework/todolist.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "需求分析",
-          "slug": "需求分析"
-        },
-        {
-          "level": 2,
-          "title": "执行步骤",
-          "slug": "执行步骤"
-        }
-      ]
-    },
-    {
-      "title": "事件委托",
-      "frontmatter": {
-        "title": "事件委托",
-        "author": "云上舟",
-        "date": "2022-03-21"
-      },
-      "regularPath": "/homework/%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98.html",
-      "relativePath": "homework/事件委托.md",
-      "key": "v-61c3de46",
-      "path": "/homework/%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "测试内容",
-          "slug": "测试内容"
-        },
-        {
-          "level": 2,
-          "title": "题目详解",
-          "slug": "题目详解"
-        }
-      ]
-    },
-    {
-      "title": "typeof判断",
-      "frontmatter": {
-        "title": "typeof判断",
-        "author": "云上",
-        "date": "2022-03-15"
-      },
-      "regularPath": "/note/Typeof.html",
-      "relativePath": "note/Typeof.md",
-      "key": "v-7414349a",
-      "path": "/note/Typeof.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "数据类型",
-          "slug": "数据类型"
-        },
-        {
-          "level": 3,
-          "title": "typeof的通常用途",
-          "slug": "typeof的通常用途"
-        },
-        {
-          "level": 3,
-          "title": "typeof的缺陷",
-          "slug": "typeof的缺陷"
-        },
-        {
-          "level": 3,
-          "title": "总结",
-          "slug": "总结"
-        }
-      ]
-    },
-    {
       "title": "解构赋值",
       "frontmatter": {
         "title": "解构赋值",
@@ -585,16 +476,23 @@ export const siteData = {
       ]
     },
     {
-      "title": "Vue3基本使用",
+      "title": "序言",
       "frontmatter": {
-        "title": "Vue3基本使用",
+        "title": "序言",
         "author": "云上舟",
-        "date": "2022-03-22T00:00:00.000Z"
+        "date": "2022-03-14"
       },
-      "regularPath": "/note/Vue3%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html",
-      "relativePath": "note/Vue3基本使用.md",
-      "key": "v-2139d051",
-      "path": "/note/Vue3%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html"
+      "regularPath": "/home/home.html",
+      "relativePath": "home/home.md",
+      "key": "v-27db1c7a",
+      "path": "/home/home.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "介绍",
+          "slug": "介绍"
+        }
+      ]
     },
     {
       "title": "ES6之变量声明",
@@ -621,16 +519,38 @@ export const siteData = {
       ]
     },
     {
-      "title": "租房信息记录",
+      "title": "typeof判断",
       "frontmatter": {
-        "title": "租房信息记录",
-        "author": "云上舟",
-        "date": "2022-03-20"
+        "title": "typeof判断",
+        "author": "云上",
+        "date": "2022-03-15"
       },
-      "regularPath": "/zufang/zufang.html",
-      "relativePath": "zufang/zufang.md",
-      "key": "v-0e9a983a",
-      "path": "/zufang/zufang.html"
+      "regularPath": "/note/Typeof.html",
+      "relativePath": "note/Typeof.md",
+      "key": "v-7414349a",
+      "path": "/note/Typeof.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "数据类型",
+          "slug": "数据类型"
+        },
+        {
+          "level": 3,
+          "title": "typeof的通常用途",
+          "slug": "typeof的通常用途"
+        },
+        {
+          "level": 3,
+          "title": "typeof的缺陷",
+          "slug": "typeof的缺陷"
+        },
+        {
+          "level": 3,
+          "title": "总结",
+          "slug": "总结"
+        }
+      ]
     },
     {
       "title": "reducer的各类用法",
@@ -643,6 +563,86 @@ export const siteData = {
       "relativePath": "note/reducer的妙用.md",
       "key": "v-d49e90e2",
       "path": "/note/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html"
+    },
+    {
+      "title": "事件委托",
+      "frontmatter": {
+        "title": "事件委托",
+        "author": "云上舟",
+        "date": "2022-03-21"
+      },
+      "regularPath": "/homework/%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98.html",
+      "relativePath": "homework/事件委托.md",
+      "key": "v-61c3de46",
+      "path": "/homework/%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "测试内容",
+          "slug": "测试内容"
+        },
+        {
+          "level": 2,
+          "title": "题目详解",
+          "slug": "题目详解"
+        }
+      ]
+    },
+    {
+      "title": "Vue3基本使用",
+      "frontmatter": {
+        "title": "Vue3基本使用",
+        "author": "云上舟",
+        "date": "2022-03-22T00:00:00.000Z"
+      },
+      "regularPath": "/note/Vue3%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html",
+      "relativePath": "note/Vue3基本使用.md",
+      "key": "v-2139d051",
+      "path": "/note/Vue3%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html"
+    },
+    {
+      "title": "JS中的数据类型",
+      "frontmatter": {
+        "title": "JS中的数据类型",
+        "author": "云上舟",
+        "date": "2022-3-16"
+      },
+      "regularPath": "/note/DataType.html",
+      "relativePath": "note/DataType.md",
+      "key": "v-a84c1a8c",
+      "path": "/note/DataType.html"
+    },
+    {
+      "title": "租房信息记录",
+      "frontmatter": {
+        "title": "租房信息记录",
+        "author": "云上舟",
+        "date": "2022-03-20"
+      },
+      "regularPath": "/zufang/zufang.html",
+      "relativePath": "zufang/zufang.md",
+      "key": "v-0e9a983a",
+      "path": "/zufang/zufang.html"
+    },
+    {
+      "title": "需求分析",
+      "frontmatter": {},
+      "regularPath": "/homework/todolist.html",
+      "relativePath": "homework/todolist.md",
+      "key": "v-1a2ce10c",
+      "path": "/homework/todolist.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "需求分析",
+          "slug": "需求分析"
+        },
+        {
+          "level": 2,
+          "title": "执行步骤",
+          "slug": "执行步骤"
+        }
+      ]
     },
     {
       "frontmatter": {
