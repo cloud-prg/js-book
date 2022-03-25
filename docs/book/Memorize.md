@@ -41,7 +41,7 @@ date: "2022-03-18"
 ```javascript
 function memorize(f) {
     var cache = {}; // 定义缓存对象
-   console.log("cache",cache);
+   console.log("cache",cache); 
     // 返回一个函数，即闭包
     return function () {
       // 将参数的长度 拼接 参数名字符串化(并以逗号隔开)，作为键名,传入缓存对象
@@ -54,9 +54,6 @@ function memorize(f) {
     };
   }
 ```
-
-
-
 
 
 ## 函数测试

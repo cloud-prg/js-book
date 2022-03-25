@@ -360,6 +360,37 @@ function throttle(func, delay) {
     }
   };
 }
+
+// 无需根据时间，如果定时器没有执行完，则不执行;
+function throttle2(callback, delay) {
+  let timeout = null;
+
+  return function (args) {
+    if (timeout) {
+      console.log(`你已在${delay / 1000}秒内使用过，稍后再试`);
+      return;
+    }
+    timeout = setTimeout(() => {
+      callback.call(this, args);
+      time = null; // 执行完置空
+    }, delay);
+  };
+}
+function print(n) {
+  console.log("n===", n);
+}
+
+let tPrint = throttle2(print, 5000);
+
+for (let i = 0; i < 5; i++) {
+  tPrint(i);
+}
+
+// 你已在5秒内使用过，稍后再试
+// 你已在5秒内使用过，稍后再试
+// 你已在5秒内使用过，稍后再试
+// 你已在5秒内使用过，稍后再试
+// n=== 0
 ```
 
 ## 编程题
