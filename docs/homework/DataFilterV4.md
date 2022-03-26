@@ -1,0 +1,153 @@
+---
+title: 数据过滤(末版)
+author: 云上舟
+date: "2022-03-17"
+---
+
+### 测试内容
+
+ 对数组中的数据进行过滤:
+
+1. 声明一个声明，返回 list 中的项，并且去掉重复项
+2. 声明一个变量，返回 list 中的重复项
+3. 声明一个变量，返回 arr1 和 arr2 中重复的项
+
+### 题目详解
+
+:::tip
+
+  不使用字符串化存储，而改成相应的映射存储。但这种做法只限用于，每个数组元素只有两个键值对，且键名的位置都相同（当然如果不同，可以先做sort排序处理)。随后通过 **记忆对象中的值映射** 作为对比源，与**数组元素中的age**对比，判断是否推进重复项/非重复项。
+
+:::
+
+题解 1：
+
+```js
+/**
+ * 声明一个变量，返回list中的项，并且去掉重复项
+ */
+
+let list = [
+  { name: "aaa", age: 13 },
+  { name: "bbb", age: 15 },
+  { name: "ccc", age: 17 },
+  { name: "ddd", age: 22 },
+  { name: "bbb", age: 15 },
+  { name: "aaa", age: 13 },
+  { name: "bbb", age: 16 },
+];
+
+// 单次遍历，返回无重复项数组
+const getUniqueArr = (arr) => {
+  let memorize = {}; // 记忆对象
+  return arr.reduce((pre, cur) => {
+    /**
+     * cur.name是否存在于记忆对象中。若不存在，将cur的值作为映射赋予记忆对象，并推入pre中
+     * 若存在，则对比记忆对象中的值与cur.age相等情况，若不等，则表示非重复项，推入。
+     */
+    cur.name in memorize
+      ? cur.age != memorize[cur.name] && pre.push(cur)
+      : (memorize[cur.name] = cur.age) && pre.push(cur);
+    return pre;
+  }, []);
+};
+
+console.log(getUniqueArr(list));
+// [
+//   { name: 'aaa', age: 13 },
+//   { name: 'bbb', age: 15 },
+//   { name: 'ccc', age: 17 },
+//   { name: 'ddd', age: 22 },
+//   { name: 'bbb', age: 16 },
+// ]
+```
+
+题解 2：
+
+```js
+/**
+ * 声明一个变量，返回list中的重复项
+ */
+let list = [
+  { name: "aaa", age: 13 },
+  { name: "bbb", age: 15 },
+  { name: "ccc", age: 17 },
+  { name: "ddd", age: 22 },
+  { name: "bbb", age: 15 },
+  { name: "aaa", age: 13 },
+  { name: "bbb", age: 16 },
+];
+
+// 单次遍历，返回重复项
+const getMoreArr = (arr) => {
+  let memorize = {}; // 记忆对象
+  arr.reduce((pre, cur, index) => {
+    console.log(pre);
+    if (index == 0) {
+      memorize[cur.name] = cur.age;
+      return pre;
+    }
+    cur.name in memorize
+      ? memorize[cur.name] == cur.age && pre.push(cur)
+      : (memorize[cur.name] = cur.age);
+
+    return pre;
+  }, []);
+};
+
+console.log(getMoreArr(list)); // [ { name: 'aaa', age: 13 }, { name: 'bbb', age: 15 } ]
+
+```
+
+题解 3：
+
+```js
+/**
+ * 声明一个变量，返回arr1和arr2中重复的项
+ */
+
+let arr1 = [
+  { name: "aaa", age: 13 },
+  { name: "bbb", age: 15 },
+  { name: "ccc", age: 17 },
+  { name: "ddd", age: 22 },
+  { name: "bbb", age: 15 },
+  { name: "aaa", age: 13 },
+  { name: "bbb", age: 16 },
+];
+
+let arr2 = [
+  { name: "aaa", age: 13 },
+  { name: "bbb", age: 15 },
+  { name: "ccc", age: 17 },
+  { name: "ddd", age: 22 },
+  { name: "bbb", age: 15 },
+  { name: "aaa", age: 13 },
+  { name: "bbb", age: 16 },
+];
+
+// 单次遍历，返回重复项
+const getMoreArr = (arr) => {
+  let memorize = {}; // 记忆对象
+  arr.reduce((pre, cur, index) => {
+    console.log(pre);
+    if (index == 0) {
+      memorize[cur.name] = cur.age;
+      return pre;
+    }
+    cur.name in memorize
+      ? memorize[cur.name] == cur.age && pre.push(cur)
+      : (memorize[cur.name] = cur.age);
+
+    return pre;
+  }, []);
+};
+
+console.log(getMoreArr(arr1).concat(getMoreArr(arr2)));
+// [
+//   { name: 'aaa', age: 13 },
+//   { name: 'bbb', age: 15 },
+//   { name: 'aaa', age: 13 },
+//   { name: 'bbb', age: 15 }
+// ]
+```
