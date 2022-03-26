@@ -9,6 +9,26 @@ import GlobalLayout from "C:\\Users\\91245\\Desktop\\wangzhe\\learn-javascript-t
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-e5c74524",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-e5c74524").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
+    name: "v-569c66cc",
+    path: "/book/Memorize.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-569c66cc").then(next)
+    },
+  },
+  {
     name: "v-59642870",
     path: "/book/Node%E5%8D%B8%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E5%8F%8A%E7%89%88%E6%9C%AC%E5%88%87%E6%8D%A2.html",
     component: GlobalLayout,
@@ -25,11 +45,115 @@ export const routes = [
     redirect: "/book/Node%E5%8D%B8%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E5%8F%8A%E7%89%88%E6%9C%AC%E5%88%87%E6%8D%A2.html"
   },
   {
-    name: "v-569c66cc",
-    path: "/book/Memorize.html",
+    name: "v-33c9a189",
+    path: "/book/Vue3%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-569c66cc").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-33c9a189").then(next)
+    },
+  },
+  {
+    path: "/book/Vue3的基本用法.html",
+    redirect: "/book/Vue3%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.html"
+  },
+  {
+    path: "/book/Vue3的基本用法.html",
+    redirect: "/book/Vue3%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.html"
+  },
+  {
+    name: "v-73445453",
+    path: "/book/Vuex%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-73445453").then(next)
+    },
+  },
+  {
+    path: "/book/Vuex的基本用法.html",
+    redirect: "/book/Vuex%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.html"
+  },
+  {
+    path: "/book/Vuex的基本用法.html",
+    redirect: "/book/Vuex%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.html"
+  },
+  {
+    name: "v-ec7c2680",
+    path: "/book/Vue%E5%BA%94%E6%9C%89%E7%9A%84%E6%9E%B6%E6%9E%84.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ec7c2680").then(next)
+    },
+  },
+  {
+    path: "/book/Vue应有的架构.html",
+    redirect: "/book/Vue%E5%BA%94%E6%9C%89%E7%9A%84%E6%9E%B6%E6%9E%84.html"
+  },
+  {
+    path: "/book/Vue应有的架构.html",
+    redirect: "/book/Vue%E5%BA%94%E6%9C%89%E7%9A%84%E6%9E%B6%E6%9E%84.html"
+  },
+  {
+    name: "v-a2e1922e",
+    path: "/book/%E6%9F%AF%E9%87%8C%E5%8C%96.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-a2e1922e").then(next)
+    },
+  },
+  {
+    path: "/book/柯里化.html",
+    redirect: "/book/%E6%9F%AF%E9%87%8C%E5%8C%96.html"
+  },
+  {
+    path: "/book/柯里化.html",
+    redirect: "/book/%E6%9F%AF%E9%87%8C%E5%8C%96.html"
+  },
+  {
+    name: "v-27db1c7a",
+    path: "/home/home.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-27db1c7a").then(next)
+    },
+  },
+  {
+    name: "v-4e296b44",
+    path: "/book/%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4e296b44").then(next)
+    },
+  },
+  {
+    path: "/book/事件循环.html",
+    redirect: "/book/%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF.html"
+  },
+  {
+    path: "/book/事件循环.html",
+    redirect: "/book/%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF.html"
+  },
+  {
+    name: "v-2e173069",
+    path: "/book/%E9%97%AD%E5%8C%85.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2e173069").then(next)
+    },
+  },
+  {
+    path: "/book/闭包.html",
+    redirect: "/book/%E9%97%AD%E5%8C%85.html"
+  },
+  {
+    path: "/book/闭包.html",
+    redirect: "/book/%E9%97%AD%E5%8C%85.html"
+  },
+  {
+    name: "v-843e5ccc",
+    path: "/homework/DataFilterV3.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-843e5ccc").then(next)
     },
   },
   {
@@ -54,22 +178,6 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-57031b0c").then(next)
-    },
-  },
-  {
-    name: "v-27db1c7a",
-    path: "/home/home.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-27db1c7a").then(next)
-    },
-  },
-  {
-    name: "v-843e5ccc",
-    path: "/homework/DataFilterV3.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-843e5ccc").then(next)
     },
   },
   {
@@ -105,6 +213,22 @@ export const routes = [
     },
   },
   {
+    name: "v-a84c1a8c",
+    path: "/note/DataType.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-a84c1a8c").then(next)
+    },
+  },
+  {
+    name: "v-1a2ce10c",
+    path: "/homework/todolist.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1a2ce10c").then(next)
+    },
+  },
+  {
     name: "v-61c3de46",
     path: "/homework/%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98.html",
     component: GlobalLayout,
@@ -121,56 +245,20 @@ export const routes = [
     redirect: "/homework/%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98.html"
   },
   {
-    name: "v-e5c74524",
-    path: "/",
+    name: "v-8c28fde2",
+    path: "/note/ES6%E4%B9%8B%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e5c74524").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-8c28fde2").then(next)
     },
   },
   {
-    path: "/index.html",
-    redirect: "/"
+    path: "/note/ES6之解构赋值.html",
+    redirect: "/note/ES6%E4%B9%8B%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.html"
   },
   {
-    name: "v-a84c1a8c",
-    path: "/note/DataType.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a84c1a8c").then(next)
-    },
-  },
-  {
-    name: "v-0e9a983a",
-    path: "/zufang/zufang.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0e9a983a").then(next)
-    },
-  },
-  {
-    name: "v-7414349a",
-    path: "/note/Typeof.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7414349a").then(next)
-    },
-  },
-  {
-    name: "v-d49e90e2",
-    path: "/note/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d49e90e2").then(next)
-    },
-  },
-  {
-    path: "/note/reducer的妙用.html",
-    redirect: "/note/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html"
-  },
-  {
-    path: "/note/reducer的妙用.html",
-    redirect: "/note/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html"
+    path: "/note/ES6之解构赋值.html",
+    redirect: "/note/ES6%E4%B9%8B%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.html"
   },
   {
     name: "v-65475e44",
@@ -205,20 +293,75 @@ export const routes = [
     redirect: "/note/Vue3%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html"
   },
   {
-    name: "v-8c28fde2",
-    path: "/note/ES6%E4%B9%8B%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.html",
+    name: "v-d49e90e2",
+    path: "/note/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-8c28fde2").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-d49e90e2").then(next)
     },
   },
   {
-    path: "/note/ES6之解构赋值.html",
-    redirect: "/note/ES6%E4%B9%8B%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.html"
+    path: "/note/reducer的妙用.html",
+    redirect: "/note/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html"
   },
   {
-    path: "/note/ES6之解构赋值.html",
-    redirect: "/note/ES6%E4%B9%8B%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.html"
+    path: "/note/reducer的妙用.html",
+    redirect: "/note/reducer%E7%9A%84%E5%A6%99%E7%94%A8.html"
+  },
+  {
+    name: "v-7414349a",
+    path: "/note/Typeof.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7414349a").then(next)
+    },
+  },
+  {
+    name: "v-0e9a983a",
+    path: "/zufang/zufang.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0e9a983a").then(next)
+    },
+  },
+  {
+    name: "v-b1564aac",
+    path: "/tag/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tags", "v-b1564aac").then(next)
+    },
+    meta: {"pid":"tags","id":"tags"}
+  },
+  {
+    path: "/tag/index.html",
+    redirect: "/tag/"
+  },
+  {
+    name: "v-ef9325c4",
+    path: "/categories/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("FrontmatterKey", "v-ef9325c4").then(next)
+    },
+    meta: {"pid":"categories","id":"categories"}
+  },
+  {
+    path: "/categories/index.html",
+    redirect: "/categories/"
+  },
+  {
+    name: "v-6319eb4e",
+    path: "/timeline/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("TimeLines", "v-6319eb4e").then(next)
+    },
+    meta: {"pid":"timeline","id":"timeline"}
+  },
+  {
+    path: "/timeline/index.html",
+    redirect: "/timeline/"
   },
   {
     path: '*',
