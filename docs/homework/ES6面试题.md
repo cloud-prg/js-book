@@ -248,7 +248,7 @@ console.log(a.prototype); // undefined
      barObj = { msg: "bar的this指向" };
    fooObj = { msg: "foo的this指向" };
    bar.call(barObj); // 将bar的this指向barObj
-   foo.call({}); // 将foo的this指向fooObj
+   foo.call({}); // 此刻foo虽然调用了a()，但定义a时是在bar中，因此this仍然指向bar。
    function foo() {
      a(); // 结果：{ msg: 'bar的this指向' } "this指向定义的时候外层第一个普通函数"
    }
