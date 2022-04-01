@@ -6,6 +6,51 @@ date: "2022-03-19"
 
 [[toc]]
 
+## var的用法及注意点
+
+ var声明在函数内属于**局部变量**，仅在函数的作用域内可访问。在函数之外则属于**全局变量**，顾名思义，var声明的变量影响至全局（比如A module、b module被引入一个文件，倘若AB声明了同名变量，则按照先后顺序，前者声明将被后者覆盖。）。除此之外，var还有几个特性:
+
+1. 具有变量提升，例如声明a，js允许var声明没有初始值，默认为undefined。
+
+   ```js
+   var a = 2;
+   //实际上是
+   var a; // undefined
+   a=2;
+   ```
+
+   ```js
+   function foo(){
+       let name = "李斯特";
+       // var dd; //变量提升
+       if(name == "奥尔莱"){
+           var dd = 4;
+       }
+       console.log("dd",dd); // dd undeinfed
+       
+   }
+   ```
+
+2. 可以重复声明
+
+   ```js
+   var c = 1;
+   var c = 2;
+   var c = 3;
+   console.log(c) // 3
+   ```
+
+3. js设计上的缺陷，顶层对象属性会被var声明所覆盖
+
+   ```js
+   // 浏览器的顶层对象是window,Node的是global
+   window.a = 2;
+   var a = 3;
+   console.log(a); // 3;
+   ```
+
+
+
 ## let的用法及注意点
 
 let和var一样用来声明变量，其有以下几个不同点:

@@ -37,6 +37,9 @@ module.exports = {
         { title: "闭包", path: "/book/闭包.md" },
         { title: "柯里化", path: "/book/柯里化.md" },
         { title: "提高代码健壮性", path: "/book/提高代码健壮性.md" },
+        { title: "回车url后，页面的变化过程", path: "/book/回车url后，页面的变化过程.md" },
+        { title: "手写Promise", path: "/book/手写Promise.md" },
+    
       ],
       },
       {
@@ -57,10 +60,11 @@ module.exports = {
         collapsable: false, //是否折叠
         children: [
           { title: "前言", path: "/homework/前言" },
-          { title: "ES6数组测试", path: "/homework/Es6数组API练习" },
+          { title: "Es6数组API练习", path: "/homework/Es6数组API练习" },
           { title: "数组过滤", path: "/homework/数组过滤" },
           { title: "ES6面试题", path: "/homework/ES6面试题" },
           { title: "事件委托", path: "/homework/事件委托" },
+          { title: "解决若干个if判断", path: "/homework/解决若干个if判断" },
         ],
       },
     ],
