@@ -2,6 +2,7 @@ module.exports = {
   title: "云上舟",
   description: "个人学习博客",
   theme: "reco",
+  lastUpdated: true, // 最后更新时间
   // 路径名为 "/<REPO>/"
   base: "/learn-javascript/",
   markdown: {
@@ -9,6 +10,9 @@ module.exports = {
   },
   locales: {
     "/": {
+      label: '简体中文',
+      selectText: '选择语言',
+      lastUpdated: '上次更新',
       lang: "zh-CN",
     },
   },
@@ -39,7 +43,9 @@ module.exports = {
         { title: "提高代码健壮性", path: "/book/提高代码健壮性.md" },
         { title: "回车url后，页面的变化过程", path: "/book/回车url后，页面的变化过程.md" },
         { title: "手写Promise", path: "/book/手写Promise.md" },
-    
+        
+        { title: "Pinia用法", path: "/book/Pinia用法.md" },
+     
       ],
       },
       {
@@ -52,6 +58,7 @@ module.exports = {
           { title: "ES6之解构赋值", path: "/note/ES6之解构赋值.md" },
           { title: "Vue3基本使用", path: "/note/Vue3基本使用.md" },
           { title: "vue中的防抖", path: "/note/vue中的防抖.md" },
+          { title: "vue3的通信方式", path: "/note/vue3的通信方式.md" },
         ],
       },
       {
