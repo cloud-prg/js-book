@@ -3,7 +3,7 @@ title: vue3的通信方式
 author: 云上
 date: "2022-04-01"
 ---
-   本文主要以vue3版本列举父子、兄弟组件的通信方式。其中vuex、pinia的通信将会在另外几个文章说明。
+   本文主要以vue3版本列举父子、兄弟组件的通信方式。
 
 [[toc]]
 
@@ -367,12 +367,140 @@ import { inject } from "vue";
 
 
 
+## Pinia插件
+
+基础用法这里不做介绍，详情请看原文档。这里主要**使用action来改变state状态**。
+
+```js
+// store/user.js
+export const useUserStore = defineStore({
+  id: "user", // id必填, 且需要唯一
+  // 声明state,为一个回调返回一个对象。
+  state: () => {
+    return {
+      // 默认有2条数据
+      userList: [
+        {
+          id: 1,
+          name: "z33",
+        },
+        {
+          id: 2,
+          name: "l44",
+        },
+      ],
+    };
+  },
+  // methods方法
+  actions: {
+    // 添加用户信息
+    addInfo(payload) {
+      this.userList.push(payload);
+    },
+  },
+  // 引入pinia-plugin-persist插件，实现数据持久化
+  persist: {
+    enabled: true, //是否开启
+    strategies: [
+      {
+        key: "my_user", // 唯一键名
+        storage: localStorage, // 使用storage的类型
+          
+        // 指定哪些state允许被持久化
+        // path:["name","count","userList"],
+      },
+    ],
+  },
+});
+
+```
+
+<br />
+
+父组件和子组件使用store的方式是一样的。都是通过引入user.js中的store实例，调用其中action中的**特定方法**，去改变值。
+
+```vue
+// 父组件
+<script setup>
+import { useUserStore } from "@/store/user";
+import { reactive, ref} from "vue";
+import ChildCom from './ChildCom.vue'
+const userStore = useUserStore();
+const context = ref("父组件");
+let localList = reactive({
+  data1: null,
+});
+
+// 因为setup生命周期比created还要早，因此在里面做IIFE来赋值
+(() => {
+  localList.data1 = userStore.userList;
+})();
+
+function handleAddInfo() {
+  // 调用store中的action的方法，操作state。
+  userStore.addInfo({
+    id: 5,
+    name: "yyy555",
+  });
+  
+}
+</script>
+<template>
+  <div>
+    <h1>{{ context }}</h1>
+    <button @click="handleAddInfo">添加一条yyy555</button>
+
+    <ul>
+      <li v-for="(item, index) in localList.data1" :key="index">
+        {{ item.name }}
+      </li>
+    </ul>
+
+    <child-com></child-com>
+  </div>
+</template>
+
+```
+
+```vue
+// 子组件
+<script setup>
+import { useUserStore } from "@/store/user";
+import { reactive,ref } from "vue";
+const context = ref("子组件");
+
+const userStore = useUserStore();
+let childLocalList = reactive({
+  data1: null,
+});
+
+// 因为setup生命周期比created还要早，因此在里面做IIFE来赋值
+(() => {
+  childLocalList.data1 = userStore.userList;
+})();
+</script>
+<template>
+  <div>
+    <h1>{{ context }}</h1>
+    <ul>
+      <li v-for="(item, index) in childLocalList.data1" :key="index">
+        {{ item.name }}
+      </li>
+    </ul>
+  </div>
+</template>
+
+
+```
+
+​	以上代码运行之后，即便刷新了页面，数据也不会丢失。且不仅仅是父子组件、兄弟组件，或者隔了好几层的组件之间，都可以在pinia的状态管理下，实现互相通信。
+
 ## 总结
 
 - Vue3中组件之间的传值有Props、emit、v-model、refs、provide/inject。
 - 其中单向传值的有props、emit、refs、provide/inject，他们分别用到了vue模块中的defineProps、defineEmits、defineExpose、provide、inject。
 - 而v-model则是父组件defineProps+update:emit属性名固定vue语法，配合子组件defineEmits传值，从而共同完成的。
-- 除上述几种方法，vuex、pinia能更好地实现组件通信
+- pinia能更好地完成组件之间的通信。如果在有引入pinia-plugin-persist的情况下，还能实现数据持久化。
 
 
 

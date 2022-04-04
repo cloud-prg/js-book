@@ -7,7 +7,6 @@ date: "2022-04-02"
 [[toc]]
 
 
-
 ## 安装pinia
 
 ```shell
@@ -77,7 +76,7 @@ const useUserStore = defineStore({
 
 - 直接在页面中使用属性
 - 使用计算属性在script中获取
-- 使用pinia模块中的storeToRefs，解构赋值取出name，但这种做法会使name失去响应性。
+- 直接解构赋值取出的name，会使name失去响应性。使用pinia模块中的storeToRefs，可以解决此问题。
 
 ```vue
 <script setup>
@@ -92,7 +91,7 @@ const userStore = useUserStore();
 // const name = computed(() => userStore.name);
 
 // ---获取方式二---
-// storeToRefs使userStore中的state转为对象，使用解构赋值获取，但会使其失去响应性
+// 直接解构赋值取出的name，会使name失去响应性。使用pinia模块中的storeToRefs，可以解决此问题。
 const { name } = storeToRefs(userStore);
 </script>
 <template>
@@ -150,6 +149,27 @@ const userStore = useUserStore()
 userStore.updateName('李四')
 </script>
 
+```
+
+### 批量修改
+
+可用$patch方法修改多个数据，这样做的好处是**只更新一次视图**。
+
+```js
+    // 方法二，需要修改多个数据，建议用 $patch 批量更新，传入一个对象
+    userStore.$patch({
+        count: user_store.count1++,
+        // arr: user_store.arr.push(1) // 错误
+        arr: [ ...userStore.arr, 1 ] // 可以，但是还得把整个数组都拿出来解构，就没必要
+    })
+    
+    // 使用 $patch 性能更优，因为多个数据更新只会更新一次视图
+    
+    // 方法三，还是$patch，传入函数，第一个参数就是 state
+    userStore.$patch( state => {
+        state.count++
+        state.arr.push(1)
+    })
 ```
 
 
@@ -242,6 +262,10 @@ state: () => {
   }  
 },
 
+    
+  // 开启数据缓存，在 strategies 里自定义 key 值，并将存放位置由 sessionStorage 改为 localStorage
+    // 默认所有 state 都会进行缓存，你可以通过 paths 指定要持久化的字段，其他的则不会进行持久化，如：paths: ['userinfo'] 替换key的位置
+  // 只要state中的数据发生变化，它就实时刷新并存储到相应得storage中。
 persist: {
   enabled: true,
   strategies: [
@@ -261,6 +285,11 @@ persist: {
 2.  页面中可用3种方式获取state中的值.
    - ​	直接在模板中使用
    - ​    用计算方式提前获取
-   - ​    用pinia模块中的storeToRefs解构赋值获取，但会失去响应性。
-3. 可引用pinia-plugin-persist 插件，将store中的状态都存入SessionStorage或者localStorage。且该插件可选择指定的数据存储到浏览器的storage中。
+   - ​    直接解构赋值取出的name，会使name失去响应性。使用pinia模块中的  `storeToRefs`，可以解决此问题。
+3.  可引用pinia-plugin-persist 插件，将store中的状态都存入SessionStorage或者localStorage。且该插件可选择指定的数据存储到浏览器的storage中。
+
+    - ​	在store下，设置一个属性persist,该对象里标注`enabled:true`,即可实现数据持久化
+    - ​    persist对象里设置一个属性`strategies`数组，第一个参数为对象，可设置key和storage，对应着浏览器中`storage`中存储的键名以及对应storage类型。
+    - ​    stategies中可设置`paths`,来指定哪些状态允许被**持久化**。
+    - ​    只要state变化，则storage的**持久化部分**的数据将会**刷新**。
 
