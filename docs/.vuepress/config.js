@@ -59,11 +59,22 @@ module.exports = {
           { title: "Vue3基本使用", path: "/note/Vue3基本使用.md" },
           { title: "vue中的防抖", path: "/note/vue中的防抖.md" },
           { title: "vue3的通信方式", path: "/note/vue3的通信方式.md" },
+          { title: "typescript巩固", path: "/note/typescript巩固.md" },
+        ],
+      },
+      {
+        title: "手写API(日更)",
+        path: "/dailyapi/手写一个ajax",
+        collapsable: false, //是否折叠
+        children: [
+          { title: "手写一个ajax", path: "/dailyapi/手写一个ajax.md" },
+          { title: "实现new操作符", path: "/dailyapi/实现new操作符.md" },
+          { title: "实现maxRequest", path: "/dailyapi/实现maxRequest.md" },        
         ],
       },
       {
         title: "日常练习",
-        path: "/homework/Notice",
+        path: "/homework/前言",
         collapsable: false, //是否折叠
         children: [
           { title: "前言", path: "/homework/前言" },
@@ -71,7 +82,7 @@ module.exports = {
           { title: "数组过滤", path: "/homework/数组过滤" },
           { title: "ES6面试题", path: "/homework/ES6面试题" },
           { title: "事件委托", path: "/homework/事件委托" },
-          { title: "解决若干个if判断", path: "/homework/解决若干个if判断" },
+          { title: "解决嵌套if判断", path: "/homework/解决嵌套if判断" },
         ],
       },
     ],
