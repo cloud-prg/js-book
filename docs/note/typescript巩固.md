@@ -497,15 +497,11 @@ declare var jQuery: (selector: string) => any
 
 ```
 #### 下载npm上的ts模块
-npm上的ts模块，下载后，可直接在项目中使用。代码行输入后就有相应提示。比如@types/react,@types/jquery
+npm上的ts模块，下载后，可直接在项目中使用。代码行输入后就有相应提示。比如`@types/react`  , `@types/jquery`
 
 ```shell
 npm install --save @types/jquery
 ```
-
-
-
-
 
 ## 参考文章
 

@@ -83,6 +83,7 @@ module.exports = {
           { title: "ES6面试题", path: "/homework/ES6面试题" },
           { title: "事件委托", path: "/homework/事件委托" },
           { title: "解决嵌套if判断", path: "/homework/解决嵌套if判断" },
+          { title: "处理若干个if判断", path: "/homework/处理若干个if判断" },
         ],
       },
     ],
