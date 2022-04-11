@@ -10,9 +10,9 @@ module.exports = {
   },
   locales: {
     "/": {
-      label: '简体中文',
-      selectText: '选择语言',
-      lastUpdated: '上次更新',
+      label: "简体中文",
+      selectText: "选择语言",
+      lastUpdated: "上次更新",
       lang: "zh-CN",
     },
   },
@@ -36,46 +36,88 @@ module.exports = {
         title: "博客",
         path: "/book/Memorize",
         collapsable: false, //是否折叠
-        children: [{ title: "记忆函数", path: "/book/Memorize" },
-        { title: "事件循环", path: "/book/事件循环.md" },
-        { title: "闭包", path: "/book/闭包.md" },
-        { title: "柯里化", path: "/book/柯里化.md" },
-        { title: "提高代码健壮性", path: "/book/提高代码健壮性.md" },
-        { title: "回车url后，页面的变化过程", path: "/book/回车url后，页面的变化过程.md" },
-        { title: "手写Promise", path: "/book/手写Promise.md" },
-        
-        { title: "Pinia用法", path: "/book/Pinia用法.md" },
-     
-      ],
+        children: [
+          { title: "记忆函数", path: "/book/Memorize" },
+          { title: "事件循环", path: "/book/事件循环.md" },
+          { title: "闭包", path: "/book/闭包.md" },
+          { title: "柯里化", path: "/book/柯里化.md" },
+          { title: "提高代码健壮性", path: "/book/提高代码健壮性.md" },
+          {
+            title: "回车url后，页面的变化过程",
+            path: "/book/回车url后，页面的变化过程.md",
+          },
+          { title: "手写Promise", path: "/book/手写Promise.md" },
+
+          { title: "Pinia用法", path: "/book/Pinia用法.md" },
+          { title: "前端如何处理10万条数据", path: "/book/前端如何处理10万条数据.md" },
+          
+          { title: "BFC详解", path: "/book/BFC详解.md" },
+        ],
       },
       {
         title: "想法/笔记",
         path: "/note/ES6之变量声明",
-        collapsable: false, //是否折叠
+        collapsable: true, //是否折叠
         children: [
           // { title: "Typeof判断", path: "/note/Typeof" },
           { title: "ES6之变量声明", path: "/note/ES6之变量声明.md" },
           { title: "ES6之解构赋值", path: "/note/ES6之解构赋值.md" },
-          { title: "Vue3基本使用", path: "/note/Vue3基本使用.md" },
-          { title: "vue中的防抖", path: "/note/vue中的防抖.md" },
-          { title: "vue3的通信方式", path: "/note/vue3的通信方式.md" },
           { title: "typescript巩固", path: "/note/typescript巩固.md" },
+          
+          { title: "图片懒加载", path: "/note/图片懒加载.md" },
+          {
+            title: "Vue",
+            path: "/note/Vue/Vue3基本使用",
+            collapsable: true, //是否折叠,
+            children: [
+              { title: "Vue3基本使用", path: "/note/Vue/Vue3基本使用.md" },
+              { title: "vue中的防抖", path: "/note/Vue/vue中的防抖.md" },
+              { title: "vue3的通信方式", path: "/note/Vue/vue3的通信方式.md" },
+            ],
+          },
+
+          {
+            title: "uniapp",
+            path: "/note/Uniapp/uniapp问题记录与解决",
+            collapsable: true, //是否折叠,
+            children: [
+              {
+                title: "uniapp问题记录与解决",
+                path: "/note/Uniapp/uniapp问题记录与解决.md",
+              },
+            ],
+          },
+
+          // {
+          //   title: "微信开发",
+          //   path: "/note/Wx/微信开发者平台使用",
+          //   collapsable: true, //是否折叠,
+          //   children: [
+          //     {
+          //       title: "微信开发者平台使用",
+          //       path: "/note/Wx/微信开发者平台使用.md",
+          //     },
+          //   ],
+          // },
         ],
       },
       {
         title: "手写API(日更)",
         path: "/dailyapi/手写一个ajax",
-        collapsable: false, //是否折叠
+        collapsable: true, //是否折叠
         children: [
           { title: "手写一个ajax", path: "/dailyapi/手写一个ajax.md" },
           { title: "实现new操作符", path: "/dailyapi/实现new操作符.md" },
-          { title: "实现maxRequest", path: "/dailyapi/实现maxRequest.md" },        
+          { title: "实现maxRequest", path: "/dailyapi/实现maxRequest.md" },
+          { title: "有效的括号", path: "/dailyapi/有效的括号.md" },
+          { title: "手写promiseAll", path: "/dailyapi/手写promiseAll.md" },
+          { title: "数组扁平化", path: "/dailyapi/数组扁平化.md" },
         ],
       },
       {
         title: "日常练习",
         path: "/homework/前言",
-        collapsable: false, //是否折叠
+        collapsable: true, //是否折叠
         children: [
           { title: "前言", path: "/homework/前言" },
           { title: "Es6数组API练习", path: "/homework/Es6数组API练习" },
@@ -84,6 +126,7 @@ module.exports = {
           { title: "事件委托", path: "/homework/事件委托" },
           { title: "解决嵌套if判断", path: "/homework/解决嵌套if判断" },
           { title: "处理若干个if判断", path: "/homework/处理若干个if判断" },
+          { title: "Set与Map的区别", path: "/homework/Set与Map的区别" },
         ],
       },
     ],

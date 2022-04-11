@@ -252,8 +252,8 @@ class MyPromise {
        * 此处有修改，因then立即执行，则状态为pending,将成功和失败的回调存储起来。
        * 若干秒后，在resolve后reject函数中执行存储函数
        * */
-      this.resCallbackStorage = onFulfilled;
-      this.rejCallbackStorage = onRejected;
+      this.onFulfilledCallbacks  = onFulfilled;
+      this.onRejectedCallbacks = onRejected;
     }
   };
 }
@@ -279,7 +279,7 @@ promise.then(
 
 ## 存储多次回调
 
-  当使用多次promise.then时，只有最后一次的回调函数实行了，因为resCallbackStorage存储函数，只存储了最后一次的回调。因此需要改成**数组形式**。
+  当使用多次promise.then时，只有最后一次的回调函数实行了，因为onFulfilledCallbacks 存储函数，只存储了最后一次的回调。因此需要改成**数组形式**。
 
 ```js
 promise.then(

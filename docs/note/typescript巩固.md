@@ -484,12 +484,12 @@ declare module "foo" {
  
 ```
 ### 在项目中声明文件
-项目目录下，创建xxx.d.ts文件，如jQuery.d.ts文件。这样全局都能共享到文件里的声明。
+项目目录下，创建`xxx.d.ts`文件，如`jQuery.d.ts`文件。这样全局都能共享到文件里的声明。
 ```ts
 declare var jQuery: (selector: string) => any
 ```
 #### 配置tsc
-如果没有声明，则需要配置一下tsc。在项目目录下创建tsconfig.json。设置完后，在项目中代码行中输入jQuery，就能弹出相应提示。
+如果没有声明，则需要配置一下tsc。在项目目录下创建`tsconfig.json`。设置完后，在项目中代码行中输入jQuery，就能弹出相应提示。
 ```json
 {
   "include":["**/*"]
