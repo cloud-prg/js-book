@@ -5,6 +5,7 @@ module.exports = {
   lastUpdated: true, // 最后更新时间
   // 路径名为 "/<REPO>/"
   base: "/learn-javascript/",
+  baseUrl:'https://yunshangzhou.github.io/learn-javascript/',
   markdown: {
     auchor: { permalink: true, permalinkBefore: true, permalinkSymbol: "#" },
   },
@@ -53,10 +54,12 @@ module.exports = {
             title: "前端如何处理10万条数据",
             path: "/book/前端如何处理10万条数据.md",
           },
-
           { title: "BFC详解", path: "/book/BFC详解.md" },
-
           { title: "前端中的跨域", path: "/book/前端中的跨域.md" },
+          { title: "JS原型与原型链", path: "/book/JS原型与原型链.md" },
+          { title: "new操作符", path: "/book/new操作符.md" },
+          { title: "实现bind、apply、call", path: "/book/实现bind、apply、call.md" },
+          { title: "彻底了解this", path: "/book/彻底了解this.md" },
         ],
       },
       {
