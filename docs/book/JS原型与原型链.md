@@ -8,7 +8,7 @@ date: "2022-04-21"
 
 ## 开篇放一张示例图
 
-<img src="https://yunshangzhou.github.io/learn-javascript/proto_photo.jpg" alt="proto show">
+<img src="https://yunshangzhou.github.io/js-book/proto_photo.jpg" alt="proto show">
 
 ##  什么是原型？
 JS中的原型分为 **显示原型`prototype`** 以及 **隐式原型`__proto__`**
@@ -253,7 +253,7 @@ console.log(c.n); // 2
 console.log(c.m); // 3
 
 ```
-<img src="https://yunshangzhou.github.io/learn-javascript/second_show.png" alt="second show">
+<img src="https://yunshangzhou.github.io/js-book/second_show.png" alt="second show">
 
 ### 习题三
 

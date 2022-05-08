@@ -134,7 +134,7 @@ setTimeout(function(){
 
 ## new绑定
 -  new使构造函数的this指向绑定到了实例上。
--  具体实现可以看这篇 [new操作符](https://yunshangzhou.github.io/learn-javascript/book/new%E6%93%8D%E4%BD%9C%E7%AC%A6.html)
+-  具体实现可以看这篇 [new操作符](https://yunshangzhou.github.io/js-book/book/new%E6%93%8D%E4%BD%9C%E7%AC%A6.html)
 ```js
 function sayHi(name){
     this.name = name;

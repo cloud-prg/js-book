@@ -4,8 +4,8 @@ module.exports = {
   theme: "reco",
   lastUpdated: true, // 最后更新时间
   // 路径名为 "/<REPO>/"
-  base: "/learn-javascript/",
-  baseUrl:'https://yunshangzhou.github.io/learn-javascript/',
+  base: "/js-book/",
+  baseUrl:'https://yunshangzhou.github.io/js-book/',
   markdown: {
     auchor: { permalink: true, permalinkBefore: true, permalinkSymbol: "#" },
   },
