@@ -56,7 +56,6 @@ www.baidu.com如何转换为百度的IP呢？就是通过DNS服务（就类似�
 -   第一次握手：客户端发送syn包，及序列号seq=x。
 -   第二次握手:   服务端发送syn包,ack确认报文（为接收到客户端序列号seq+1),序列号    seq=y
 -   第三次握手:   客户端发送确认报文(为接收到服务端序列号+1),序列号seq=Z
-  ![three](C:\Users\YunShangzhou\Desktop\three.png)
 
 :::tip
 
@@ -269,7 +268,7 @@ GET会发送一个TCP数据包，而POST发送2个TCP数据包。
 
 -    解析HTML形成DOM树
 -    解析CSS形成CSSOM 树
--    合并DOM树和CSSOM树姓成渲染树
+-    合并DOM树和CSSOM树形成渲染树
 -    浏览器开始渲染并绘制页面
 
 

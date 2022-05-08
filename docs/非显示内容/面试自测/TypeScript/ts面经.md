@@ -1,0 +1,1 @@
+1. type和interface的 **区别** 是什么？
