@@ -13,12 +13,18 @@ jobs:
     # 服务器环境：18.04版 Ubuntu
     runs-on: ubuntu-18.04
     steps:
+      # 载入node环境
+      - name: load node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "14.x"
+           
       # 拉取代码
       - name: Checkout
         uses: actions/checkout@v2
         with:
           persist-credentials: false
-
+      
       # 生成静态文件
       - name: Build
         run: npm install && npm run build
