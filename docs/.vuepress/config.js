@@ -60,6 +60,8 @@ module.exports = {
           { title: "new操作符", path: "/book/new操作符.md" },
           { title: "实现bind、apply、call", path: "/book/实现bind、apply、call.md" },
           { title: "彻底了解this", path: "/book/彻底了解this.md" },
+          { title: "Github Actions自动化部署", path: "/book/Github Actions自动化部署.md" },
+          
         ],
       },
       {
