@@ -228,6 +228,17 @@ module.exports = {
               },
             ],
           },
+          {
+            title: "Vite",
+            path: "/note/Vite/Vite搭配Vue3全家桶的基本配置",
+            collapsable: true, //是否折叠,
+            children: [
+              {
+                title: "Vite搭配Vue3全家桶的基本配置",
+                path: "/note/Vite/Vite搭配Vue3全家桶的基本配置.md",
+              },
+            ],
+          },
 
           // {
           //   title: "微信开发",
