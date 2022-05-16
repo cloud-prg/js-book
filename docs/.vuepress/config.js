@@ -62,6 +62,8 @@ module.exports = {
           { title: "彻底了解this", path: "/book/彻底了解this.md" },
           { title: "CI&CD之自动部署", path: "/book/CI&CD之自动部署.md" },
           { title: "typeof及instanceof原理", path: "/book/typeof及instanceof原理.md" },
+          { title: "JS继承", path: "/book/JS继承.md" },
+          
         ],
       },
       {

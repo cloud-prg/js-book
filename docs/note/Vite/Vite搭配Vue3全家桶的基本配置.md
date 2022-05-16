@@ -6,14 +6,9 @@ date: "2022-5-16"
 
 [[toc]]
 :::warning
-
 Nodejs版本要大于 12 。(若低于此版本，可用gnvm node版本控制工具)
-
-```shell
-node -v
-v12.x.x
-```
-
+<br />
+版本显示命令`node -v`
 :::
 
 ## 一、创建Vite
@@ -32,9 +27,7 @@ v12.x.x
  在`defineConfig` 中，配置 `resolve`, `resolve`下配置`alias`,搭配 `path`模块的`path.resolve(___dirname,路径)`
 
 :::tip
-
-  	需要引入`path`模块
-
+需要引入`path`模块
 :::
 
 ```ts
@@ -65,9 +58,7 @@ export default defineConfig({
 ### 配置Element Plus按需引入
 
 :::tip
-
-  	需要引入两个模块: `unplugin-auto-import`、`unplugin-vue-components`
-
+需要引入两个模块: `unplugin-auto-import`、`unplugin-vue-components`
 :::
 
 ```ts
@@ -115,9 +106,7 @@ app.use(ElementPlus,{local: zhCn})
 ## 配置vuex
 
 :::tip
-
-​	需要模块vuex,安装命令:`npm install vuex@next`
-
+​需要模块vuex,安装命令:`npm install vuex@next`
 :::
 
 ```ts
@@ -152,9 +141,7 @@ app.use(store)
 ## 配置路由
 
 :::tip
-
-​	需要模块`vue-router`，安装命令: `npm install vue-route@4`
-
+​需要模块`vue-router`，安装命令: `npm install vue-route@4`
 :::
 
 ```ts
@@ -194,9 +181,7 @@ app.use(router);
 ## 配置axios
 
 :::tip
-
-​	需要模块`axios`,安装命令: `npm install axios`
-
+​需要模块`axios`,安装命令: `npm install axios`
 :::
 
 ```ts
@@ -283,6 +268,18 @@ export default defineConfig({
 
 
 
+### 1.问题的原因及解决
+
+如果用了ts那么还需要在tsconfig.js中进行额外配置，注意path对象是在compilerOptions对象里面
+
+```ts
+"compilerOptions": {
+"paths": {
+      "@/*":["./src/*"],
+    }
+}
+```
+
 ## vite的webpack打包
 
 ```ts
@@ -305,18 +302,6 @@ export default defineConfig({
 ```
 
 
-
-### 1.问题的原因及解决
-
-如果用了ts那么还需要在tsconfig.js中进行额外配置，注意path对象是在compilerOptions对象里面
-
-```ts
-"compilerOptions": {
-"paths": {
-      "@/*":["./src/*"],
-    }
-}
-```
 
 
 
