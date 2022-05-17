@@ -1,9 +1,5 @@
----
-title: classnames模块
-author: 云上舟
-date: "2022-04-20"
----
 
+# classnames模块
 [[toc]]
 ## 介绍
 classnames模块能够快速添加react中的className。可填入函数名，也可填入对象形式，判断其中每个className属性是否**展示**在标签中。

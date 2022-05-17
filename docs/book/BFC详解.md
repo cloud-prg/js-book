@@ -1,9 +1,5 @@
----
-title: BFC详解
-author: 云上舟
-date: "2022-04-11"
----
 
+# BFC详解
 [[toc]]
 
 

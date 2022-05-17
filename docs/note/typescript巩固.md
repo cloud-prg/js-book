@@ -1,9 +1,5 @@
----
-title: typescript巩固
-author: 云上
-date: "2022-04-05"
----
 
+# typescript巩固
 [[toc]]
 
 ## 变量类型声明

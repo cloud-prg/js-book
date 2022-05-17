@@ -1,2 +1,2 @@
-import "F:\\vuepress-learn-js\\node_modules\\@vuepress\\core\\lib\\node\\internal-plugins\\style\\client.js"
+import "F:\\vuepress-learn-js\\node_modules\\@vuepress\\plugin-nprogress\\enhanceAppFile.js"
 export default {}

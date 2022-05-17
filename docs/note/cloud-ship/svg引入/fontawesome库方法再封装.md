@@ -1,9 +1,5 @@
----
-title: fontawesome库方法再封装
-author: 云上舟
-date: "2022-04-20"
----
 
+# fontawesome库方法再封装
 [[toc]]
 ## 封装初衷
 如果直接在对应组件文件中去使用`@fortawesome/react-fontawesome`,那么，随着组件数量增多，需要`fortawesome`的组件也逐渐增多。将会导致重复导入。因此将他封装为一个`<Icon/>`组件，方便在开发中使用。

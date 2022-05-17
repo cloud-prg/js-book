@@ -1,9 +1,5 @@
----
-title: CSSTransition库方法再封装
-author: 云上舟
-date: "2022-04-20"
----
 
+# CSSTransition库方法再封装
 [[toc]]
 ## 封装初衷
 `CSSTransition`用于为组件定制动画效果。分为6个阶段,以前缀名`zoom-in-top`为例

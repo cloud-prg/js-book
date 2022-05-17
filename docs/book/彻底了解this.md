@@ -1,9 +1,5 @@
----
-title: 彻底了解this
-author: 云上舟
-date: "2022-04-25"
----
 
+# 彻底了解this
 [[toc]]
 
 ## 为什么要彻底了解this

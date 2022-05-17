@@ -1,9 +1,5 @@
----
-title: CI/CD
-author: 云上舟
-date: "2022-05-09"
----
 
+# CI/CD
 [[toc]]
 
 ## 前言

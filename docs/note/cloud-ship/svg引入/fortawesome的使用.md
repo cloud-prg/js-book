@@ -1,9 +1,5 @@
----
-title: fortawesome的使用
-author: 云上舟
-date: "2022-04-20"
----
 
+# fortawesome的使用
 [[toc]]
 
 ## 安装

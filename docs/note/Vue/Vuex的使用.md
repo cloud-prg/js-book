@@ -1,9 +1,6 @@
----
-title: Vuex的使用
-author: 云上舟
-date: "2022-04-02"
----
 
+# Vuex的使用
+[[toc]]
 ## 安装命令
 
   npm安装

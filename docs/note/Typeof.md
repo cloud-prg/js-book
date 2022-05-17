@@ -1,9 +1,6 @@
----
-title: typeof判断
-author: 云上
-date: "2022-03-15"
----
 
+# typeof判断
+[[toc]]
 ### 数据类型
 
   在ES5中，数据类型分为两大类，分别是基础类型(undefined、null、number、string、boolean)和引用类型(object)。在实际工作中，为判断获取到的数据是什么类型，我们会用到typeof。

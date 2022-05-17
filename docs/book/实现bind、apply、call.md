@@ -1,8 +1,5 @@
----
-title: 实现bind、apply、call
-author: 云上舟
-date: "2022-04-25"
----
+
+# 实现bind、apply、call
 [[toc]]
 
 ## call介绍

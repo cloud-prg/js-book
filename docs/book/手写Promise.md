@@ -1,9 +1,5 @@
----
-title: 手写Promise
-author: 云上舟
-date: "2022-04-31"
----
 
+# 手写Promise
 [[toc]]
 
 ## 基本原理

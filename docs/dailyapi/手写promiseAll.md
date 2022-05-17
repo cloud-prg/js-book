@@ -1,10 +1,6 @@
----
-title: 手写promise.all方法
-author: 云上舟
-date: "2022-04-08"
----
 
-
+# 手写promiseAll
+[[toc]]
 
 ## 题目要求
 手写一个Promise.all。

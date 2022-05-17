@@ -1,7 +1,7 @@
 module.exports = {
   title: "云上舟",
   description: "个人学习博客",
-  theme: "reco",
+  toc:{ includeLevel: [1,2,3,4] },
   lastUpdated: true, // 最后更新时间
   // 路径名为 "/<REPO>/"
   base: "/js-book/",
@@ -18,6 +18,9 @@ module.exports = {
     },
   },
   themeConfig: {
+    sidebar: 'auto',
+    displayAllHeaders: false, // 默认值：false
+    activeHeaderLinks: false, // 默认值：true
     nav: [
       { text: "首页", link: "/home/home" },
       {
@@ -38,7 +41,7 @@ module.exports = {
         path: "/book/Memorize",
         collapsable: false, //是否折叠
         children: [
-          { title: "记忆函数", path: "/book/Memorize" },
+          { title: "记忆函数", collapsable: true, path: "/book/Memorize" },
           { title: "事件循环", path: "/book/事件循环.md" },
           { title: "闭包", path: "/book/闭包.md" },
           { title: "柯里化", path: "/book/柯里化.md" },
@@ -75,7 +78,7 @@ module.exports = {
           { title: "ES6之变量声明", path: "/note/ES6之变量声明.md" },
           { title: "ES6之解构赋值", path: "/note/ES6之解构赋值.md" },
           { title: "typescript巩固", path: "/note/typescript巩固.md" },
-
+          { title: "如何自定义vuepress首页风格", path: "/note/如何自定义vuepress首页风格.md" },
           { title: "图片懒加载", path: "/note/图片懒加载.md" },
           {
             title: "Vue",
@@ -281,6 +284,7 @@ module.exports = {
           { title: "解决嵌套if判断", path: "/homework/解决嵌套if判断" },
           { title: "处理若干个if判断", path: "/homework/处理若干个if判断" },
           { title: "Set与Map的区别", path: "/homework/Set与Map的区别" },
+          { title: "样式修改", path: "/homework/样式修改" },
         ],
       },
     ],

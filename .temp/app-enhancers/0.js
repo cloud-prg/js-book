@@ -1,1 +1,2 @@
-export { default } from "F:\\vuepress-learn-js\\node_modules\\vuepress-theme-reco\\enhanceApp.js"
+import "F:\\vuepress-learn-js\\node_modules\\@vuepress\\core\\lib\\node\\internal-plugins\\style\\client.js"
+export default {}

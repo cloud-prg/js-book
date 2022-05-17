@@ -1,9 +1,5 @@
----
-title: typeof及instanceof原理
-author: 云上舟
-date: "2022-05-11"
----
 
+# typeof及instanceof原理
 [[toc]]
 
 ## typeof 的定义

@@ -1,9 +1,5 @@
----
-title: Vite搭配Vue3全家桶的基本配置
-author: 云上舟
-date: "2022-5-16"
----
 
+# Vite搭配Vue3全家桶的基本配置
 [[toc]]
 :::warning
 Nodejs版本要大于 12 。(若低于此版本，可用gnvm node版本控制工具)

@@ -1,9 +1,5 @@
----
-title: 序言
-author: 云上舟
-date: "2022-03-25"
----
 
+# 序言
 ## 题目要求
 
 ​	实现一个maxRequest 成功后resolve结果,失败后重试n次才真正reject。

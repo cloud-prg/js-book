@@ -1,9 +1,5 @@
----
-title: jest简单使用
-author: 云上舟
-date: "2022-04-20"
----
 
+# jest简单使用
 [[toc]]
 # jest介绍
 

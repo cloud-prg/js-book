@@ -1,9 +1,5 @@
----
-title: new操作符
-author: 云上舟
-date: "2022-04-22"
----
 
+# new操作符
 [[toc]]
 
 ## 什么是new?

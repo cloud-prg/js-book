@@ -1,3 +1,6 @@
+# 项目中axios的配置
+[[toc]]
+
 ## 创建实例
 ```js
 import axios from "axios"

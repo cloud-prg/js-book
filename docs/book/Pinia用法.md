@@ -1,9 +1,5 @@
----
-title: Pinia用法
-author: 云上舟
-date: "2022-04-02"
----
 
+# Pinia用法
 [[toc]]
 
 
