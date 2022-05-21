@@ -75,15 +75,8 @@ export default {
 
   components: { NavLink },
   methods:{
-    clickToUrl(action){
-      window.location.href = action;
-    }
   },
   created(){
-    const currentUrl = window.location.href ;
-    if(currentUrl === "http://localhost:8080/"){
-      this.data.actionLink  = "http://localhost:8080/home/home"
-    }
   },
    mounted(){
   },
