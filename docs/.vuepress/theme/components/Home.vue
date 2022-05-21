@@ -80,16 +80,18 @@ export default {
     }
   },
   created(){
-    console.log("node modules ______",this.data);
+    const currentUrl = window.location.href ;
+    if(currentUrl === "http://localhost:8080/"){
+      this.data.actionLink  = "http://localhost:8080/home/home"
+    }
   },
    mounted(){
-    console.log("node modules ______",this.data);
   },
   computed: {
     data () {
       return this.$page.frontmatter
     },
-
+    
     actionLink () {
       return {
         link: this.data.actionLink,
