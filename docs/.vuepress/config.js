@@ -1,7 +1,6 @@
 module.exports = {
   title: "云上舟",
   description: "个人学习博客",
-  toc:{ includeLevel: [1,2,3,4] },
   lastUpdated: true, // 最后更新时间
   // 路径名为 "/<REPO>/"
   base: "/js-book/",
@@ -68,9 +67,9 @@ module.exports = {
           { title: "JS继承", path: "/book/JS继承.md" },
           { title: "前端鉴权", path: "/book/前端鉴权.md" },
           { title: "jsonSchema类型判断", path: "/book/jsonSchema类型判断.md" },
-          
-         
-          
+
+
+
         ],
       },
       {
@@ -290,6 +289,8 @@ module.exports = {
           { title: "Set与Map的区别", path: "/homework/Set与Map的区别" },
           { title: "样式修改", path: "/homework/样式修改" },
           { title: "树形控件的简单实现", path: "/homework/树形控件的简单实现" },
+
+          { title: "项目中的电子签名组件", path: "/homework/项目中的电子签名组件" },
         ],
       },
     ],
