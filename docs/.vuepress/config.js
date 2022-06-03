@@ -50,7 +50,7 @@ module.exports = {
             path: "/book/回车url后，页面的变化过程.md",
           },
           { title: "手写Promise", path: "/book/手写Promise.md" },
-
+          { title: "正则表达式的基础使用", path: "/book/正则表达式的基础使用.md" },
           { title: "Pinia用法", path: "/book/Pinia用法.md" },
           {
             title: "前端如何处理10万条数据",
