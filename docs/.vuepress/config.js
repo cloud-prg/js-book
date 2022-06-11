@@ -38,7 +38,7 @@ module.exports = {
       {
         title: "博客",
         path: "/book/Memorize",
-        collapsable: false, //是否折叠
+        collapsable: true, //是否折叠
         children: [
           { title: "记忆函数", collapsable: true, path: "/book/Memorize" },
           { title: "事件循环", path: "/book/事件循环.md" },
@@ -49,7 +49,7 @@ module.exports = {
             title: "回车url后，页面的变化过程",
             path: "/book/回车url后，页面的变化过程.md",
           },
-          { title: "手写Promise", path: "/book/手写Promise.md" },
+         
           { title: "正则表达式的基础使用", path: "/book/正则表达式的基础使用.md" },
           { title: "Pinia用法", path: "/book/Pinia用法.md" },
           {
@@ -272,27 +272,38 @@ module.exports = {
           { title: "有效的括号", path: "/dailyapi/有效的括号.md" },
           { title: "手写promiseAll", path: "/dailyapi/手写promiseAll.md" },
           { title: "数组扁平化", path: "/dailyapi/数组扁平化.md" },
+          { title: "手写Promise", path: "/dailyapi/手写Promise.md" },
+
         ],
       },
       {
-        title: "日常练习",
-        path: "/homework/前言",
+        title: "基础巩固",
+        path: "/basic/前言",
         collapsable: true, //是否折叠
         children: [
-          { title: "前言", path: "/homework/前言" },
-          { title: "Es6数组API练习", path: "/homework/Es6数组API练习" },
-          { title: "数组过滤", path: "/homework/数组过滤" },
-          { title: "ES6面试题", path: "/homework/ES6面试题" },
-          { title: "事件委托", path: "/homework/事件委托" },
-          { title: "解决嵌套if判断", path: "/homework/解决嵌套if判断" },
-          { title: "处理若干个if判断", path: "/homework/处理若干个if判断" },
-          { title: "Set与Map的区别", path: "/homework/Set与Map的区别" },
-          { title: "样式修改", path: "/homework/样式修改" },
-          { title: "树形控件的简单实现", path: "/homework/树形控件的简单实现" },
-
-          { title: "项目中的电子签名组件", path: "/homework/项目中的电子签名组件" },
+          { title: "前言", path: "/basic/前言" },
+          { title: "Es6数组API练习", path: "/basic/Es6数组API练习" },
+          { title: "数组过滤", path: "/basic/数组过滤" },
+          { title: "ES6面试题", path: "/basic/ES6面试题" },
+          { title: "事件委托", path: "/basic/事件委托" },
+          { title: "解决嵌套if判断", path: "/basic/解决嵌套if判断" },
+          { title: "处理若干个if判断", path: "/basic/处理若干个if判断" },
+          { title: "Set与Map的区别", path: "/basic/Set与Map的区别" },
+          { title: "样式修改", path: "/basic/样式修改" },
         ],
       },
+      {
+        title: "组件实现",
+        path: "/components/树形控件的简单实现",
+        collapsable: true, //是否折叠
+        children: [
+          { title: "树形控件的简单实现", path: "/components/树形控件的简单实现" },
+          { title: "项目中的电子签名组件", path: "/components/项目中的电子签名组件" },
+          { title: "弹框组件的实现", path: "/components/弹框组件的实现" },
+        ],
+      }
+     
+      ,
     ],
   },
 };
