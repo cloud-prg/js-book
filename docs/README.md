@@ -4,7 +4,7 @@ cloudText: 个人博客
 cloudImage: /logo.jpg
 tagline: 记录学习，分享知识
 actionText: 点击进入
-actionLink: home/home.html#介绍
+actionLink: https://yunshangzhou.github.io/js-book/home/home.html#介绍
 features:
   - title: 知识分享
     details: 在阅览社区平台时，遇到知识点，记录在博客中

@@ -1,68 +1,35 @@
 <template>
-  <main
-    class="home"
-    :aria-labelledby="data.cloudText !== null ? 'main-title' : null"
-  >
+  <main class="home" :aria-labelledby="data.cloudText !== null ? 'main-title' : null">
     <header class="cloud">
-      <img
-        v-if="data.cloudImage"
-        :src="$withBase(data.cloudImage)"
-        :alt="data.cloudAlt || 'cloud'"
-      >
+      <img v-if="data.cloudImage" :src="$withBase(data.cloudImage)" :alt="data.cloudAlt || 'cloud'">
 
-      <h1
-        v-if="data.cloudText !== null"
-        id="main-title"
-      >
+      <h1 v-if="data.cloudText !== null" id="main-title">
         {{ data.cloudText || $title || 'Hello' }}
       </h1>
 
-      <p
-        v-if="data.tagline !== null"
-        class="description"
-      >
+      <p v-if="data.tagline !== null" class="description">
         {{ data.tagline || $description || 'Welcome to your VuePress site' }}
       </p>
 
-      <p
-        v-if="data.actionText && data.actionLink"
-        class="action"
-      >
-        <NavLink
-          class="action-button"
-          :item="actionLink"
-        />
+      <p v-if="data.actionText && data.actionLink" class="action">
+        <NavLink class="action-button" :item="actionLink" />
       </p>
     </header>
 
-    <div
-      v-if="data.features && data.features.length"
-      class="features"
-    >
-      <div
-        v-for="(feature, index) in data.features"
-        :key="index"
-        class="feature"
-      >
-        <h2 >{{ feature.title }}</h2>
+    <div v-if="data.features && data.features.length" class="features">
+      <div v-for="(feature, index) in data.features" :key="index" class="feature">
+        <h2>{{ feature.title }}</h2>
         <p>{{ feature.details }}</p>
       </div>
     </div>
 
     <Content class="theme-default-content custom" />
 
-    <div
-      v-if="data.footer"
-      class="footer"
-    >
+    <div v-if="data.footer" class="footer">
       {{ data.footer }}
     </div>
 
-    <Content
-      v-else
-      slot-key="footer"
-      class="footer"
-    />
+    <Content v-else slot-key="footer" class="footer" />
   </main>
 </template>
 
@@ -73,20 +40,20 @@ export default {
   name: 'Home',
 
   components: { NavLink },
-  methods:{
+  methods: {
   },
-  created(){
+  created() {
   },
-   mounted(){
+  mounted() {
   },
   computed: {
-    data () {
+    data() {
       return this.$page.frontmatter
     },
-    
-    actionLink () {
+
+    actionLink() {
       return {
-        link: window.location.href+this.data.actionLink,
+        link: this.data.actionLink,
         text: this.data.actionText
       }
     }
