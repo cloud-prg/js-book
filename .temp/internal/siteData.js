@@ -8,56 +8,27 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "cloudText": "个人博客",
-        "cloudImage": "/logo.jpg",
-        "tagline": "记录学习，分享知识",
-        "actionText": "点击进入",
-        "actionLink": "https://yunshangzhou.github.io/js-book/home/home.html#介绍",
-        "features": [
-          {
-            "title": "ErpStorageSystem",
-            "details": "自开发的vue3+ts+pinia CRUD系统",
-            "url": "http://www.jiujiuwarehouse.com:8080",
-            "img": "/logo.jpg"
-          },
-          {
-            "title": "cloudship",
-            "details": "自开发的ts+react组件库",
-            "url": "https://yunshangzhou.github.io/cloud-ship-react/sb-static/index.html",
-            "img": "/logo.jpg"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2022-present"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-66c5182d",
-      "path": "/"
-    },
-    {
-      "title": "事件委托",
-      "frontmatter": {
-        "title": "事件委托",
-        "author": "云上舟",
-        "date": "2022-03-21"
-      },
-      "regularPath": "/basic/%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98.html",
-      "relativePath": "basic/事件委托.md",
-      "key": "v-0cd63f39",
-      "path": "/basic/%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98.html",
+      "title": "目录",
+      "frontmatter": {},
+      "regularPath": "/additional/%E5%A6%82%E4%BD%95%E5%86%99%E4%B8%80%E4%BB%BD%E5%A5%BD%E7%AE%80%E5%8E%86.html",
+      "relativePath": "additional/如何写一份好简历.md",
+      "key": "v-575a9480",
+      "path": "/additional/%E5%A6%82%E4%BD%95%E5%86%99%E4%B8%80%E4%BB%BD%E5%A5%BD%E7%AE%80%E5%8E%86.html",
       "headers": [
         {
           "level": 2,
-          "title": "测试内容",
-          "slug": "测试内容"
+          "title": "面试官所看到的本质",
+          "slug": "面试官所看到的本质"
         },
         {
           "level": 2,
-          "title": "题目详解",
-          "slug": "题目详解"
+          "title": "投递网站",
+          "slug": "投递网站"
+        },
+        {
+          "level": 2,
+          "title": "寻找猎头",
+          "slug": "寻找猎头"
         }
       ]
     },
@@ -162,6 +133,44 @@ export const siteData = {
       ]
     },
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "cloudText": "个人博客",
+        "cloudImage": "/logo.jpg",
+        "tagline": "记录学习，分享知识",
+        "actionText": "点击进入",
+        "actionLink": "home/home.html#介绍",
+        "features": [
+          {
+            "title": "知识分享",
+            "details": "在阅览社区平台时，遇到知识点，记录在博客中"
+          },
+          {
+            "title": "开发笔记",
+            "details": "记录开发中常用到的技术点，便于自身巩固积累，也使访客受益。"
+          },
+          {
+            "title": "自我练习",
+            "details": "在博客里会写一些小练习，通过练习加深对知识的巩固。"
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2022-present"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-66c5182d",
+      "path": "/"
+    },
+    {
+      "title": "第一年总结",
+      "frontmatter": {},
+      "regularPath": "/additional/%E7%AC%AC%E4%B8%80%E5%B9%B4%E6%80%BB%E7%BB%93.html",
+      "relativePath": "additional/第一年总结.md",
+      "key": "v-13641f1b",
+      "path": "/additional/%E7%AC%AC%E4%B8%80%E5%B9%B4%E6%80%BB%E7%BB%93.html"
+    },
+    {
       "title": "Es6数组测试",
       "frontmatter": {
         "title": "Es6数组测试",
@@ -184,6 +193,96 @@ export const siteData = {
           "slug": "题目详解"
         }
       ]
+    },
+    {
+      "title": "Set和Map的区别",
+      "frontmatter": {
+        "title": "Set和Map的区别",
+        "author": "云上舟",
+        "date": "2022-04-08"
+      },
+      "regularPath": "/basic/Set%E4%B8%8EMap%E7%9A%84%E5%8C%BA%E5%88%AB.html",
+      "relativePath": "basic/Set与Map的区别.md",
+      "key": "v-54753fbe",
+      "path": "/basic/Set%E4%B8%8EMap%E7%9A%84%E5%8C%BA%E5%88%AB.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "概念",
+          "slug": "概念"
+        },
+        {
+          "level": 2,
+          "title": "方法",
+          "slug": "方法"
+        },
+        {
+          "level": 2,
+          "title": "应用场景",
+          "slug": "应用场景"
+        },
+        {
+          "level": 3,
+          "title": "区别",
+          "slug": "区别"
+        },
+        {
+          "level": 2,
+          "title": "参数格式",
+          "slug": "参数格式"
+        },
+        {
+          "level": 2,
+          "title": "默认遍历器接口",
+          "slug": "默认遍历器接口"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
+        },
+        {
+          "level": 2,
+          "title": "参考文章",
+          "slug": "参考文章"
+        }
+      ]
+    },
+    {
+      "title": "事件委托",
+      "frontmatter": {
+        "title": "事件委托",
+        "author": "云上舟",
+        "date": "2022-03-21"
+      },
+      "regularPath": "/basic/%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98.html",
+      "relativePath": "basic/事件委托.md",
+      "key": "v-0cd63f39",
+      "path": "/basic/%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "测试内容",
+          "slug": "测试内容"
+        },
+        {
+          "level": 2,
+          "title": "题目详解",
+          "slug": "题目详解"
+        }
+      ]
+    },
+    {
+      "title": "阅读前言",
+      "frontmatter": {
+        "title": "阅读前言",
+        "author": "云上舟",
+        "date": "2022-03-14"
+      },
+      "regularPath": "/basic/%E5%89%8D%E8%A8%80.html",
+      "relativePath": "basic/前言.md",
+      "key": "v-1bc7153f",
+      "path": "/basic/%E5%89%8D%E8%A8%80.html"
     },
     {
       "title": "解决若干个if判断",
@@ -245,84 +344,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "阅读前言",
-      "frontmatter": {
-        "title": "阅读前言",
-        "author": "云上舟",
-        "date": "2022-03-14"
-      },
-      "regularPath": "/basic/%E5%89%8D%E8%A8%80.html",
-      "relativePath": "basic/前言.md",
-      "key": "v-1bc7153f",
-      "path": "/basic/%E5%89%8D%E8%A8%80.html"
-    },
-    {
-      "title": "Set和Map的区别",
-      "frontmatter": {
-        "title": "Set和Map的区别",
-        "author": "云上舟",
-        "date": "2022-04-08"
-      },
-      "regularPath": "/basic/Set%E4%B8%8EMap%E7%9A%84%E5%8C%BA%E5%88%AB.html",
-      "relativePath": "basic/Set与Map的区别.md",
-      "key": "v-54753fbe",
-      "path": "/basic/Set%E4%B8%8EMap%E7%9A%84%E5%8C%BA%E5%88%AB.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "概念",
-          "slug": "概念"
-        },
-        {
-          "level": 2,
-          "title": "方法",
-          "slug": "方法"
-        },
-        {
-          "level": 2,
-          "title": "应用场景",
-          "slug": "应用场景"
-        },
-        {
-          "level": 3,
-          "title": "区别",
-          "slug": "区别"
-        },
-        {
-          "level": 2,
-          "title": "参数格式",
-          "slug": "参数格式"
-        },
-        {
-          "level": 2,
-          "title": "默认遍历器接口",
-          "slug": "默认遍历器接口"
-        },
-        {
-          "level": 2,
-          "title": "总结",
-          "slug": "总结"
-        },
-        {
-          "level": 2,
-          "title": "参考文章",
-          "slug": "参考文章"
-        }
-      ]
-    },
-    {
-      "title": "如何处理若干if..else",
-      "frontmatter": {
-        "title": "如何处理若干if..else",
-        "author": "云上舟",
-        "date": "2022-04-05"
-      },
-      "regularPath": "/basic/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E8%8B%A5%E5%B9%B2if..else.html",
-      "relativePath": "basic/如何处理若干if..else.md",
-      "key": "v-77fc415d",
-      "path": "/basic/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E8%8B%A5%E5%B9%B2if..else.html"
-    },
-    {
       "title": "数组过滤",
       "frontmatter": {
         "title": "数组过滤",
@@ -347,6 +368,18 @@ export const siteData = {
       ]
     },
     {
+      "title": "如何处理若干if..else",
+      "frontmatter": {
+        "title": "如何处理若干if..else",
+        "author": "云上舟",
+        "date": "2022-04-05"
+      },
+      "regularPath": "/basic/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E8%8B%A5%E5%B9%B2if..else.html",
+      "relativePath": "basic/如何处理若干if..else.md",
+      "key": "v-77fc415d",
+      "path": "/basic/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E8%8B%A5%E5%B9%B2if..else.html"
+    },
+    {
       "frontmatter": {},
       "regularPath": "/basic/%E6%A0%B7%E5%BC%8F%E4%BF%AE%E6%94%B9.html",
       "relativePath": "basic/样式修改.md",
@@ -362,6 +395,45 @@ export const siteData = {
           "level": 3,
           "title": "111111",
           "slug": "_111111"
+        }
+      ]
+    },
+    {
+      "title": "解决嵌套if判断",
+      "frontmatter": {
+        "title": "解决嵌套if判断",
+        "author": "云上舟",
+        "date": "2022-03-30"
+      },
+      "regularPath": "/basic/%E8%A7%A3%E5%86%B3%E5%B5%8C%E5%A5%97if%E5%88%A4%E6%96%AD.html",
+      "relativePath": "basic/解决嵌套if判断.md",
+      "key": "v-77aa2f9a",
+      "path": "/basic/%E8%A7%A3%E5%86%B3%E5%B5%8C%E5%A5%97if%E5%88%A4%E6%96%AD.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "问题提出",
+          "slug": "问题提出"
+        },
+        {
+          "level": 2,
+          "title": "解决方法",
+          "slug": "解决方法"
+        },
+        {
+          "level": 3,
+          "title": "什么是 Promise?",
+          "slug": "什么是-promise"
+        },
+        {
+          "level": 2,
+          "title": "使用 Promise 解决 if 嵌套",
+          "slug": "使用-promise-解决-if-嵌套"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
         }
       ]
     },
@@ -422,195 +494,6 @@ export const siteData = {
           "level": 3,
           "title": "5、自适应多栏布局",
           "slug": "_5、自适应多栏布局"
-        },
-        {
-          "level": 2,
-          "title": "总结",
-          "slug": "总结"
-        },
-        {
-          "level": 2,
-          "title": "参考文章",
-          "slug": "参考文章"
-        }
-      ]
-    },
-    {
-      "title": "解决嵌套if判断",
-      "frontmatter": {
-        "title": "解决嵌套if判断",
-        "author": "云上舟",
-        "date": "2022-03-30"
-      },
-      "regularPath": "/basic/%E8%A7%A3%E5%86%B3%E5%B5%8C%E5%A5%97if%E5%88%A4%E6%96%AD.html",
-      "relativePath": "basic/解决嵌套if判断.md",
-      "key": "v-77aa2f9a",
-      "path": "/basic/%E8%A7%A3%E5%86%B3%E5%B5%8C%E5%A5%97if%E5%88%A4%E6%96%AD.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "问题提出",
-          "slug": "问题提出"
-        },
-        {
-          "level": 2,
-          "title": "解决方法",
-          "slug": "解决方法"
-        },
-        {
-          "level": 3,
-          "title": "什么是 Promise?",
-          "slug": "什么是-promise"
-        },
-        {
-          "level": 2,
-          "title": "使用 Promise 解决 if 嵌套",
-          "slug": "使用-promise-解决-if-嵌套"
-        },
-        {
-          "level": 2,
-          "title": "总结",
-          "slug": "总结"
-        }
-      ]
-    },
-    {
-      "title": "CI/CD",
-      "frontmatter": {},
-      "regularPath": "/book/CI&CD%E4%B9%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2.html",
-      "relativePath": "book/CI&CD之自动部署.md",
-      "key": "v-1dff59ad",
-      "path": "/book/CI&CD%E4%B9%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前言",
-          "slug": "前言"
-        },
-        {
-          "level": 2,
-          "title": "什么是CI?",
-          "slug": "什么是ci"
-        },
-        {
-          "level": 3,
-          "title": "CI有什么特点？",
-          "slug": "ci有什么特点"
-        },
-        {
-          "level": 2,
-          "title": "什么是CD？",
-          "slug": "什么是cd"
-        },
-        {
-          "level": 3,
-          "title": "CD有什么特点？",
-          "slug": "cd有什么特点"
-        },
-        {
-          "level": 2,
-          "title": "自动化部署工具",
-          "slug": "自动化部署工具"
-        },
-        {
-          "level": 2,
-          "title": "GitHub Actions介绍",
-          "slug": "github-actions介绍"
-        },
-        {
-          "level": 2,
-          "title": "GitHub Actions 配置步骤",
-          "slug": "github-actions-配置步骤"
-        },
-        {
-          "level": 3,
-          "title": "一、获取token",
-          "slug": "一、获取token"
-        },
-        {
-          "level": 3,
-          "title": "二、为指定仓库授权",
-          "slug": "二、为指定仓库授权"
-        },
-        {
-          "level": 3,
-          "title": "三、 项目根目录创建Yml文件",
-          "slug": "三、-项目根目录创建yml文件"
-        },
-        {
-          "level": 2,
-          "title": "如何配置yml文件？",
-          "slug": "如何配置yml文件"
-        },
-        {
-          "level": 3,
-          "title": "基本概念",
-          "slug": "基本概念"
-        },
-        {
-          "level": 3,
-          "title": "如何定义workflow",
-          "slug": "如何定义workflow"
-        },
-        {
-          "level": 3,
-          "title": "如何定义workflow的触发器",
-          "slug": "如何定义workflow的触发器"
-        },
-        {
-          "level": 3,
-          "title": "如何定义一个job?",
-          "slug": "如何定义一个job"
-        },
-        {
-          "level": 3,
-          "title": "如何定义job的依赖？job是否可以依赖于别的job的输出？",
-          "slug": "如何定义job的依赖-job是否可以依赖于别的job的输出"
-        },
-        {
-          "level": 3,
-          "title": "如何定义 job 的运行环境?",
-          "slug": "如何定义-job-的运行环境"
-        },
-        {
-          "level": 3,
-          "title": "如何定义 step",
-          "slug": "如何定义-step"
-        },
-        {
-          "level": 3,
-          "title": "如何定义action",
-          "slug": "如何定义action"
-        },
-        {
-          "level": 3,
-          "title": "怎么在命令行运行yml中的某一step",
-          "slug": "怎么在命令行运行yml中的某一step"
-        },
-        {
-          "level": 2,
-          "title": "业内常用的workflow",
-          "slug": "业内常用的workflow"
-        },
-        {
-          "level": 3,
-          "title": "打版本标签 Create Tag Release",
-          "slug": "打版本标签-create-tag-release"
-        },
-        {
-          "level": 3,
-          "title": "创建 Github Page 站点",
-          "slug": "创建-github-page-站点"
-        },
-        {
-          "level": 3,
-          "title": "本博客配置的push自动部署静态资源",
-          "slug": "本博客配置的push自动部署静态资源"
-        },
-        {
-          "level": 3,
-          "title": "多人协作开发，云端代码检测",
-          "slug": "多人协作开发-云端代码检测"
         },
         {
           "level": 2,
@@ -805,103 +688,152 @@ export const siteData = {
       ]
     },
     {
-      "title": "Node安装及版本控制",
+      "title": "CI/CD",
       "frontmatter": {},
-      "regularPath": "/book/Node%E5%8D%B8%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E5%8F%8A%E7%89%88%E6%9C%AC%E5%88%87%E6%8D%A2.html",
-      "relativePath": "book/Node卸载、安装及版本切换.md",
-      "key": "v-35a36269",
-      "path": "/book/Node%E5%8D%B8%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E5%8F%8A%E7%89%88%E6%9C%AC%E5%88%87%E6%8D%A2.html"
-    },
-    {
-      "title": "记忆函数",
-      "frontmatter": {},
-      "regularPath": "/book/Memorize.html",
-      "relativePath": "book/Memorize.md",
-      "key": "v-20d9528a",
-      "path": "/book/Memorize.html",
+      "regularPath": "/book/CI&CD%E4%B9%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2.html",
+      "relativePath": "book/CI&CD之自动部署.md",
+      "key": "v-1dff59ad",
+      "path": "/book/CI&CD%E4%B9%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2.html",
       "headers": [
         {
           "level": 2,
-          "title": "什么是记忆函数？",
-          "slug": "什么是记忆函数"
+          "title": "前言",
+          "slug": "前言"
         },
         {
           "level": 2,
-          "title": "记忆函数使用在哪些场景?",
-          "slug": "记忆函数使用在哪些场景"
+          "title": "什么是CI?",
+          "slug": "什么是ci"
+        },
+        {
+          "level": 3,
+          "title": "CI有什么特点？",
+          "slug": "ci有什么特点"
         },
         {
           "level": 2,
-          "title": "记忆函数的原理",
-          "slug": "记忆函数的原理"
+          "title": "什么是CD？",
+          "slug": "什么是cd"
+        },
+        {
+          "level": 3,
+          "title": "CD有什么特点？",
+          "slug": "cd有什么特点"
         },
         {
           "level": 2,
-          "title": "记忆函数的实现",
-          "slug": "记忆函数的实现"
+          "title": "自动化部署工具",
+          "slug": "自动化部署工具"
         },
         {
           "level": 2,
-          "title": "函数测试",
-          "slug": "函数测试"
+          "title": "GitHub Actions介绍",
+          "slug": "github-actions介绍"
+        },
+        {
+          "level": 2,
+          "title": "GitHub Actions 配置步骤",
+          "slug": "github-actions-配置步骤"
+        },
+        {
+          "level": 3,
+          "title": "一、获取token",
+          "slug": "一、获取token"
+        },
+        {
+          "level": 3,
+          "title": "二、为指定仓库授权",
+          "slug": "二、为指定仓库授权"
+        },
+        {
+          "level": 3,
+          "title": "三、 项目根目录创建Yml文件",
+          "slug": "三、-项目根目录创建yml文件"
+        },
+        {
+          "level": 2,
+          "title": "如何配置yml文件？",
+          "slug": "如何配置yml文件"
+        },
+        {
+          "level": 3,
+          "title": "基本概念",
+          "slug": "基本概念"
+        },
+        {
+          "level": 3,
+          "title": "如何定义workflow",
+          "slug": "如何定义workflow"
+        },
+        {
+          "level": 3,
+          "title": "如何定义workflow的触发器",
+          "slug": "如何定义workflow的触发器"
+        },
+        {
+          "level": 3,
+          "title": "如何定义一个job?",
+          "slug": "如何定义一个job"
+        },
+        {
+          "level": 3,
+          "title": "如何定义job的依赖？job是否可以依赖于别的job的输出？",
+          "slug": "如何定义job的依赖-job是否可以依赖于别的job的输出"
+        },
+        {
+          "level": 3,
+          "title": "如何定义 job 的运行环境?",
+          "slug": "如何定义-job-的运行环境"
+        },
+        {
+          "level": 3,
+          "title": "如何定义 step",
+          "slug": "如何定义-step"
+        },
+        {
+          "level": 3,
+          "title": "如何定义action",
+          "slug": "如何定义action"
+        },
+        {
+          "level": 3,
+          "title": "怎么在命令行运行yml中的某一step",
+          "slug": "怎么在命令行运行yml中的某一step"
+        },
+        {
+          "level": 2,
+          "title": "业内常用的workflow",
+          "slug": "业内常用的workflow"
+        },
+        {
+          "level": 3,
+          "title": "打版本标签 Create Tag Release",
+          "slug": "打版本标签-create-tag-release"
+        },
+        {
+          "level": 3,
+          "title": "创建 Github Page 站点",
+          "slug": "创建-github-page-站点"
+        },
+        {
+          "level": 3,
+          "title": "本博客配置的push自动部署静态资源",
+          "slug": "本博客配置的push自动部署静态资源"
+        },
+        {
+          "level": 3,
+          "title": "多人协作开发，云端代码检测",
+          "slug": "多人协作开发-云端代码检测"
         },
         {
           "level": 2,
           "title": "总结",
           "slug": "总结"
-        }
-      ]
-    },
-    {
-      "title": "参考文章",
-      "frontmatter": {},
-      "regularPath": "/book/monaco-editor%E9%85%8D%E7%BD%AE.html",
-      "relativePath": "book/monaco-editor配置.md",
-      "key": "v-5cdc9fe2",
-      "path": "/book/monaco-editor%E9%85%8D%E7%BD%AE.html"
-    },
-    {
-      "title": "目录",
-      "frontmatter": {},
-      "regularPath": "/book/jsonSchema%E7%B1%BB%E5%9E%8B%E5%88%A4%E6%96%AD.html",
-      "relativePath": "book/jsonSchema类型判断.md",
-      "key": "v-fb861996",
-      "path": "/book/jsonSchema%E7%B1%BB%E5%9E%8B%E5%88%A4%E6%96%AD.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "官方demo",
-          "slug": "官方demo"
         },
         {
           "level": 2,
-          "title": "如何定义数据的格式",
-          "slug": "如何定义数据的格式"
-        },
-        {
-          "level": 3,
-          "title": "示例",
-          "slug": "示例"
-        },
-        {
-          "level": 2,
-          "title": "如何设置错误信息语种",
-          "slug": "如何设置错误信息语种"
-        },
-        {
-          "level": 2,
-          "title": "如何设置报错提示",
-          "slug": "如何设置报错提示"
-        },
-        {
-          "level": 2,
-          "title": "如何自添加 格式化",
-          "slug": "如何自添加-格式化"
-        },
-        {
-          "level": 2,
-          "title": "参考文献",
-          "slug": "参考文献"
+          "title": "参考文章",
+          "slug": "参考文章"
         }
       ]
     },
@@ -986,144 +918,52 @@ export const siteData = {
       ]
     },
     {
-      "title": "new操作符",
+      "title": "记忆函数",
       "frontmatter": {},
-      "regularPath": "/book/new%E6%93%8D%E4%BD%9C%E7%AC%A6.html",
-      "relativePath": "book/new操作符.md",
-      "key": "v-2f20897c",
-      "path": "/book/new%E6%93%8D%E4%BD%9C%E7%AC%A6.html",
+      "regularPath": "/book/Memorize.html",
+      "relativePath": "book/Memorize.md",
+      "key": "v-20d9528a",
+      "path": "/book/Memorize.html",
       "headers": [
         {
           "level": 2,
-          "title": "什么是new?",
-          "slug": "什么是new"
+          "title": "什么是记忆函数？",
+          "slug": "什么是记忆函数"
         },
         {
           "level": 2,
-          "title": "new的参数",
-          "slug": "new的参数"
+          "title": "记忆函数使用在哪些场景?",
+          "slug": "记忆函数使用在哪些场景"
         },
         {
           "level": 2,
-          "title": "new关键字做了什么？",
-          "slug": "new关键字做了什么"
+          "title": "记忆函数的原理",
+          "slug": "记忆函数的原理"
         },
         {
           "level": 2,
-          "title": "手写实现new",
-          "slug": "手写实现new"
+          "title": "记忆函数的实现",
+          "slug": "记忆函数的实现"
         },
         {
-          "level": 3,
-          "title": "示例",
-          "slug": "示例"
+          "level": 2,
+          "title": "函数测试",
+          "slug": "函数测试"
         },
         {
           "level": 2,
           "title": "总结",
           "slug": "总结"
-        },
-        {
-          "level": 2,
-          "title": "参考文献",
-          "slug": "参考文献"
         }
       ]
     },
     {
-      "title": "前端如何处理10万条数据",
+      "title": "参考文章",
       "frontmatter": {},
-      "regularPath": "/book/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%8610%E4%B8%87%E6%9D%A1%E6%95%B0%E6%8D%AE.html",
-      "relativePath": "book/前端如何处理10万条数据.md",
-      "key": "v-712ff597",
-      "path": "/book/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%8610%E4%B8%87%E6%9D%A1%E6%95%B0%E6%8D%AE.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "解决方法",
-          "slug": "解决方法"
-        },
-        {
-          "level": 2,
-          "title": "虚拟列表",
-          "slug": "虚拟列表"
-        },
-        {
-          "level": 3,
-          "title": "定义",
-          "slug": "定义"
-        },
-        {
-          "level": 3,
-          "title": "原理",
-          "slug": "原理"
-        },
-        {
-          "level": 3,
-          "title": "代码演示",
-          "slug": "代码演示"
-        },
-        {
-          "level": 2,
-          "title": "懒加载",
-          "slug": "懒加载"
-        },
-        {
-          "level": 3,
-          "title": "定义",
-          "slug": "定义-2"
-        },
-        {
-          "level": 3,
-          "title": "原理",
-          "slug": "原理-2"
-        },
-        {
-          "level": 3,
-          "title": "代码演示",
-          "slug": "代码演示-2"
-        },
-        {
-          "level": 2,
-          "title": "时间分片",
-          "slug": "时间分片"
-        },
-        {
-          "level": 3,
-          "title": "定义",
-          "slug": "定义-3"
-        },
-        {
-          "level": 3,
-          "title": "api选用",
-          "slug": "api选用"
-        },
-        {
-          "level": 3,
-          "title": "requestAnimationFrame定义",
-          "slug": "requestanimationframe定义"
-        },
-        {
-          "level": 3,
-          "title": "DocumentFragment定义",
-          "slug": "documentfragment定义"
-        },
-        {
-          "level": 3,
-          "title": "代码实现",
-          "slug": "代码实现"
-        },
-        {
-          "level": 2,
-          "title": "步骤概括",
-          "slug": "步骤概括"
-        },
-        {
-          "level": 2,
-          "title": "参考文章",
-          "slug": "参考文章"
-        }
-      ]
+      "regularPath": "/book/monaco-editor%E9%85%8D%E7%BD%AE.html",
+      "relativePath": "book/monaco-editor配置.md",
+      "key": "v-5cdc9fe2",
+      "path": "/book/monaco-editor%E9%85%8D%E7%BD%AE.html"
     },
     {
       "title": "typeof及instanceof原理",
@@ -1192,6 +1032,59 @@ export const siteData = {
           "level": 2,
           "title": "参考文章",
           "slug": "参考文章"
+        }
+      ]
+    },
+    {
+      "title": "Node安装及版本控制",
+      "frontmatter": {},
+      "regularPath": "/book/Node%E5%8D%B8%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E5%8F%8A%E7%89%88%E6%9C%AC%E5%88%87%E6%8D%A2.html",
+      "relativePath": "book/Node卸载、安装及版本切换.md",
+      "key": "v-35a36269",
+      "path": "/book/Node%E5%8D%B8%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E5%8F%8A%E7%89%88%E6%9C%AC%E5%88%87%E6%8D%A2.html"
+    },
+    {
+      "title": "new操作符",
+      "frontmatter": {},
+      "regularPath": "/book/new%E6%93%8D%E4%BD%9C%E7%AC%A6.html",
+      "relativePath": "book/new操作符.md",
+      "key": "v-2f20897c",
+      "path": "/book/new%E6%93%8D%E4%BD%9C%E7%AC%A6.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "什么是new?",
+          "slug": "什么是new"
+        },
+        {
+          "level": 2,
+          "title": "new的参数",
+          "slug": "new的参数"
+        },
+        {
+          "level": 2,
+          "title": "new关键字做了什么？",
+          "slug": "new关键字做了什么"
+        },
+        {
+          "level": 2,
+          "title": "手写实现new",
+          "slug": "手写实现new"
+        },
+        {
+          "level": 3,
+          "title": "示例",
+          "slug": "示例"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
+        },
+        {
+          "level": 2,
+          "title": "参考文献",
+          "slug": "参考文献"
         }
       ]
     },
@@ -1411,69 +1304,137 @@ export const siteData = {
       ]
     },
     {
+      "title": "目录",
       "frontmatter": {},
-      "regularPath": "/book/%E5%89%8D%E7%AB%AF%E7%9B%91%E6%8E%A7.html",
-      "relativePath": "book/前端监控.md",
-      "key": "v-da43f4c2",
-      "path": "/book/%E5%89%8D%E7%AB%AF%E7%9B%91%E6%8E%A7.html"
-    },
-    {
-      "title": "实现bind、apply、call",
-      "frontmatter": {},
-      "regularPath": "/book/%E5%AE%9E%E7%8E%B0bind%E3%80%81apply%E3%80%81call.html",
-      "relativePath": "book/实现bind、apply、call.md",
-      "key": "v-03c90010",
-      "path": "/book/%E5%AE%9E%E7%8E%B0bind%E3%80%81apply%E3%80%81call.html",
+      "regularPath": "/book/jsonSchema%E4%BD%BF%E7%94%A8.html",
+      "relativePath": "book/jsonSchema使用.md",
+      "key": "v-0f1a8e27",
+      "path": "/book/jsonSchema%E4%BD%BF%E7%94%A8.html",
       "headers": [
         {
           "level": 2,
-          "title": "call介绍",
-          "slug": "call介绍"
+          "title": "官方demo",
+          "slug": "官方demo"
         },
         {
           "level": 2,
-          "title": "apply介绍",
-          "slug": "apply介绍"
+          "title": "如何定义数据的格式",
+          "slug": "如何定义数据的格式"
+        },
+        {
+          "level": 3,
+          "title": "示例",
+          "slug": "示例"
         },
         {
           "level": 2,
-          "title": "bind介绍",
-          "slug": "bind介绍"
+          "title": "如何设置错误信息语种",
+          "slug": "如何设置错误信息语种"
         },
         {
           "level": 2,
-          "title": "注意事项",
-          "slug": "注意事项"
+          "title": "如何设置报错提示",
+          "slug": "如何设置报错提示"
         },
         {
           "level": 2,
-          "title": "区别",
-          "slug": "区别"
+          "title": "如何自添加 格式化",
+          "slug": "如何自添加-格式化"
         },
         {
           "level": 2,
-          "title": "应用场景",
-          "slug": "应用场景"
+          "title": "参考文献",
+          "slug": "参考文献"
+        }
+      ]
+    },
+    {
+      "title": "前端如何处理10万条数据",
+      "frontmatter": {},
+      "regularPath": "/book/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%8610%E4%B8%87%E6%9D%A1%E6%95%B0%E6%8D%AE.html",
+      "relativePath": "book/前端如何处理10万条数据.md",
+      "key": "v-712ff597",
+      "path": "/book/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%8610%E4%B8%87%E6%9D%A1%E6%95%B0%E6%8D%AE.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "解决方法",
+          "slug": "解决方法"
         },
         {
           "level": 2,
-          "title": "手写call",
-          "slug": "手写call"
+          "title": "虚拟列表",
+          "slug": "虚拟列表"
+        },
+        {
+          "level": 3,
+          "title": "定义",
+          "slug": "定义"
+        },
+        {
+          "level": 3,
+          "title": "原理",
+          "slug": "原理"
+        },
+        {
+          "level": 3,
+          "title": "代码演示",
+          "slug": "代码演示"
         },
         {
           "level": 2,
-          "title": "手写apply",
-          "slug": "手写apply"
+          "title": "懒加载",
+          "slug": "懒加载"
+        },
+        {
+          "level": 3,
+          "title": "定义",
+          "slug": "定义-2"
+        },
+        {
+          "level": 3,
+          "title": "原理",
+          "slug": "原理-2"
+        },
+        {
+          "level": 3,
+          "title": "代码演示",
+          "slug": "代码演示-2"
         },
         {
           "level": 2,
-          "title": "手写bind",
-          "slug": "手写bind"
+          "title": "时间分片",
+          "slug": "时间分片"
+        },
+        {
+          "level": 3,
+          "title": "定义",
+          "slug": "定义-3"
+        },
+        {
+          "level": 3,
+          "title": "api选用",
+          "slug": "api选用"
+        },
+        {
+          "level": 3,
+          "title": "requestAnimationFrame定义",
+          "slug": "requestanimationframe定义"
+        },
+        {
+          "level": 3,
+          "title": "DocumentFragment定义",
+          "slug": "documentfragment定义"
+        },
+        {
+          "level": 3,
+          "title": "代码实现",
+          "slug": "代码实现"
         },
         {
           "level": 2,
-          "title": "总结",
-          "slug": "总结"
+          "title": "步骤概括",
+          "slug": "步骤概括"
         },
         {
           "level": 2,
@@ -1634,10 +1595,45 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/book/%E5%A4%9A%E5%9B%BE%E7%BD%91%E7%AB%99%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96%E6%80%A7%E8%83%BD.html",
-      "relativePath": "book/多图网站如何优化性能.md",
-      "key": "v-5af19c8c",
-      "path": "/book/%E5%A4%9A%E5%9B%BE%E7%BD%91%E7%AB%99%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96%E6%80%A7%E8%83%BD.html"
+      "regularPath": "/book/%E5%89%8D%E7%AB%AF%E7%9B%91%E6%8E%A7.html",
+      "relativePath": "book/前端监控.md",
+      "key": "v-da43f4c2",
+      "path": "/book/%E5%89%8D%E7%AB%AF%E7%9B%91%E6%8E%A7.html"
+    },
+    {
+      "title": "各作用域的理解",
+      "frontmatter": {},
+      "regularPath": "/book/%E5%90%84%E4%BD%9C%E7%94%A8%E5%9F%9F%E7%9A%84%E7%90%86%E8%A7%A3.html",
+      "relativePath": "book/各作用域的理解.md",
+      "key": "v-3b769ef8",
+      "path": "/book/%E5%90%84%E4%BD%9C%E7%94%A8%E5%9F%9F%E7%9A%84%E7%90%86%E8%A7%A3.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "释义",
+          "slug": "释义"
+        },
+        {
+          "level": 2,
+          "title": "规定",
+          "slug": "规定"
+        },
+        {
+          "level": 2,
+          "title": "静态作用域和动态作用域",
+          "slug": "静态作用域和动态作用域"
+        },
+        {
+          "level": 2,
+          "title": "示例",
+          "slug": "示例"
+        },
+        {
+          "level": 2,
+          "title": "参考文章",
+          "slug": "参考文章"
+        }
+      ]
     },
     {
       "title": "回车url后，页面的变化过程",
@@ -1731,6 +1727,78 @@ export const siteData = {
           "level": 3,
           "title": "什么是重绘？",
           "slug": "什么是重绘"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/book/%E5%A4%9A%E5%9B%BE%E7%BD%91%E7%AB%99%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96%E6%80%A7%E8%83%BD.html",
+      "relativePath": "book/多图网站如何优化性能.md",
+      "key": "v-5af19c8c",
+      "path": "/book/%E5%A4%9A%E5%9B%BE%E7%BD%91%E7%AB%99%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96%E6%80%A7%E8%83%BD.html"
+    },
+    {
+      "title": "实现bind、apply、call",
+      "frontmatter": {},
+      "regularPath": "/book/%E5%AE%9E%E7%8E%B0bind%E3%80%81apply%E3%80%81call.html",
+      "relativePath": "book/实现bind、apply、call.md",
+      "key": "v-03c90010",
+      "path": "/book/%E5%AE%9E%E7%8E%B0bind%E3%80%81apply%E3%80%81call.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "call介绍",
+          "slug": "call介绍"
+        },
+        {
+          "level": 2,
+          "title": "apply介绍",
+          "slug": "apply介绍"
+        },
+        {
+          "level": 2,
+          "title": "bind介绍",
+          "slug": "bind介绍"
+        },
+        {
+          "level": 2,
+          "title": "注意事项",
+          "slug": "注意事项"
+        },
+        {
+          "level": 2,
+          "title": "区别",
+          "slug": "区别"
+        },
+        {
+          "level": 2,
+          "title": "应用场景",
+          "slug": "应用场景"
+        },
+        {
+          "level": 2,
+          "title": "手写call",
+          "slug": "手写call"
+        },
+        {
+          "level": 2,
+          "title": "手写apply",
+          "slug": "手写apply"
+        },
+        {
+          "level": 2,
+          "title": "手写bind",
+          "slug": "手写bind"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
+        },
+        {
+          "level": 2,
+          "title": "参考文章",
+          "slug": "参考文章"
         }
       ]
     },
@@ -1935,41 +2003,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "闭包",
-      "frontmatter": {},
-      "regularPath": "/book/%E9%97%AD%E5%8C%85.html",
-      "relativePath": "book/闭包.md",
-      "key": "v-ea167bec",
-      "path": "/book/%E9%97%AD%E5%8C%85.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "闭包的定义",
-          "slug": "闭包的定义"
-        },
-        {
-          "level": 2,
-          "title": "闭包的作用（使用场景）",
-          "slug": "闭包的作用-使用场景"
-        },
-        {
-          "level": 2,
-          "title": "闭包的性质",
-          "slug": "闭包的性质"
-        },
-        {
-          "level": 2,
-          "title": "闭包引发的问题",
-          "slug": "闭包引发的问题"
-        },
-        {
-          "level": 2,
-          "title": "手写闭包",
-          "slug": "手写闭包"
-        }
-      ]
-    },
-    {
       "title": "正则表达式",
       "frontmatter": {},
       "regularPath": "/book/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9A%84%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8.html",
@@ -2170,6 +2203,41 @@ export const siteData = {
       ]
     },
     {
+      "title": "闭包",
+      "frontmatter": {},
+      "regularPath": "/book/%E9%97%AD%E5%8C%85.html",
+      "relativePath": "book/闭包.md",
+      "key": "v-ea167bec",
+      "path": "/book/%E9%97%AD%E5%8C%85.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "闭包的定义",
+          "slug": "闭包的定义"
+        },
+        {
+          "level": 2,
+          "title": "闭包的作用（使用场景）",
+          "slug": "闭包的作用-使用场景"
+        },
+        {
+          "level": 2,
+          "title": "闭包的性质",
+          "slug": "闭包的性质"
+        },
+        {
+          "level": 2,
+          "title": "闭包引发的问题",
+          "slug": "闭包引发的问题"
+        },
+        {
+          "level": 2,
+          "title": "手写闭包",
+          "slug": "手写闭包"
+        }
+      ]
+    },
+    {
       "title": "弹框组件的实现",
       "frontmatter": {},
       "regularPath": "/components/%E5%BC%B9%E6%A1%86%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0.html",
@@ -2232,6 +2300,11 @@ export const siteData = {
       "key": "v-86834108",
       "path": "/components/%E6%A0%91%E5%BD%A2%E6%8E%A7%E4%BB%B6%E7%9A%84%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0.html",
       "headers": [
+        {
+          "level": 2,
+          "title": "介绍",
+          "slug": "介绍"
+        },
         {
           "level": 2,
           "title": "Tree",
@@ -2380,26 +2453,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "题目要求",
-      "frontmatter": {},
-      "regularPath": "/dailyapi/%E5%AF%B9%E8%B1%A1%E5%90%88%E5%B9%B6.html",
-      "relativePath": "dailyapi/对象合并.md",
-      "key": "v-be591d2a",
-      "path": "/dailyapi/%E5%AF%B9%E8%B1%A1%E5%90%88%E5%B9%B6.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "合并前",
-          "slug": "合并前"
-        },
-        {
-          "level": 2,
-          "title": "合并后",
-          "slug": "合并后"
-        }
-      ]
-    },
-    {
       "title": "手写Promise",
       "frontmatter": {},
       "regularPath": "/dailyapi/%E6%89%8B%E5%86%99Promise.html",
@@ -2446,6 +2499,26 @@ export const siteData = {
           "level": 2,
           "title": "手写思路总结",
           "slug": "手写思路总结"
+        }
+      ]
+    },
+    {
+      "title": "题目要求",
+      "frontmatter": {},
+      "regularPath": "/dailyapi/%E5%AF%B9%E8%B1%A1%E5%90%88%E5%B9%B6.html",
+      "relativePath": "dailyapi/对象合并.md",
+      "key": "v-be591d2a",
+      "path": "/dailyapi/%E5%AF%B9%E8%B1%A1%E5%90%88%E5%B9%B6.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "合并前",
+          "slug": "合并前"
+        },
+        {
+          "level": 2,
+          "title": "合并后",
+          "slug": "合并后"
         }
       ]
     },
@@ -2527,6 +2600,31 @@ export const siteData = {
       ]
     },
     {
+      "title": "有效的括号",
+      "frontmatter": {},
+      "regularPath": "/dailyapi/%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.html",
+      "relativePath": "dailyapi/有效的括号.md",
+      "key": "v-9b63d6f2",
+      "path": "/dailyapi/%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "题目要求",
+          "slug": "题目要求"
+        },
+        {
+          "level": 2,
+          "title": "答案解析",
+          "slug": "答案解析"
+        },
+        {
+          "level": 2,
+          "title": "思路要点",
+          "slug": "思路要点"
+        }
+      ]
+    },
+    {
       "title": "数组扁平化",
       "frontmatter": {},
       "regularPath": "/dailyapi/%E6%95%B0%E7%BB%84%E6%89%81%E5%B9%B3%E5%8C%96.html",
@@ -2552,12 +2650,16 @@ export const siteData = {
       ]
     },
     {
-      "title": "有效的括号",
-      "frontmatter": {},
-      "regularPath": "/dailyapi/%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.html",
-      "relativePath": "dailyapi/有效的括号.md",
-      "key": "v-9b63d6f2",
-      "path": "/dailyapi/%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.html",
+      "title": "序言",
+      "frontmatter": {
+        "title": "序言",
+        "author": "云上舟",
+        "date": "2022-03-25"
+      },
+      "regularPath": "/dailyapi/%E6%A8%A1%E6%9D%BF.html",
+      "relativePath": "dailyapi/模板.md",
+      "key": "v-b7b7528e",
+      "path": "/dailyapi/%E6%A8%A1%E6%9D%BF.html",
       "headers": [
         {
           "level": 2,
@@ -2592,35 +2694,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "序言",
-      "frontmatter": {
-        "title": "序言",
-        "author": "云上舟",
-        "date": "2022-03-25"
-      },
-      "regularPath": "/dailyapi/%E6%A8%A1%E6%9D%BF.html",
-      "relativePath": "dailyapi/模板.md",
-      "key": "v-b7b7528e",
-      "path": "/dailyapi/%E6%A8%A1%E6%9D%BF.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "题目要求",
-          "slug": "题目要求"
-        },
-        {
-          "level": 2,
-          "title": "答案解析",
-          "slug": "答案解析"
-        },
-        {
-          "level": 2,
-          "title": "思路要点",
-          "slug": "思路要点"
-        }
-      ]
-    },
-    {
       "title": "ES6之变量声明",
       "frontmatter": {},
       "regularPath": "/note/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html",
@@ -2642,36 +2715,6 @@ export const siteData = {
           "level": 2,
           "title": "const的用法及注意点",
           "slug": "const的用法及注意点"
-        }
-      ]
-    },
-    {
-      "title": "typeof判断",
-      "frontmatter": {},
-      "regularPath": "/note/Typeof.html",
-      "relativePath": "note/Typeof.md",
-      "key": "v-3ac9f73b",
-      "path": "/note/Typeof.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "数据类型",
-          "slug": "数据类型"
-        },
-        {
-          "level": 3,
-          "title": "typeof的通常用途",
-          "slug": "typeof的通常用途"
-        },
-        {
-          "level": 3,
-          "title": "typeof的缺陷",
-          "slug": "typeof的缺陷"
-        },
-        {
-          "level": 3,
-          "title": "总结",
-          "slug": "总结"
         }
       ]
     },
@@ -2726,6 +2769,43 @@ export const siteData = {
       ]
     },
     {
+      "title": "typeof判断",
+      "frontmatter": {},
+      "regularPath": "/note/Typeof.html",
+      "relativePath": "note/Typeof.md",
+      "key": "v-3ac9f73b",
+      "path": "/note/Typeof.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "数据类型",
+          "slug": "数据类型"
+        },
+        {
+          "level": 3,
+          "title": "typeof的通常用途",
+          "slug": "typeof的通常用途"
+        },
+        {
+          "level": 3,
+          "title": "typeof的缺陷",
+          "slug": "typeof的缺陷"
+        },
+        {
+          "level": 3,
+          "title": "总结",
+          "slug": "总结"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/note/Untitled.html",
+      "relativePath": "note/Untitled.md",
+      "key": "v-18715a8a",
+      "path": "/note/Untitled.html"
+    },
+    {
       "title": "uniapp问题记录与解决",
       "frontmatter": {
         "title": "uniapp问题记录与解决",
@@ -2738,11 +2818,44 @@ export const siteData = {
       "path": "/note/Uniapp/uniapp%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95%E4%B8%8E%E8%A7%A3%E5%86%B3.html"
     },
     {
+      "title": "Vue3基本使用",
       "frontmatter": {},
-      "regularPath": "/note/Untitled.html",
-      "relativePath": "note/Untitled.md",
-      "key": "v-18715a8a",
-      "path": "/note/Untitled.html"
+      "regularPath": "/note/Vue/Vue3%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html",
+      "relativePath": "note/Vue/Vue3基本使用.md",
+      "key": "v-c74d9782",
+      "path": "/note/Vue/Vue3%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "部分用法记录",
+          "slug": "部分用法记录"
+        },
+        {
+          "level": 3,
+          "title": "组合式组件",
+          "slug": "组合式组件"
+        },
+        {
+          "level": 2,
+          "title": "父子组件传值",
+          "slug": "父子组件传值"
+        },
+        {
+          "level": 3,
+          "title": "父传子",
+          "slug": "父传子"
+        },
+        {
+          "level": 2,
+          "title": "子传父",
+          "slug": "子传父"
+        },
+        {
+          "level": 2,
+          "title": "插槽用法",
+          "slug": "插槽用法"
+        }
+      ]
     },
     {
       "title": "Vite搭配Vue3全家桶的基本配置",
@@ -2811,46 +2924,6 @@ export const siteData = {
           "level": 2,
           "title": "配置总结",
           "slug": "配置总结"
-        }
-      ]
-    },
-    {
-      "title": "Vue3基本使用",
-      "frontmatter": {},
-      "regularPath": "/note/Vue/Vue3%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html",
-      "relativePath": "note/Vue/Vue3基本使用.md",
-      "key": "v-c74d9782",
-      "path": "/note/Vue/Vue3%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "部分用法记录",
-          "slug": "部分用法记录"
-        },
-        {
-          "level": 3,
-          "title": "组合式组件",
-          "slug": "组合式组件"
-        },
-        {
-          "level": 2,
-          "title": "父子组件传值",
-          "slug": "父子组件传值"
-        },
-        {
-          "level": 3,
-          "title": "父传子",
-          "slug": "父传子"
-        },
-        {
-          "level": 2,
-          "title": "子传父",
-          "slug": "子传父"
-        },
-        {
-          "level": 2,
-          "title": "插槽用法",
-          "slug": "插槽用法"
         }
       ]
     },
@@ -3005,61 +3078,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "1.开篇介绍",
-      "frontmatter": {},
-      "regularPath": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/1.%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D.html",
-      "relativePath": "note/cloud-ship/StoryBook引入/1.开篇介绍.md",
-      "key": "v-bdc72fa4",
-      "path": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/1.%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "为什么引入storyBook?",
-          "slug": "为什么引入storybook"
-        },
-        {
-          "level": 2,
-          "title": "组件完美开发工具应有的特点",
-          "slug": "组件完美开发工具应有的特点"
-        },
-        {
-          "level": 2,
-          "title": "storybook安装命令",
-          "slug": "storybook安装命令"
-        },
-        {
-          "level": 2,
-          "title": "info-addon",
-          "slug": "info-addon"
-        },
-        {
-          "level": 2,
-          "title": "文档插件storybook-addon-info",
-          "slug": "文档插件storybook-addon-info"
-        },
-        {
-          "level": 2,
-          "title": "typescript版本addon-info插件",
-          "slug": "typescript版本addon-info插件"
-        },
-        {
-          "level": 2,
-          "title": "storybook需要扩展的插件",
-          "slug": "storybook需要扩展的插件"
-        },
-        {
-          "level": 2,
-          "title": "storiesOf创建docs页",
-          "slug": "storiesof创建docs页"
-        },
-        {
-          "level": 2,
-          "title": "如何在storybook中引入全局文件？",
-          "slug": "如何在storybook中引入全局文件"
-        }
-      ]
-    },
-    {
       "title": "微信开发者平台使用",
       "frontmatter": {},
       "regularPath": "/note/Wx/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E8%80%85%E5%B9%B3%E5%8F%B0%E4%BD%BF%E7%94%A8.html",
@@ -3195,6 +3213,61 @@ export const siteData = {
       ]
     },
     {
+      "title": "1.开篇介绍",
+      "frontmatter": {},
+      "regularPath": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/1.%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D.html",
+      "relativePath": "note/cloud-ship/StoryBook引入/1.开篇介绍.md",
+      "key": "v-bdc72fa4",
+      "path": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/1.%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "为什么引入storyBook?",
+          "slug": "为什么引入storybook"
+        },
+        {
+          "level": 2,
+          "title": "组件完美开发工具应有的特点",
+          "slug": "组件完美开发工具应有的特点"
+        },
+        {
+          "level": 2,
+          "title": "storybook安装命令",
+          "slug": "storybook安装命令"
+        },
+        {
+          "level": 2,
+          "title": "info-addon",
+          "slug": "info-addon"
+        },
+        {
+          "level": 2,
+          "title": "文档插件storybook-addon-info",
+          "slug": "文档插件storybook-addon-info"
+        },
+        {
+          "level": 2,
+          "title": "typescript版本addon-info插件",
+          "slug": "typescript版本addon-info插件"
+        },
+        {
+          "level": 2,
+          "title": "storybook需要扩展的插件",
+          "slug": "storybook需要扩展的插件"
+        },
+        {
+          "level": 2,
+          "title": "storiesOf创建docs页",
+          "slug": "storiesof创建docs页"
+        },
+        {
+          "level": 2,
+          "title": "如何在storybook中引入全局文件？",
+          "slug": "如何在storybook中引入全局文件"
+        }
+      ]
+    },
+    {
       "title": "3.写文档需引入的库",
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/3.%E5%86%99%E6%96%87%E6%A1%A3%E9%9C%80%E5%BC%95%E5%85%A5%E7%9A%84%E5%BA%93.html",
@@ -3235,79 +3308,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "classnames模块",
-      "frontmatter": {},
-      "regularPath": "/note/cloud-ship/classnames%E6%A8%A1%E5%9D%97.html",
-      "relativePath": "note/cloud-ship/classnames模块.md",
-      "key": "v-ddfdc122",
-      "path": "/note/cloud-ship/classnames%E6%A8%A1%E5%9D%97.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "介绍",
-          "slug": "介绍"
-        },
-        {
-          "level": 3,
-          "title": "组件中的使用",
-          "slug": "组件中的使用"
-        },
-        {
-          "level": 3,
-          "title": "页面中的效果",
-          "slug": "页面中的效果"
-        }
-      ]
-    },
-    {
-      "title": "scss语法小记",
-      "frontmatter": {},
-      "regularPath": "/note/cloud-ship/scss%E8%AF%AD%E6%B3%95%E5%B0%8F%E8%AE%B0.html",
-      "relativePath": "note/cloud-ship/scss语法小记.md",
-      "key": "v-beccf3c6",
-      "path": "/note/cloud-ship/scss%E8%AF%AD%E6%B3%95%E5%B0%8F%E8%AE%B0.html"
-    },
-    {
-      "title": "5.传统写法",
-      "frontmatter": {},
-      "regularPath": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/5.%E4%BC%A0%E7%BB%9F%E5%86%99%E6%B3%95.html",
-      "relativePath": "note/cloud-ship/StoryBook引入/5.传统写法.md",
-      "key": "v-58a04be2",
-      "path": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/5.%E4%BC%A0%E7%BB%9F%E5%86%99%E6%B3%95.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "storiesOf创建docs页",
-          "slug": "storiesof创建docs页"
-        },
-        {
-          "level": 2,
-          "title": "如何在storybook中引入全局文件？",
-          "slug": "如何在storybook中引入全局文件"
-        }
-      ]
-    },
-    {
-      "title": "fontawesome库方法再封装",
-      "frontmatter": {},
-      "regularPath": "/note/cloud-ship/svg%E5%BC%95%E5%85%A5/fontawesome%E5%BA%93%E6%96%B9%E6%B3%95%E5%86%8D%E5%B0%81%E8%A3%85.html",
-      "relativePath": "note/cloud-ship/svg引入/fontawesome库方法再封装.md",
-      "key": "v-a9a471dc",
-      "path": "/note/cloud-ship/svg%E5%BC%95%E5%85%A5/fontawesome%E5%BA%93%E6%96%B9%E6%B3%95%E5%86%8D%E5%B0%81%E8%A3%85.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "封装初衷",
-          "slug": "封装初衷"
-        },
-        {
-          "level": 2,
-          "title": "源代码示例",
-          "slug": "源代码示例"
-        }
-      ]
-    },
-    {
       "title": "CSSTransition库方法再封装",
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/svg%E5%BC%95%E5%85%A5/CSSTransition%E5%BA%93%E6%96%B9%E6%B3%95%E5%86%8D%E5%B0%81%E8%A3%85.html",
@@ -3338,17 +3338,42 @@ export const siteData = {
       ]
     },
     {
-      "title": "jest简单使用",
+      "title": "fontawesome库方法再封装",
       "frontmatter": {},
-      "regularPath": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/jest%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8.html",
-      "relativePath": "note/cloud-ship/testing-library测试库/jest简单使用.md",
-      "key": "v-b1c2c172",
-      "path": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/jest%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8.html",
+      "regularPath": "/note/cloud-ship/svg%E5%BC%95%E5%85%A5/fontawesome%E5%BA%93%E6%96%B9%E6%B3%95%E5%86%8D%E5%B0%81%E8%A3%85.html",
+      "relativePath": "note/cloud-ship/svg引入/fontawesome库方法再封装.md",
+      "key": "v-a9a471dc",
+      "path": "/note/cloud-ship/svg%E5%BC%95%E5%85%A5/fontawesome%E5%BA%93%E6%96%B9%E6%B3%95%E5%86%8D%E5%B0%81%E8%A3%85.html",
       "headers": [
         {
           "level": 2,
-          "title": "语法及api介绍",
-          "slug": "语法及api介绍"
+          "title": "封装初衷",
+          "slug": "封装初衷"
+        },
+        {
+          "level": 2,
+          "title": "源代码示例",
+          "slug": "源代码示例"
+        }
+      ]
+    },
+    {
+      "title": "5.传统写法",
+      "frontmatter": {},
+      "regularPath": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/5.%E4%BC%A0%E7%BB%9F%E5%86%99%E6%B3%95.html",
+      "relativePath": "note/cloud-ship/StoryBook引入/5.传统写法.md",
+      "key": "v-58a04be2",
+      "path": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/5.%E4%BC%A0%E7%BB%9F%E5%86%99%E6%B3%95.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "storiesOf创建docs页",
+          "slug": "storiesof创建docs页"
+        },
+        {
+          "level": 2,
+          "title": "如何在storybook中引入全局文件？",
+          "slug": "如何在storybook中引入全局文件"
         }
       ]
     },
@@ -3398,6 +3423,21 @@ export const siteData = {
       ]
     },
     {
+      "title": "jest简单使用",
+      "frontmatter": {},
+      "regularPath": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/jest%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8.html",
+      "relativePath": "note/cloud-ship/testing-library测试库/jest简单使用.md",
+      "key": "v-b1c2c172",
+      "path": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/jest%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "语法及api介绍",
+          "slug": "语法及api介绍"
+        }
+      ]
+    },
+    {
       "title": "可以从哪些角度去测试",
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/%E5%8F%AF%E4%BB%A5%E4%BB%8E%E5%93%AA%E4%BA%9B%E8%A7%92%E5%BA%A6%E5%8E%BB%E6%B5%8B%E8%AF%95.html",
@@ -3439,6 +3479,31 @@ export const siteData = {
           "level": 3,
           "title": "有哪些属性",
           "slug": "有哪些属性"
+        }
+      ]
+    },
+    {
+      "title": "classnames模块",
+      "frontmatter": {},
+      "regularPath": "/note/cloud-ship/classnames%E6%A8%A1%E5%9D%97.html",
+      "relativePath": "note/cloud-ship/classnames模块.md",
+      "key": "v-ddfdc122",
+      "path": "/note/cloud-ship/classnames%E6%A8%A1%E5%9D%97.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 3,
+          "title": "组件中的使用",
+          "slug": "组件中的使用"
+        },
+        {
+          "level": 3,
+          "title": "页面中的效果",
+          "slug": "页面中的效果"
         }
       ]
     },
@@ -3538,6 +3603,44 @@ export const siteData = {
       ]
     },
     {
+      "title": "scss语法小记",
+      "frontmatter": {},
+      "regularPath": "/note/cloud-ship/scss%E8%AF%AD%E6%B3%95%E5%B0%8F%E8%AE%B0.html",
+      "relativePath": "note/cloud-ship/scss语法小记.md",
+      "key": "v-beccf3c6",
+      "path": "/note/cloud-ship/scss%E8%AF%AD%E6%B3%95%E5%B0%8F%E8%AE%B0.html"
+    },
+    {
+      "title": "注意模块版本",
+      "frontmatter": {},
+      "regularPath": "/note/cloud-ship/%E6%B3%A8%E6%84%8F%E6%A8%A1%E5%9D%97%E7%89%88%E6%9C%AC.html",
+      "relativePath": "note/cloud-ship/注意模块版本.md",
+      "key": "v-54d8c3c0",
+      "path": "/note/cloud-ship/%E6%B3%A8%E6%84%8F%E6%A8%A1%E5%9D%97%E7%89%88%E6%9C%AC.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "node-sass版本",
+          "slug": "node-sass版本"
+        },
+        {
+          "level": 2,
+          "title": "ts版本",
+          "slug": "ts版本"
+        },
+        {
+          "level": 2,
+          "title": "package.json配置(可直接拷贝)",
+          "slug": "package-json配置-可直接拷贝"
+        },
+        {
+          "level": 2,
+          "title": "ts.config.json配置(可直接拷贝)",
+          "slug": "ts-config-json配置-可直接拷贝"
+        }
+      ]
+    },
+    {
       "title": "button需求分析",
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/button%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90.html",
@@ -3573,36 +3676,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "注意模块版本",
-      "frontmatter": {},
-      "regularPath": "/note/cloud-ship/%E6%B3%A8%E6%84%8F%E6%A8%A1%E5%9D%97%E7%89%88%E6%9C%AC.html",
-      "relativePath": "note/cloud-ship/注意模块版本.md",
-      "key": "v-54d8c3c0",
-      "path": "/note/cloud-ship/%E6%B3%A8%E6%84%8F%E6%A8%A1%E5%9D%97%E7%89%88%E6%9C%AC.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "node-sass版本",
-          "slug": "node-sass版本"
-        },
-        {
-          "level": 2,
-          "title": "ts版本",
-          "slug": "ts版本"
-        },
-        {
-          "level": 2,
-          "title": "package.json配置(可直接拷贝)",
-          "slug": "package-json配置-可直接拷贝"
-        },
-        {
-          "level": 2,
-          "title": "ts.config.json配置(可直接拷贝)",
-          "slug": "ts-config-json配置-可直接拷贝"
-        }
-      ]
-    },
-    {
       "title": "组件库各部分结构",
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E7%BB%84%E4%BB%B6%E5%BA%93%E5%90%84%E9%83%A8%E5%88%86%E7%BB%93%E6%9E%84.html",
@@ -3624,56 +3697,6 @@ export const siteData = {
           "level": 2,
           "title": "要做的事情",
           "slug": "要做的事情"
-        }
-      ]
-    },
-    {
-      "title": "添加色彩体系",
-      "frontmatter": {},
-      "regularPath": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E6%B7%BB%E5%8A%A0%E8%89%B2%E5%BD%A9%E4%BD%93%E7%B3%BB.html",
-      "relativePath": "note/cloud-ship/组件库的准备工作/添加色彩体系.md",
-      "key": "v-6aae14b1",
-      "path": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E6%B7%BB%E5%8A%A0%E8%89%B2%E5%BD%A9%E4%BD%93%E7%B3%BB.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "颜色体系",
-          "slug": "颜色体系"
-        },
-        {
-          "level": 2,
-          "title": "颜色结构挑选",
-          "slug": "颜色结构挑选"
-        },
-        {
-          "level": 2,
-          "title": "安装依赖",
-          "slug": "安装依赖"
-        },
-        {
-          "level": 2,
-          "title": "添加全局css变量",
-          "slug": "添加全局css变量"
-        }
-      ]
-    },
-    {
-      "title": "组件库通用样式体系",
-      "frontmatter": {},
-      "regularPath": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E7%BB%84%E4%BB%B6%E5%BA%93%E9%80%9A%E7%94%A8%E6%A0%B7%E5%BC%8F%E4%BD%93%E7%B3%BB.html",
-      "relativePath": "note/cloud-ship/组件库的准备工作/组件库通用样式体系.md",
-      "key": "v-2c51ddf5",
-      "path": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E7%BB%84%E4%BB%B6%E5%BA%93%E9%80%9A%E7%94%A8%E6%A0%B7%E5%BC%8F%E4%BD%93%E7%B3%BB.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "全局变量",
-          "slug": "全局变量"
-        },
-        {
-          "level": 2,
-          "title": "样式赋值",
-          "slug": "样式赋值"
         }
       ]
     },
@@ -3828,32 +3851,52 @@ export const siteData = {
       ]
     },
     {
-      "title": "如何自定义vuepress首页风格",
+      "title": "添加色彩体系",
       "frontmatter": {},
-      "regularPath": "/note/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89vuepress%E9%A6%96%E9%A1%B5%E9%A3%8E%E6%A0%BC.html",
-      "relativePath": "note/如何自定义vuepress首页风格.md",
-      "key": "v-174b7cfb",
-      "path": "/note/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89vuepress%E9%A6%96%E9%A1%B5%E9%A3%8E%E6%A0%BC.html",
+      "regularPath": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E6%B7%BB%E5%8A%A0%E8%89%B2%E5%BD%A9%E4%BD%93%E7%B3%BB.html",
+      "relativePath": "note/cloud-ship/组件库的准备工作/添加色彩体系.md",
+      "key": "v-6aae14b1",
+      "path": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E6%B7%BB%E5%8A%A0%E8%89%B2%E5%BD%A9%E4%BD%93%E7%B3%BB.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、主题目录",
-          "slug": "一、主题目录"
+          "title": "颜色体系",
+          "slug": "颜色体系"
         },
         {
           "level": 2,
-          "title": "二、配置首页",
-          "slug": "二、配置首页"
+          "title": "颜色结构挑选",
+          "slug": "颜色结构挑选"
         },
         {
           "level": 2,
-          "title": "三、配置README.md文件",
-          "slug": "三、配置readme-md文件"
+          "title": "安装依赖",
+          "slug": "安装依赖"
         },
         {
           "level": 2,
-          "title": "参考文章",
-          "slug": "参考文章"
+          "title": "添加全局css变量",
+          "slug": "添加全局css变量"
+        }
+      ]
+    },
+    {
+      "title": "组件库通用样式体系",
+      "frontmatter": {},
+      "regularPath": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E7%BB%84%E4%BB%B6%E5%BA%93%E9%80%9A%E7%94%A8%E6%A0%B7%E5%BC%8F%E4%BD%93%E7%B3%BB.html",
+      "relativePath": "note/cloud-ship/组件库的准备工作/组件库通用样式体系.md",
+      "key": "v-2c51ddf5",
+      "path": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E7%BB%84%E4%BB%B6%E5%BA%93%E9%80%9A%E7%94%A8%E6%A0%B7%E5%BC%8F%E4%BD%93%E7%B3%BB.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "全局变量",
+          "slug": "全局变量"
+        },
+        {
+          "level": 2,
+          "title": "样式赋值",
+          "slug": "样式赋值"
         }
       ]
     },
@@ -3888,6 +3931,48 @@ export const siteData = {
       ]
     },
     {
+      "title": "如何自定义vuepress首页风格",
+      "frontmatter": {},
+      "regularPath": "/note/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89vuepress%E9%A6%96%E9%A1%B5%E9%A3%8E%E6%A0%BC.html",
+      "relativePath": "note/如何自定义vuepress首页风格.md",
+      "key": "v-174b7cfb",
+      "path": "/note/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89vuepress%E9%A6%96%E9%A1%B5%E9%A3%8E%E6%A0%BC.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、主题目录",
+          "slug": "一、主题目录"
+        },
+        {
+          "level": 2,
+          "title": "二、配置首页",
+          "slug": "二、配置首页"
+        },
+        {
+          "level": 2,
+          "title": "三、配置README.md文件",
+          "slug": "三、配置readme-md文件"
+        },
+        {
+          "level": 2,
+          "title": "参考文章",
+          "slug": "参考文章"
+        }
+      ]
+    },
+    {
+      "title": "JS中的数据类型",
+      "frontmatter": {
+        "title": "JS中的数据类型",
+        "author": "云上舟",
+        "date": "2022-3-16"
+      },
+      "regularPath": "/note/%E6%A8%A1%E6%9D%BF.html",
+      "relativePath": "note/模板.md",
+      "key": "v-7df632ce",
+      "path": "/note/%E6%A8%A1%E6%9D%BF.html"
+    },
+    {
       "title": "项目中axios的配置",
       "frontmatter": {},
       "regularPath": "/note/%E9%A1%B9%E7%9B%AE%E4%B8%ADaxios%E7%9A%84%E9%85%8D%E7%BD%AE.html",
@@ -3918,16 +4003,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "JS中的数据类型",
-      "frontmatter": {
-        "title": "JS中的数据类型",
-        "author": "云上舟",
-        "date": "2022-3-16"
-      },
-      "regularPath": "/note/%E6%A8%A1%E6%9D%BF.html",
-      "relativePath": "note/模板.md",
-      "key": "v-7df632ce",
-      "path": "/note/%E6%A8%A1%E6%9D%BF.html"
+      "title": "参考文章入口",
+      "frontmatter": {},
+      "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/canvas%E7%94%9F%E6%88%90%E6%B5%B7%E6%8A%A5.html",
+      "relativePath": "非显示内容/开发中用到的技术记录/canvas生成海报.md",
+      "key": "v-f83c422e",
+      "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/canvas%E7%94%9F%E6%88%90%E6%B5%B7%E6%8A%A5.html"
     },
     {
       "frontmatter": {},
@@ -3937,12 +4018,12 @@ export const siteData = {
       "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%8F%AF%E4%BB%A5%E5%B0%9D%E8%AF%95%E5%81%9A%E7%9A%84%E7%BB%84%E4%BB%B6/%E5%AE%9E%E7%94%A8%E6%80%A7%E9%AB%98%E7%9A%84%E7%BB%84%E4%BB%B6.html"
     },
     {
-      "title": "参考文章入口",
+      "title": "vscode插件",
       "frontmatter": {},
-      "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/canvas%E7%94%9F%E6%88%90%E6%B5%B7%E6%8A%A5.html",
-      "relativePath": "非显示内容/开发中用到的技术记录/canvas生成海报.md",
-      "key": "v-f83c422e",
-      "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/canvas%E7%94%9F%E6%88%90%E6%B5%B7%E6%8A%A5.html"
+      "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/%E4%BB%A3%E7%A0%81%E6%96%87%E4%BB%B6%E5%BC%80%E5%A4%B4%E8%87%AA%E5%8A%A8%E6%B3%A8%E9%87%8A.html",
+      "relativePath": "非显示内容/开发中用到的技术记录/代码文件开头自动注释.md",
+      "key": "v-7541e414",
+      "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/%E4%BB%A3%E7%A0%81%E6%96%87%E4%BB%B6%E5%BC%80%E5%A4%B4%E8%87%AA%E5%8A%A8%E6%B3%A8%E9%87%8A.html"
     },
     {
       "title": "判断网页类型",
@@ -3960,14 +4041,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "vscode插件",
-      "frontmatter": {},
-      "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/%E4%BB%A3%E7%A0%81%E6%96%87%E4%BB%B6%E5%BC%80%E5%A4%B4%E8%87%AA%E5%8A%A8%E6%B3%A8%E9%87%8A.html",
-      "relativePath": "非显示内容/开发中用到的技术记录/代码文件开头自动注释.md",
-      "key": "v-7541e414",
-      "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/%E4%BB%A3%E7%A0%81%E6%96%87%E4%BB%B6%E5%BC%80%E5%A4%B4%E8%87%AA%E5%8A%A8%E6%B3%A8%E9%87%8A.html"
-    },
-    {
       "title": "中英文限制，长度限制",
       "frontmatter": {},
       "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",
@@ -3979,21 +4052,6 @@ export const siteData = {
           "level": 2,
           "title": "中英文限制，长度限制",
           "slug": "中英文限制-长度限制"
-        }
-      ]
-    },
-    {
-      "title": "标准的项目配置",
-      "frontmatter": {},
-      "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9C%80%E8%A6%81%E5%90%91%E4%BB%96%E4%BA%BA%E5%AF%BB%E6%B1%82%E5%B8%AE%E5%8A%A9%E7%9A%84%E9%97%AE%E9%A2%98/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.html",
-      "relativePath": "非显示内容/需要向他人寻求帮助的问题/问题记录.md",
-      "key": "v-f31a2878",
-      "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9C%80%E8%A6%81%E5%90%91%E4%BB%96%E4%BA%BA%E5%AF%BB%E6%B1%82%E5%B8%AE%E5%8A%A9%E7%9A%84%E9%97%AE%E9%A2%98/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "标准的项目配置",
-          "slug": "标准的项目配置"
         }
       ]
     },
@@ -4034,6 +4092,46 @@ export const siteData = {
           "level": 2,
           "title": "动画插件",
           "slug": "动画插件"
+        }
+      ]
+    },
+    {
+      "title": "目录",
+      "frontmatter": {},
+      "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E7%AE%80%E5%8E%86/%E5%A6%82%E4%BD%95%E5%86%99%E4%B8%80%E4%BB%BD%E5%A5%BD%E7%AE%80%E5%8E%86.html",
+      "relativePath": "非显示内容/简历/如何写一份好简历.md",
+      "key": "v-78ed9382",
+      "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E7%AE%80%E5%8E%86/%E5%A6%82%E4%BD%95%E5%86%99%E4%B8%80%E4%BB%BD%E5%A5%BD%E7%AE%80%E5%8E%86.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "面试官所看到的本质",
+          "slug": "面试官所看到的本质"
+        },
+        {
+          "level": 2,
+          "title": "投递网站",
+          "slug": "投递网站"
+        },
+        {
+          "level": 2,
+          "title": "寻找猎头",
+          "slug": "寻找猎头"
+        }
+      ]
+    },
+    {
+      "title": "标准的项目配置",
+      "frontmatter": {},
+      "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9C%80%E8%A6%81%E5%90%91%E4%BB%96%E4%BA%BA%E5%AF%BB%E6%B1%82%E5%B8%AE%E5%8A%A9%E7%9A%84%E9%97%AE%E9%A2%98/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.html",
+      "relativePath": "非显示内容/需要向他人寻求帮助的问题/问题记录.md",
+      "key": "v-f31a2878",
+      "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9C%80%E8%A6%81%E5%90%91%E4%BB%96%E4%BA%BA%E5%AF%BB%E6%B1%82%E5%B8%AE%E5%8A%A9%E7%9A%84%E9%97%AE%E9%A2%98/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "标准的项目配置",
+          "slug": "标准的项目配置"
         }
       ]
     },
@@ -4118,17 +4216,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/%E9%A1%B9%E7%9B%AE%E9%9A%BE%E4%BA%AE%E7%82%B9.html",
-      "relativePath": "非显示内容/面试/面试技巧/项目难亮点.md",
-      "key": "v-31712d65",
-      "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/%E9%A1%B9%E7%9B%AE%E9%9A%BE%E4%BA%AE%E7%82%B9.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/%E5%86%85%E5%AE%B9%E5%B1%95%E7%A4%BA.html",
       "relativePath": "非显示内容/面试/面试技巧/内容展示.md",
       "key": "v-3e8f5b5e",
       "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/%E5%86%85%E5%AE%B9%E5%B1%95%E7%A4%BA.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/%E9%A1%B9%E7%9B%AE%E9%9A%BE%E4%BA%AE%E7%82%B9.html",
+      "relativePath": "非显示内容/面试/面试技巧/项目难亮点.md",
+      "key": "v-31712d65",
+      "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/%E9%A1%B9%E7%9B%AE%E9%9A%BE%E4%BA%AE%E7%82%B9.html"
     }
   ],
   "themeConfig": {
@@ -4216,12 +4314,8 @@ export const siteData = {
             "path": "/book/JS继承.md"
           },
           {
-            "title": "前端鉴权",
-            "path": "/book/前端鉴权.md"
-          },
-          {
-            "title": "jsonSchema类型判断",
-            "path": "/book/jsonSchema类型判断.md"
+            "title": "各作用域的理解",
+            "path": "/book/各作用域的理解.md"
           }
         ]
       },
@@ -4270,140 +4364,6 @@ export const siteData = {
             ]
           },
           {
-            "title": "uniapp",
-            "path": "/note/Uniapp/uniapp问题记录与解决",
-            "collapsable": true,
-            "children": [
-              {
-                "title": "uniapp问题记录与解决",
-                "path": "/note/Uniapp/uniapp问题记录与解决.md"
-              }
-            ]
-          },
-          {
-            "title": "ts-react组件库手记",
-            "path": "/note/cloud-ship/组件库的准备工作/添加色彩体系",
-            "collapsable": true,
-            "children": [
-              {
-                "title": "添加色彩体系",
-                "path": "/note/cloud-ship/组件库的准备工作/添加色彩体系",
-                "collapsable": true,
-                "children": [
-                  {
-                    "title": "添加色彩体系",
-                    "path": "/note/cloud-ship/组件库的准备工作/添加色彩体系"
-                  },
-                  {
-                    "title": "组件库各部分结构",
-                    "path": "/note/cloud-ship/组件库的准备工作/组件库各部分结构"
-                  },
-                  {
-                    "title": "组件库通用样式体系",
-                    "path": "/note/cloud-ship/组件库的准备工作/组件库通用样式体系"
-                  },
-                  {
-                    "title": "button需求分析",
-                    "path": "/note/cloud-ship/组件库的准备工作/button需求分析"
-                  }
-                ]
-              },
-              {
-                "title": "StoryBook引入",
-                "path": "/note/cloud-ship/StoryBook引入/1.开篇介绍",
-                "collapsable": true,
-                "children": [
-                  {
-                    "title": "开篇介绍",
-                    "path": "/note/cloud-ship/StoryBook引入/1.开篇介绍"
-                  },
-                  {
-                    "title": "如何写详细文档",
-                    "path": "/note/cloud-ship/StoryBook引入/2.如何写详细文档"
-                  },
-                  {
-                    "title": "写文档需引入的库",
-                    "path": "/note/cloud-ship/StoryBook引入/3.写文档需引入的库"
-                  },
-                  {
-                    "title": "让info文档支持ts",
-                    "path": "/note/cloud-ship/StoryBook引入/4.让info文档支持ts"
-                  },
-                  {
-                    "title": "传统写法",
-                    "path": "/note/cloud-ship/StoryBook引入/5.传统写法"
-                  }
-                ]
-              },
-              {
-                "title": "svg引入",
-                "path": "/note/cloud-ship/svg引入/CSSTransition库方法再封装",
-                "collapsable": true,
-                "children": [
-                  {
-                    "title": "CSSTransition库方法再封装",
-                    "path": "/note/cloud-ship/svg引入/CSSTransition库方法再封装"
-                  },
-                  {
-                    "title": "fontawesome库方法再封装",
-                    "path": "/note/cloud-ship/svg引入/fontawesome库方法再封装"
-                  },
-                  {
-                    "title": "fortawesome的使用",
-                    "path": "/note/cloud-ship/svg引入/fortawesome的使用"
-                  }
-                ]
-              },
-              {
-                "title": "testing-library测试库",
-                "path": "/note/cloud-ship/testing-library测试库/测试库的扩展",
-                "collapsable": true,
-                "children": [
-                  {
-                    "title": "测试库的扩展",
-                    "path": "/note/cloud-ship/testing-library测试库/测试库的扩展"
-                  },
-                  {
-                    "title": "测试库官方文档",
-                    "path": "/note/cloud-ship/testing-library测试库/测试库官方文档"
-                  },
-                  {
-                    "title": "测试命令",
-                    "path": "/note/cloud-ship/testing-library测试库/测试命令"
-                  },
-                  {
-                    "title": "测试语法",
-                    "path": "/note/cloud-ship/testing-library测试库/测试语法"
-                  },
-                  {
-                    "title": "可以从哪些角度去测试",
-                    "path": "/note/cloud-ship/testing-library测试库/可以从哪些角度去测试"
-                  },
-                  {
-                    "title": "jest简单使用",
-                    "path": "/note/cloud-ship/testing-library测试库/jest简单使用"
-                  }
-                ]
-              },
-              {
-                "title": "ts-react项目的启动",
-                "path": "/note/cloud-ship/ts-react项目的启动/启动命令"
-              },
-              {
-                "title": "注意模块版本",
-                "path": "/note/cloud-ship/注意模块版本"
-              },
-              {
-                "title": "classnames模块",
-                "path": "/note/cloud-ship/classnames模块"
-              },
-              {
-                "title": "scss语法小记",
-                "path": "/note/cloud-ship/scss语法小记"
-              }
-            ]
-          },
-          {
             "title": "Vite",
             "path": "/note/Vite/Vite搭配Vue3全家桶的基本配置",
             "collapsable": true,
@@ -4413,6 +4373,25 @@ export const siteData = {
                 "path": "/note/Vite/Vite搭配Vue3全家桶的基本配置.md"
               }
             ]
+          }
+        ]
+      },
+      {
+        "title": "组件实现",
+        "path": "/components/树形控件的简单实现",
+        "collapsable": true,
+        "children": [
+          {
+            "title": "树形控件的简单实现",
+            "path": "/components/树形控件的简单实现"
+          },
+          {
+            "title": "项目中的电子签名组件",
+            "path": "/components/项目中的电子签名组件"
+          },
+          {
+            "title": "弹框组件的实现",
+            "path": "/components/弹框组件的实现"
           }
         ]
       },
@@ -4495,21 +4474,17 @@ export const siteData = {
         ]
       },
       {
-        "title": "组件实现",
-        "path": "/components/树形控件的简单实现",
+        "title": "非技术部分",
+        "path": "/additional/第一年总结",
         "collapsable": true,
         "children": [
           {
-            "title": "树形控件的简单实现",
-            "path": "/components/树形控件的简单实现"
+            "title": "如何写一份好简历",
+            "path": "/additional/如何写一份好简历.md"
           },
           {
-            "title": "项目中的电子签名组件",
-            "path": "/components/项目中的电子签名组件"
-          },
-          {
-            "title": "弹框组件的实现",
-            "path": "/components/弹框组件的实现"
+            "title": "第一年总结",
+            "path": "/additional/第一年总结.md"
           }
         ]
       }

@@ -46,7 +46,6 @@
       >
         <h2 >{{ feature.title }}</h2>
         <p>{{ feature.details }}</p>
-        <a :href="feature.url" target="blank">进入项目页</a>
       </div>
     </div>
 
@@ -87,7 +86,7 @@ export default {
     
     actionLink () {
       return {
-        link: this.data.actionLink,
+        link: window.location.href+this.data.actionLink,
         text: this.data.actionText
       }
     }
