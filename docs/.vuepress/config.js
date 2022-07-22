@@ -1,4 +1,12 @@
 const sidebar = require("./config/sidebar.js"); // 侧边栏配置
+const MarkdownIt = require('markdown-it');
+const { tocPlugin } = require('@mdit-vue/plugin-toc');
+
+const md = MarkdownIt({ html: true }).use(tocPlugin, {
+  // options
+  level: [1, 2, 3, 4]
+});
+
 module.exports = {
   title: "云上舟",
   description: "个人学习博客",
@@ -9,15 +17,16 @@ module.exports = {
   markdown: {
     auchor: { permalink: true, permalinkBefore: true, permalinkSymbol: "#" },
   },
-  toc: { includeLevel: [1, 2, 3] },
-  locales: {
-    "/": {
-      label: "简体中文",
-      selectText: "选择语言",
-      lastUpdated: "上次更新",
-      lang: "zh-CN",
-    },
-  },
+  plugins: [md],
+  level: [1, 2, 3, 4],
+  // locales: {
+  //   "/": {
+  //     label: "简体中文",
+  //     selectText: "选择语言",
+  //     lastUpdated: "上次更新",
+  //     lang: "zh-CN",
+  //   },
+  // },
   themeConfig: {
     sidebar: 'auto',
     displayAllHeaders: false, // 默认值：false
@@ -43,5 +52,3 @@ module.exports = {
     // ]
   },
 };
-
-console.log(this.markdown)
