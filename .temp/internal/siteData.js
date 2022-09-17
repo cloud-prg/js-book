@@ -34,15 +34,45 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-66c5182d",
+      "key": "v-79041ec0",
       "path": "/"
+    },
+    {
+      "title": "第一年总结",
+      "frontmatter": {},
+      "regularPath": "/additional/%E7%AC%AC%E4%B8%80%E5%B9%B4%E6%80%BB%E7%BB%93.html",
+      "relativePath": "additional/第一年总结.md",
+      "key": "v-552f95b0",
+      "path": "/additional/%E7%AC%AC%E4%B8%80%E5%B9%B4%E6%80%BB%E7%BB%93.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "熟悉项目的流程",
+          "slug": "熟悉项目的流程"
+        },
+        {
+          "level": 2,
+          "title": "开发中的心路历程",
+          "slug": "开发中的心路历程"
+        },
+        {
+          "level": 2,
+          "title": "技术收获",
+          "slug": "技术收获"
+        },
+        {
+          "level": 2,
+          "title": "结尾",
+          "slug": "结尾"
+        }
+      ]
     },
     {
       "title": "目录",
       "frontmatter": {},
       "regularPath": "/additional/%E5%A6%82%E4%BD%95%E5%86%99%E4%B8%80%E4%BB%BD%E5%A5%BD%E7%AE%80%E5%8E%86.html",
       "relativePath": "additional/如何写一份好简历.md",
-      "key": "v-575a9480",
+      "key": "v-485e770d",
       "path": "/additional/%E5%A6%82%E4%BD%95%E5%86%99%E4%B8%80%E4%BB%BD%E5%A5%BD%E7%AE%80%E5%8E%86.html",
       "headers": [
         {
@@ -103,41 +133,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "第一年总结",
-      "frontmatter": {},
-      "regularPath": "/additional/%E7%AC%AC%E4%B8%80%E5%B9%B4%E6%80%BB%E7%BB%93.html",
-      "relativePath": "additional/第一年总结.md",
-      "key": "v-13641f1b",
-      "path": "/additional/%E7%AC%AC%E4%B8%80%E5%B9%B4%E6%80%BB%E7%BB%93.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "熟悉项目的流程",
-          "slug": "熟悉项目的流程"
-        },
-        {
-          "level": 2,
-          "title": "开发中的心路历程",
-          "slug": "开发中的心路历程"
-        },
-        {
-          "level": 2,
-          "title": "技术收获",
-          "slug": "技术收获"
-        },
-        {
-          "level": 2,
-          "title": "结尾",
-          "slug": "结尾"
-        }
-      ]
-    },
-    {
       "title": "ES6面试题",
       "frontmatter": {},
       "regularPath": "/basic/ES6%E9%9D%A2%E8%AF%95%E9%A2%98.html",
       "relativePath": "basic/ES6面试题.md",
-      "key": "v-1252141f",
+      "key": "v-f54d7da8",
       "path": "/basic/ES6%E9%9D%A2%E8%AF%95%E9%A2%98.html",
       "headers": [
         {
@@ -241,7 +241,7 @@ export const siteData = {
       },
       "regularPath": "/basic/Es6%E6%95%B0%E7%BB%84API%E7%BB%83%E4%B9%A0.html",
       "relativePath": "basic/Es6数组API练习.md",
-      "key": "v-33bbd422",
+      "key": "v-5fcf88fc",
       "path": "/basic/Es6%E6%95%B0%E7%BB%84API%E7%BB%83%E4%B9%A0.html",
       "headers": [
         {
@@ -257,6 +257,42 @@ export const siteData = {
       ]
     },
     {
+      "title": "阅读前言",
+      "frontmatter": {
+        "title": "阅读前言",
+        "author": "云上舟",
+        "date": "2022-03-14"
+      },
+      "regularPath": "/basic/%E5%89%8D%E8%A8%80.html",
+      "relativePath": "basic/前言.md",
+      "key": "v-52480768",
+      "path": "/basic/%E5%89%8D%E8%A8%80.html"
+    },
+    {
+      "title": "事件委托",
+      "frontmatter": {
+        "title": "事件委托",
+        "author": "云上舟",
+        "date": "2022-03-21"
+      },
+      "regularPath": "/basic/%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98.html",
+      "relativePath": "basic/事件委托.md",
+      "key": "v-1f361dc6",
+      "path": "/basic/%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "测试内容",
+          "slug": "测试内容"
+        },
+        {
+          "level": 2,
+          "title": "题目详解",
+          "slug": "题目详解"
+        }
+      ]
+    },
+    {
       "title": "Set和Map的区别",
       "frontmatter": {
         "title": "Set和Map的区别",
@@ -265,7 +301,7 @@ export const siteData = {
       },
       "regularPath": "/basic/Set%E4%B8%8EMap%E7%9A%84%E5%8C%BA%E5%88%AB.html",
       "relativePath": "basic/Set与Map的区别.md",
-      "key": "v-54753fbe",
+      "key": "v-4f72d32e",
       "path": "/basic/Set%E4%B8%8EMap%E7%9A%84%E5%8C%BA%E5%88%AB.html",
       "headers": [
         {
@@ -311,42 +347,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "事件委托",
-      "frontmatter": {
-        "title": "事件委托",
-        "author": "云上舟",
-        "date": "2022-03-21"
-      },
-      "regularPath": "/basic/%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98.html",
-      "relativePath": "basic/事件委托.md",
-      "key": "v-0cd63f39",
-      "path": "/basic/%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "测试内容",
-          "slug": "测试内容"
-        },
-        {
-          "level": 2,
-          "title": "题目详解",
-          "slug": "题目详解"
-        }
-      ]
-    },
-    {
-      "title": "阅读前言",
-      "frontmatter": {
-        "title": "阅读前言",
-        "author": "云上舟",
-        "date": "2022-03-14"
-      },
-      "regularPath": "/basic/%E5%89%8D%E8%A8%80.html",
-      "relativePath": "basic/前言.md",
-      "key": "v-1bc7153f",
-      "path": "/basic/%E5%89%8D%E8%A8%80.html"
-    },
-    {
       "title": "解决若干个if判断",
       "frontmatter": {
         "title": "解决若干个if判断",
@@ -355,7 +355,7 @@ export const siteData = {
       },
       "regularPath": "/basic/%E5%A4%84%E7%90%86%E8%8B%A5%E5%B9%B2%E4%B8%AAif%E5%88%A4%E6%96%AD.html",
       "relativePath": "basic/处理若干个if判断.md",
-      "key": "v-498be59f",
+      "key": "v-c0543e28",
       "path": "/basic/%E5%A4%84%E7%90%86%E8%8B%A5%E5%B9%B2%E4%B8%AAif%E5%88%A4%E6%96%AD.html",
       "headers": [
         {
@@ -414,7 +414,7 @@ export const siteData = {
       },
       "regularPath": "/basic/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E8%8B%A5%E5%B9%B2if..else.html",
       "relativePath": "basic/如何处理若干if..else.md",
-      "key": "v-77fc415d",
+      "key": "v-63b49d6a",
       "path": "/basic/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E8%8B%A5%E5%B9%B2if..else.html"
     },
     {
@@ -426,7 +426,7 @@ export const siteData = {
       },
       "regularPath": "/basic/%E6%95%B0%E7%BB%84%E8%BF%87%E6%BB%A4.html",
       "relativePath": "basic/数组过滤.md",
-      "key": "v-bfc3c98e",
+      "key": "v-9b040c74",
       "path": "/basic/%E6%95%B0%E7%BB%84%E8%BF%87%E6%BB%A4.html",
       "headers": [
         {
@@ -445,7 +445,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/basic/%E6%A0%B7%E5%BC%8F%E4%BF%AE%E6%94%B9.html",
       "relativePath": "basic/样式修改.md",
-      "key": "v-23da0d84",
+      "key": "v-3639ec11",
       "path": "/basic/%E6%A0%B7%E5%BC%8F%E4%BF%AE%E6%94%B9.html",
       "headers": [
         {
@@ -469,7 +469,7 @@ export const siteData = {
       },
       "regularPath": "/basic/%E8%A7%A3%E5%86%B3%E5%B5%8C%E5%A5%97if%E5%88%A4%E6%96%AD.html",
       "relativePath": "basic/解决嵌套if判断.md",
-      "key": "v-77aa2f9a",
+      "key": "v-1aeb2fc0",
       "path": "/basic/%E8%A7%A3%E5%86%B3%E5%B5%8C%E5%A5%97if%E5%88%A4%E6%96%AD.html",
       "headers": [
         {
@@ -500,11 +500,76 @@ export const siteData = {
       ]
     },
     {
+      "title": "目录",
+      "frontmatter": {},
+      "regularPath": "/book/BEM%E8%A7%84%E8%8C%83.html",
+      "relativePath": "book/BEM规范.md",
+      "key": "v-330458a3",
+      "path": "/book/BEM%E8%A7%84%E8%8C%83.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "痛点由来",
+          "slug": "痛点由来"
+        },
+        {
+          "level": 2,
+          "title": "痛点解决",
+          "slug": "痛点解决"
+        },
+        {
+          "level": 2,
+          "title": "优势",
+          "slug": "优势"
+        },
+        {
+          "level": 2,
+          "title": "劣势",
+          "slug": "劣势"
+        },
+        {
+          "level": 2,
+          "title": "主要用到的函数",
+          "slug": "主要用到的函数"
+        },
+        {
+          "level": 2,
+          "title": "变量名配置",
+          "slug": "变量名配置"
+        },
+        {
+          "level": 2,
+          "title": "BEM函数配置",
+          "slug": "bem函数配置"
+        },
+        {
+          "level": 3,
+          "title": "B函数",
+          "slug": "b函数"
+        },
+        {
+          "level": 3,
+          "title": "E函数",
+          "slug": "e函数"
+        },
+        {
+          "level": 3,
+          "title": "M函数",
+          "slug": "m函数"
+        },
+        {
+          "level": 3,
+          "title": "when函数",
+          "slug": "when函数"
+        }
+      ]
+    },
+    {
       "title": "BFC详解",
       "frontmatter": {},
       "regularPath": "/book/BFC%E8%AF%A6%E8%A7%A3.html",
       "relativePath": "book/BFC详解.md",
-      "key": "v-534897a8",
+      "key": "v-c147668e",
       "path": "/book/BFC%E8%AF%A6%E8%A7%A3.html",
       "headers": [
         {
@@ -574,7 +639,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/book/CI&CD%E4%B9%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2.html",
       "relativePath": "book/CI&CD之自动部署.md",
-      "key": "v-1dff59ad",
+      "key": "v-0388e20c",
       "path": "/book/CI&CD%E4%B9%8B%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2.html",
       "headers": [
         {
@@ -724,7 +789,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/book/JS%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE.html",
       "relativePath": "book/JS原型与原型链.md",
-      "key": "v-07789d34",
+      "key": "v-58cf6401",
       "path": "/book/JS%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE.html",
       "headers": [
         {
@@ -839,7 +904,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/book/JS%E7%BB%A7%E6%89%BF.html",
       "relativePath": "book/JS继承.md",
-      "key": "v-42414f32",
+      "key": "v-2856b034",
       "path": "/book/JS%E7%BB%A7%E6%89%BF.html",
       "headers": [
         {
@@ -904,7 +969,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/book/Memorize.html",
       "relativePath": "book/Memorize.md",
-      "key": "v-20d9528a",
+      "key": "v-8c1c68f0",
       "path": "/book/Memorize.html",
       "headers": [
         {
@@ -940,19 +1005,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "Node安装及版本控制",
-      "frontmatter": {},
-      "regularPath": "/book/Node%E5%8D%B8%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E5%8F%8A%E7%89%88%E6%9C%AC%E5%88%87%E6%8D%A2.html",
-      "relativePath": "book/Node卸载、安装及版本切换.md",
-      "key": "v-35a36269",
-      "path": "/book/Node%E5%8D%B8%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E5%8F%8A%E7%89%88%E6%9C%AC%E5%88%87%E6%8D%A2.html"
-    },
-    {
       "title": "Pinia用法",
       "frontmatter": {},
       "regularPath": "/book/Pinia%E7%94%A8%E6%B3%95.html",
       "relativePath": "book/Pinia用法.md",
-      "key": "v-1893df04",
+      "key": "v-bb24caea",
       "path": "/book/Pinia%E7%94%A8%E6%B3%95.html",
       "headers": [
         {
@@ -1028,19 +1085,19 @@ export const siteData = {
       ]
     },
     {
-      "title": "参考文章",
+      "title": "Node安装及版本控制",
       "frontmatter": {},
-      "regularPath": "/book/monaco-editor%E9%85%8D%E7%BD%AE.html",
-      "relativePath": "book/monaco-editor配置.md",
-      "key": "v-5cdc9fe2",
-      "path": "/book/monaco-editor%E9%85%8D%E7%BD%AE.html"
+      "regularPath": "/book/Node%E5%8D%B8%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E5%8F%8A%E7%89%88%E6%9C%AC%E5%88%87%E6%8D%A2.html",
+      "relativePath": "book/Node卸载、安装及版本切换.md",
+      "key": "v-f1b62c94",
+      "path": "/book/Node%E5%8D%B8%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E5%8F%8A%E7%89%88%E6%9C%AC%E5%88%87%E6%8D%A2.html"
     },
     {
       "title": "目录",
       "frontmatter": {},
       "regularPath": "/book/jsonSchema%E4%BD%BF%E7%94%A8.html",
       "relativePath": "book/jsonSchema使用.md",
-      "key": "v-0f1a8e27",
+      "key": "v-45eaa818",
       "path": "/book/jsonSchema%E4%BD%BF%E7%94%A8.html",
       "headers": [
         {
@@ -1081,11 +1138,19 @@ export const siteData = {
       ]
     },
     {
+      "title": "参考文章",
+      "frontmatter": {},
+      "regularPath": "/book/monaco-editor%E9%85%8D%E7%BD%AE.html",
+      "relativePath": "book/monaco-editor配置.md",
+      "key": "v-46d4ffc8",
+      "path": "/book/monaco-editor%E9%85%8D%E7%BD%AE.html"
+    },
+    {
       "title": "new操作符",
       "frontmatter": {},
       "regularPath": "/book/new%E6%93%8D%E4%BD%9C%E7%AC%A6.html",
       "relativePath": "book/new操作符.md",
-      "key": "v-2f20897c",
+      "key": "v-f78cd46e",
       "path": "/book/new%E6%93%8D%E4%BD%9C%E7%AC%A6.html",
       "headers": [
         {
@@ -1130,7 +1195,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/book/typeof%E5%8F%8Ainstanceof%E5%8E%9F%E7%90%86.html",
       "relativePath": "book/typeof及instanceof原理.md",
-      "key": "v-51bc6373",
+      "key": "v-13c07980",
       "path": "/book/typeof%E5%8F%8Ainstanceof%E5%8E%9F%E7%90%86.html",
       "headers": [
         {
@@ -1200,7 +1265,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/book/%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF.html",
       "relativePath": "book/事件循环.md",
-      "key": "v-29c6e265",
+      "key": "v-1091ff9c",
       "path": "/book/%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF.html",
       "headers": [
         {
@@ -1290,7 +1355,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/book/%E5%89%8D%E7%AB%AF%E4%B8%AD%E7%9A%84%E8%B7%A8%E5%9F%9F.html",
       "relativePath": "book/前端中的跨域.md",
-      "key": "v-6a238bea",
+      "key": "v-a9ab2150",
       "path": "/book/%E5%89%8D%E7%AB%AF%E4%B8%AD%E7%9A%84%E8%B7%A8%E5%9F%9F.html",
       "headers": [
         {
@@ -1420,7 +1485,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/book/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%8610%E4%B8%87%E6%9D%A1%E6%95%B0%E6%8D%AE.html",
       "relativePath": "book/前端如何处理10万条数据.md",
-      "key": "v-712ff597",
+      "key": "v-9be9a938",
       "path": "/book/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%8610%E4%B8%87%E6%9D%A1%E6%95%B0%E6%8D%AE.html",
       "headers": [
         {
@@ -1511,18 +1576,11 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/book/%E5%89%8D%E7%AB%AF%E7%9B%91%E6%8E%A7.html",
-      "relativePath": "book/前端监控.md",
-      "key": "v-da43f4c2",
-      "path": "/book/%E5%89%8D%E7%AB%AF%E7%9B%91%E6%8E%A7.html"
-    },
-    {
       "title": "目录",
       "frontmatter": {},
       "regularPath": "/book/%E5%89%8D%E7%AB%AF%E9%89%B4%E6%9D%83.html",
       "relativePath": "book/前端鉴权.md",
-      "key": "v-4162e5d5",
+      "key": "v-0f5303a2",
       "path": "/book/%E5%89%8D%E7%AB%AF%E9%89%B4%E6%9D%83.html",
       "headers": [
         {
@@ -1672,7 +1730,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/book/%E5%90%84%E4%BD%9C%E7%94%A8%E5%9F%9F%E7%9A%84%E7%90%86%E8%A7%A3.html",
       "relativePath": "book/各作用域的理解.md",
-      "key": "v-3b769ef8",
+      "key": "v-6d672cde",
       "path": "/book/%E5%90%84%E4%BD%9C%E7%94%A8%E5%9F%9F%E7%9A%84%E7%90%86%E8%A7%A3.html",
       "headers": [
         {
@@ -1707,7 +1765,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/book/%E5%9B%9E%E8%BD%A6url%E5%90%8E%EF%BC%8C%E9%A1%B5%E9%9D%A2%E7%9A%84%E5%8F%98%E5%8C%96%E8%BF%87%E7%A8%8B.html",
       "relativePath": "book/回车url后，页面的变化过程.md",
-      "key": "v-2c6575e0",
+      "key": "v-4d25a146",
       "path": "/book/%E5%9B%9E%E8%BD%A6url%E5%90%8E%EF%BC%8C%E9%A1%B5%E9%9D%A2%E7%9A%84%E5%8F%98%E5%8C%96%E8%BF%87%E7%A8%8B.html",
       "headers": [
         {
@@ -1798,18 +1856,11 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/book/%E5%A4%9A%E5%9B%BE%E7%BD%91%E7%AB%99%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96%E6%80%A7%E8%83%BD.html",
-      "relativePath": "book/多图网站如何优化性能.md",
-      "key": "v-5af19c8c",
-      "path": "/book/%E5%A4%9A%E5%9B%BE%E7%BD%91%E7%AB%99%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96%E6%80%A7%E8%83%BD.html"
-    },
-    {
       "title": "实现bind、apply、call",
       "frontmatter": {},
       "regularPath": "/book/%E5%AE%9E%E7%8E%B0bind%E3%80%81apply%E3%80%81call.html",
       "relativePath": "book/实现bind、apply、call.md",
-      "key": "v-03c90010",
+      "key": "v-5a89479d",
       "path": "/book/%E5%AE%9E%E7%8E%B0bind%E3%80%81apply%E3%80%81call.html",
       "headers": [
         {
@@ -1870,11 +1921,18 @@ export const siteData = {
       ]
     },
     {
+      "frontmatter": {},
+      "regularPath": "/book/%E5%89%8D%E7%AB%AF%E7%9B%91%E6%8E%A7.html",
+      "relativePath": "book/前端监控.md",
+      "key": "v-60ce236c",
+      "path": "/book/%E5%89%8D%E7%AB%AF%E7%9B%91%E6%8E%A7.html"
+    },
+    {
       "title": "彻底了解this",
       "frontmatter": {},
       "regularPath": "/book/%E5%BD%BB%E5%BA%95%E4%BA%86%E8%A7%A3this.html",
       "relativePath": "book/彻底了解this.md",
-      "key": "v-6d961a32",
+      "key": "v-7233ca02",
       "path": "/book/%E5%BD%BB%E5%BA%95%E4%BA%86%E8%A7%A3this.html",
       "headers": [
         {
@@ -1955,66 +2013,18 @@ export const siteData = {
       ]
     },
     {
-      "title": "提升代码健壮性",
       "frontmatter": {},
-      "regularPath": "/book/%E6%8F%90%E9%AB%98%E4%BB%A3%E7%A0%81%E5%81%A5%E5%A3%AE%E6%80%A7.html",
-      "relativePath": "book/提高代码健壮性.md",
-      "key": "v-1edfbf31",
-      "path": "/book/%E6%8F%90%E9%AB%98%E4%BB%A3%E7%A0%81%E5%81%A5%E5%A3%AE%E6%80%A7.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "更安全地访问数据",
-          "slug": "更安全地访问数据"
-        },
-        {
-          "level": 2,
-          "title": "空值合并运算符",
-          "slug": "空值合并运算符"
-        },
-        {
-          "level": 3,
-          "title": "封装一个安全获取对象属性API",
-          "slug": "封装一个安全获取对象属性api"
-        },
-        {
-          "level": 2,
-          "title": "更稳定的第三方模块",
-          "slug": "更稳定的第三方模块"
-        },
-        {
-          "level": 3,
-          "title": "设备适配例子",
-          "slug": "设备适配例子"
-        },
-        {
-          "level": 3,
-          "title": "模块导入的副作用",
-          "slug": "模块导入的副作用"
-        },
-        {
-          "level": 2,
-          "title": "在本地配置文件",
-          "slug": "在本地配置文件"
-        },
-        {
-          "level": 2,
-          "title": "Code Review",
-          "slug": "code-review"
-        },
-        {
-          "level": 2,
-          "title": "总结",
-          "slug": "总结"
-        }
-      ]
+      "regularPath": "/book/%E5%A4%9A%E5%9B%BE%E7%BD%91%E7%AB%99%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96%E6%80%A7%E8%83%BD.html",
+      "relativePath": "book/多图网站如何优化性能.md",
+      "key": "v-777c7e4e",
+      "path": "/book/%E5%A4%9A%E5%9B%BE%E7%BD%91%E7%AB%99%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96%E6%80%A7%E8%83%BD.html"
     },
     {
       "title": "柯里化",
       "frontmatter": {},
       "regularPath": "/book/%E6%9F%AF%E9%87%8C%E5%8C%96.html",
       "relativePath": "book/柯里化.md",
-      "key": "v-ef80196c",
+      "key": "v-36f77d57",
       "path": "/book/%E6%9F%AF%E9%87%8C%E5%8C%96.html",
       "headers": [
         {
@@ -2070,11 +2080,66 @@ export const siteData = {
       ]
     },
     {
+      "title": "提升代码健壮性",
+      "frontmatter": {},
+      "regularPath": "/book/%E6%8F%90%E9%AB%98%E4%BB%A3%E7%A0%81%E5%81%A5%E5%A3%AE%E6%80%A7.html",
+      "relativePath": "book/提高代码健壮性.md",
+      "key": "v-05e7783e",
+      "path": "/book/%E6%8F%90%E9%AB%98%E4%BB%A3%E7%A0%81%E5%81%A5%E5%A3%AE%E6%80%A7.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "更安全地访问数据",
+          "slug": "更安全地访问数据"
+        },
+        {
+          "level": 2,
+          "title": "空值合并运算符",
+          "slug": "空值合并运算符"
+        },
+        {
+          "level": 3,
+          "title": "封装一个安全获取对象属性API",
+          "slug": "封装一个安全获取对象属性api"
+        },
+        {
+          "level": 2,
+          "title": "更稳定的第三方模块",
+          "slug": "更稳定的第三方模块"
+        },
+        {
+          "level": 3,
+          "title": "设备适配例子",
+          "slug": "设备适配例子"
+        },
+        {
+          "level": 3,
+          "title": "模块导入的副作用",
+          "slug": "模块导入的副作用"
+        },
+        {
+          "level": 2,
+          "title": "在本地配置文件",
+          "slug": "在本地配置文件"
+        },
+        {
+          "level": 2,
+          "title": "Code Review",
+          "slug": "code-review"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
+        }
+      ]
+    },
+    {
       "title": "正则表达式",
       "frontmatter": {},
       "regularPath": "/book/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9A%84%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8.html",
       "relativePath": "book/正则表达式的基础使用.md",
-      "key": "v-127019b8",
+      "key": "v-60181771",
       "path": "/book/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9A%84%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8.html",
       "headers": [
         {
@@ -2274,7 +2339,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/book/%E9%97%AD%E5%8C%85.html",
       "relativePath": "book/闭包.md",
-      "key": "v-ea167bec",
+      "key": "v-64420857",
       "path": "/book/%E9%97%AD%E5%8C%85.html",
       "headers": [
         {
@@ -2309,7 +2374,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/components/%E5%BC%B9%E6%A1%86%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0.html",
       "relativePath": "components/弹框组件的实现.md",
-      "key": "v-61021dea",
+      "key": "v-7c38a912",
       "path": "/components/%E5%BC%B9%E6%A1%86%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AE%9E%E7%8E%B0.html",
       "headers": [
         {
@@ -2364,7 +2429,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/components/%E6%A0%91%E5%BD%A2%E6%8E%A7%E4%BB%B6%E7%9A%84%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0.html",
       "relativePath": "components/树形控件的简单实现.md",
-      "key": "v-86834108",
+      "key": "v-1296a489",
       "path": "/components/%E6%A0%91%E5%BD%A2%E6%8E%A7%E4%BB%B6%E7%9A%84%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0.html",
       "headers": [
         {
@@ -2414,7 +2479,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/components/%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%AD%BE%E5%90%8D%E7%BB%84%E4%BB%B6.html",
       "relativePath": "components/项目中的电子签名组件.md",
-      "key": "v-7ca2d736",
+      "key": "v-455ca59c",
       "path": "/components/%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E7%94%B5%E5%AD%90%E7%AD%BE%E5%90%8D%E7%BB%84%E4%BB%B6.html",
       "headers": [
         {
@@ -2474,7 +2539,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/dailyapi/%E5%AE%9E%E7%8E%B0maxRequest.html",
       "relativePath": "dailyapi/实现maxRequest.md",
-      "key": "v-1f76f99c",
+      "key": "v-499483ff",
       "path": "/dailyapi/%E5%AE%9E%E7%8E%B0maxRequest.html",
       "headers": [
         {
@@ -2499,7 +2564,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/dailyapi/%E5%AE%9E%E7%8E%B0new%E6%93%8D%E4%BD%9C%E7%AC%A6.html",
       "relativePath": "dailyapi/实现new操作符.md",
-      "key": "v-dd3409da",
+      "key": "v-3a867c40",
       "path": "/dailyapi/%E5%AE%9E%E7%8E%B0new%E6%93%8D%E4%BD%9C%E7%AC%A6.html",
       "headers": [
         {
@@ -2524,7 +2589,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/dailyapi/%E5%AF%B9%E8%B1%A1%E5%90%88%E5%B9%B6.html",
       "relativePath": "dailyapi/对象合并.md",
-      "key": "v-be591d2a",
+      "key": "v-0bb91b90",
       "path": "/dailyapi/%E5%AF%B9%E8%B1%A1%E5%90%88%E5%B9%B6.html",
       "headers": [
         {
@@ -2544,7 +2609,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/dailyapi/%E6%89%8B%E5%86%99Promise.html",
       "relativePath": "dailyapi/手写Promise.md",
-      "key": "v-6bcb0fd3",
+      "key": "v-7e2aee60",
       "path": "/dailyapi/%E6%89%8B%E5%86%99Promise.html",
       "headers": [
         {
@@ -2594,7 +2659,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/dailyapi/%E6%89%8B%E5%86%99promiseAll.html",
       "relativePath": "dailyapi/手写promiseAll.md",
-      "key": "v-7fdbae11",
+      "key": "v-4da8a244",
       "path": "/dailyapi/%E6%89%8B%E5%86%99promiseAll.html",
       "headers": [
         {
@@ -2624,8 +2689,48 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/dailyapi/%E6%89%8B%E5%86%99%E4%B8%80%E4%B8%AAajax.html",
       "relativePath": "dailyapi/手写一个ajax.md",
-      "key": "v-4f08ac93",
+      "key": "v-13259060",
       "path": "/dailyapi/%E6%89%8B%E5%86%99%E4%B8%80%E4%B8%AAajax.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "题目要求",
+          "slug": "题目要求"
+        },
+        {
+          "level": 2,
+          "title": "答案解析",
+          "slug": "答案解析"
+        },
+        {
+          "level": 2,
+          "title": "思路要点",
+          "slug": "思路要点"
+        }
+      ]
+    },
+    {
+      "title": "手写符合规范的PromiseA+",
+      "frontmatter": {},
+      "regularPath": "/dailyapi/%E6%89%8B%E5%86%99%E7%AC%A6%E5%90%88%E8%A7%84%E8%8C%83%E7%9A%84PromiseA+.html",
+      "relativePath": "dailyapi/手写符合规范的PromiseA+.md",
+      "key": "v-1f5e9988",
+      "path": "/dailyapi/%E6%89%8B%E5%86%99%E7%AC%A6%E5%90%88%E8%A7%84%E8%8C%83%E7%9A%84PromiseA+.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "源码",
+          "slug": "源码"
+        }
+      ]
+    },
+    {
+      "title": "数组扁平化",
+      "frontmatter": {},
+      "regularPath": "/dailyapi/%E6%95%B0%E7%BB%84%E6%89%81%E5%B9%B3%E5%8C%96.html",
+      "relativePath": "dailyapi/数组扁平化.md",
+      "key": "v-a1926f36",
+      "path": "/dailyapi/%E6%95%B0%E7%BB%84%E6%89%81%E5%B9%B3%E5%8C%96.html",
       "headers": [
         {
           "level": 2,
@@ -2648,31 +2753,35 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/dailyapi/%E6%89%8B%E5%86%99%E4%B8%80%E4%B8%AAinstanceof.html",
       "relativePath": "dailyapi/手写一个instanceof.md",
-      "key": "v-5f6aea13",
+      "key": "v-07378260",
       "path": "/dailyapi/%E6%89%8B%E5%86%99%E4%B8%80%E4%B8%AAinstanceof.html"
     },
     {
-      "title": "手写符合规范的PromiseA+",
+      "title": "序言",
       "frontmatter": {},
-      "regularPath": "/dailyapi/%E6%89%8B%E5%86%99%E7%AC%A6%E5%90%88%E8%A7%84%E8%8C%83%E7%9A%84PromiseA+.html",
-      "relativePath": "dailyapi/手写符合规范的PromiseA+.md",
-      "key": "v-04de46bb",
-      "path": "/dailyapi/%E6%89%8B%E5%86%99%E7%AC%A6%E5%90%88%E8%A7%84%E8%8C%83%E7%9A%84PromiseA+.html",
+      "regularPath": "/home/home.html",
+      "relativePath": "home/home.md",
+      "key": "v-cdf02d30",
+      "path": "/home/home.html",
       "headers": [
         {
           "level": 2,
-          "title": "源码",
-          "slug": "源码"
+          "title": "介绍",
+          "slug": "介绍"
         }
       ]
     },
     {
-      "title": "数组扁平化",
-      "frontmatter": {},
-      "regularPath": "/dailyapi/%E6%95%B0%E7%BB%84%E6%89%81%E5%B9%B3%E5%8C%96.html",
-      "relativePath": "dailyapi/数组扁平化.md",
-      "key": "v-7ec3a3d8",
-      "path": "/dailyapi/%E6%95%B0%E7%BB%84%E6%89%81%E5%B9%B3%E5%8C%96.html",
+      "title": "序言",
+      "frontmatter": {
+        "title": "序言",
+        "author": "云上舟",
+        "date": "2022-03-25"
+      },
+      "regularPath": "/dailyapi/%E6%A8%A1%E6%9D%BF.html",
+      "relativePath": "dailyapi/模板.md",
+      "key": "v-2f610006",
+      "path": "/dailyapi/%E6%A8%A1%E6%9D%BF.html",
       "headers": [
         {
           "level": 2,
@@ -2696,7 +2805,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/dailyapi/%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.html",
       "relativePath": "dailyapi/有效的括号.md",
-      "key": "v-9b63d6f2",
+      "key": "v-3a7d8dd8",
       "path": "/dailyapi/%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.html",
       "headers": [
         {
@@ -2717,55 +2826,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "序言",
-      "frontmatter": {
-        "title": "序言",
-        "author": "云上舟",
-        "date": "2022-03-25"
-      },
-      "regularPath": "/dailyapi/%E6%A8%A1%E6%9D%BF.html",
-      "relativePath": "dailyapi/模板.md",
-      "key": "v-b7b7528e",
-      "path": "/dailyapi/%E6%A8%A1%E6%9D%BF.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "题目要求",
-          "slug": "题目要求"
-        },
-        {
-          "level": 2,
-          "title": "答案解析",
-          "slug": "答案解析"
-        },
-        {
-          "level": 2,
-          "title": "思路要点",
-          "slug": "思路要点"
-        }
-      ]
-    },
-    {
-      "title": "序言",
-      "frontmatter": {},
-      "regularPath": "/home/home.html",
-      "relativePath": "home/home.md",
-      "key": "v-7a55579b",
-      "path": "/home/home.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "介绍",
-          "slug": "介绍"
-        }
-      ]
-    },
-    {
       "title": "ES6之变量声明",
       "frontmatter": {},
       "regularPath": "/note/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html",
       "relativePath": "note/ES6之变量声明.md",
-      "key": "v-2b1165ff",
+      "key": "v-21a36c68",
       "path": "/note/ES6%E4%B9%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html",
       "headers": [
         {
@@ -2790,7 +2855,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/note/ES6%E4%B9%8B%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.html",
       "relativePath": "note/ES6之解构赋值.md",
-      "key": "v-17a09630",
+      "key": "v-48850c06",
       "path": "/note/ES6%E4%B9%8B%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.html",
       "headers": [
         {
@@ -2840,7 +2905,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/note/Typeof.html",
       "relativePath": "note/Typeof.md",
-      "key": "v-3ac9f73b",
+      "key": "v-91d64af0",
       "path": "/note/Typeof.html",
       "headers": [
         {
@@ -2874,22 +2939,15 @@ export const siteData = {
       },
       "regularPath": "/note/Uniapp/uniapp%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95%E4%B8%8E%E8%A7%A3%E5%86%B3.html",
       "relativePath": "note/Uniapp/uniapp问题记录与解决.md",
-      "key": "v-29a160d3",
+      "key": "v-4421b3a0",
       "path": "/note/Uniapp/uniapp%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95%E4%B8%8E%E8%A7%A3%E5%86%B3.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/note/Untitled.html",
-      "relativePath": "note/Untitled.md",
-      "key": "v-18715a8a",
-      "path": "/note/Untitled.html"
     },
     {
       "title": "Vite搭配Vue3全家桶的基本配置",
       "frontmatter": {},
       "regularPath": "/note/Vite/Vite%E6%90%AD%E9%85%8DVue3%E5%85%A8%E5%AE%B6%E6%A1%B6%E7%9A%84%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE.html",
       "relativePath": "note/Vite/Vite搭配Vue3全家桶的基本配置.md",
-      "key": "v-7a168108",
+      "key": "v-f9b8a1d6",
       "path": "/note/Vite/Vite%E6%90%AD%E9%85%8DVue3%E5%85%A8%E5%AE%B6%E6%A1%B6%E7%9A%84%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE.html",
       "headers": [
         {
@@ -2959,7 +3017,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/note/Vue/Vue3%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html",
       "relativePath": "note/Vue/Vue3基本使用.md",
-      "key": "v-c74d9782",
+      "key": "v-6076180c",
       "path": "/note/Vue/Vue3%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html",
       "headers": [
         {
@@ -2995,11 +3053,63 @@ export const siteData = {
       ]
     },
     {
+      "frontmatter": {},
+      "regularPath": "/note/Untitled.html",
+      "relativePath": "note/Untitled.md",
+      "key": "v-83b470f0",
+      "path": "/note/Untitled.html"
+    },
+    {
+      "title": "Vue中的防抖",
+      "frontmatter": {},
+      "regularPath": "/note/Vue/vue%E4%B8%AD%E7%9A%84%E9%98%B2%E6%8A%96.html",
+      "relativePath": "note/Vue/vue中的防抖.md",
+      "key": "v-16c31bdc",
+      "path": "/note/Vue/vue%E4%B8%AD%E7%9A%84%E9%98%B2%E6%8A%96.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "问题萌生",
+          "slug": "问题萌生"
+        },
+        {
+          "level": 2,
+          "title": "解决方案",
+          "slug": "解决方案"
+        },
+        {
+          "level": 2,
+          "title": "重温防抖",
+          "slug": "重温防抖"
+        },
+        {
+          "level": 2,
+          "title": "注意事项",
+          "slug": "注意事项"
+        },
+        {
+          "level": 3,
+          "title": "报错原因",
+          "slug": "报错原因"
+        },
+        {
+          "level": 2,
+          "title": "解决方法",
+          "slug": "解决方法"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
+        }
+      ]
+    },
+    {
       "title": "Vuex的使用",
       "frontmatter": {},
       "regularPath": "/note/Vue/Vuex%E7%9A%84%E4%BD%BF%E7%94%A8.html",
       "relativePath": "note/Vue/Vuex的使用.md",
-      "key": "v-5d1aa70f",
+      "key": "v-681e771c",
       "path": "/note/Vue/Vuex%E7%9A%84%E4%BD%BF%E7%94%A8.html",
       "headers": [
         {
@@ -3029,7 +3139,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/note/Vue/vue3%E7%9A%84%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F.html",
       "relativePath": "note/Vue/vue3的通信方式.md",
-      "key": "v-22eb1df6",
+      "key": "v-454ab892",
       "path": "/note/Vue/vue3%E7%9A%84%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F.html",
       "headers": [
         {
@@ -3075,81 +3185,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "Vue中的防抖",
-      "frontmatter": {},
-      "regularPath": "/note/Vue/vue%E4%B8%AD%E7%9A%84%E9%98%B2%E6%8A%96.html",
-      "relativePath": "note/Vue/vue中的防抖.md",
-      "key": "v-c5d4ae62",
-      "path": "/note/Vue/vue%E4%B8%AD%E7%9A%84%E9%98%B2%E6%8A%96.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "问题萌生",
-          "slug": "问题萌生"
-        },
-        {
-          "level": 2,
-          "title": "解决方案",
-          "slug": "解决方案"
-        },
-        {
-          "level": 2,
-          "title": "重温防抖",
-          "slug": "重温防抖"
-        },
-        {
-          "level": 2,
-          "title": "注意事项",
-          "slug": "注意事项"
-        },
-        {
-          "level": 3,
-          "title": "报错原因",
-          "slug": "报错原因"
-        },
-        {
-          "level": 2,
-          "title": "解决方法",
-          "slug": "解决方法"
-        },
-        {
-          "level": 2,
-          "title": "总结",
-          "slug": "总结"
-        }
-      ]
-    },
-    {
-      "title": "小程序的基本组成结构",
-      "frontmatter": {},
-      "regularPath": "/note/Wx/%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95.html",
-      "relativePath": "note/Wx/一个小程序学习记录.md",
-      "key": "v-3513ed1d",
-      "path": "/note/Wx/%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "小程序的基本组成结构",
-          "slug": "小程序的基本组成结构"
-        },
-        {
-          "level": 2,
-          "title": "wxml和html",
-          "slug": "wxml和html"
-        },
-        {
-          "level": 3,
-          "title": "问题",
-          "slug": "问题"
-        }
-      ]
-    },
-    {
       "title": "微信开发者平台使用",
       "frontmatter": {},
       "regularPath": "/note/Wx/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E8%80%85%E5%B9%B3%E5%8F%B0%E4%BD%BF%E7%94%A8.html",
       "relativePath": "note/Wx/微信开发者平台使用.md",
-      "key": "v-0c4e0e92",
+      "key": "v-26ce615f",
       "path": "/note/Wx/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E8%80%85%E5%B9%B3%E5%8F%B0%E4%BD%BF%E7%94%A8.html",
       "headers": [
         {
@@ -3269,7 +3309,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/1.%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D.html",
       "relativePath": "note/cloud-ship/StoryBook引入/1.开篇介绍.md",
-      "key": "v-bdc72fa4",
+      "key": "v-18015ebb",
       "path": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/1.%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D.html",
       "headers": [
         {
@@ -3320,17 +3360,27 @@ export const siteData = {
       ]
     },
     {
-      "title": "2.如何写详细文档",
+      "title": "小程序的基本组成结构",
       "frontmatter": {},
-      "regularPath": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/2.%E5%A6%82%E4%BD%95%E5%86%99%E8%AF%A6%E7%BB%86%E6%96%87%E6%A1%A3.html",
-      "relativePath": "note/cloud-ship/StoryBook引入/2.如何写详细文档.md",
-      "key": "v-e7a60832",
-      "path": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/2.%E5%A6%82%E4%BD%95%E5%86%99%E8%AF%A6%E7%BB%86%E6%96%87%E6%A1%A3.html",
+      "regularPath": "/note/Wx/%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95.html",
+      "relativePath": "note/Wx/一个小程序学习记录.md",
+      "key": "v-4f943fea",
+      "path": "/note/Wx/%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95.html",
       "headers": [
         {
           "level": 2,
-          "title": "info-addon",
-          "slug": "info-addon"
+          "title": "小程序的基本组成结构",
+          "slug": "小程序的基本组成结构"
+        },
+        {
+          "level": 2,
+          "title": "wxml和html",
+          "slug": "wxml和html"
+        },
+        {
+          "level": 3,
+          "title": "问题",
+          "slug": "问题"
         }
       ]
     },
@@ -3339,7 +3389,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/3.%E5%86%99%E6%96%87%E6%A1%A3%E9%9C%80%E5%BC%95%E5%85%A5%E7%9A%84%E5%BA%93.html",
       "relativePath": "note/cloud-ship/StoryBook引入/3.写文档需引入的库.md",
-      "key": "v-6f0e146a",
+      "key": "v-e1068c12",
       "path": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/3.%E5%86%99%E6%96%87%E6%A1%A3%E9%9C%80%E5%BC%95%E5%85%A5%E7%9A%84%E5%BA%93.html",
       "headers": [
         {
@@ -3360,22 +3410,17 @@ export const siteData = {
       ]
     },
     {
-      "title": "5.传统写法",
+      "title": "2.如何写详细文档",
       "frontmatter": {},
-      "regularPath": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/5.%E4%BC%A0%E7%BB%9F%E5%86%99%E6%B3%95.html",
-      "relativePath": "note/cloud-ship/StoryBook引入/5.传统写法.md",
-      "key": "v-58a04be2",
-      "path": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/5.%E4%BC%A0%E7%BB%9F%E5%86%99%E6%B3%95.html",
+      "regularPath": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/2.%E5%A6%82%E4%BD%95%E5%86%99%E8%AF%A6%E7%BB%86%E6%96%87%E6%A1%A3.html",
+      "relativePath": "note/cloud-ship/StoryBook引入/2.如何写详细文档.md",
+      "key": "v-10b5bdb4",
+      "path": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/2.%E5%A6%82%E4%BD%95%E5%86%99%E8%AF%A6%E7%BB%86%E6%96%87%E6%A1%A3.html",
       "headers": [
         {
           "level": 2,
-          "title": "storiesOf创建docs页",
-          "slug": "storiesof创建docs页"
-        },
-        {
-          "level": 2,
-          "title": "如何在storybook中引入全局文件？",
-          "slug": "如何在storybook中引入全局文件"
+          "title": "info-addon",
+          "slug": "info-addon"
         }
       ]
     },
@@ -3384,7 +3429,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/4.%E8%AE%A9info%E6%96%87%E6%A1%A3%E6%94%AF%E6%8C%81ts.html",
       "relativePath": "note/cloud-ship/StoryBook引入/4.让info文档支持ts.md",
-      "key": "v-b265f088",
+      "key": "v-bd7232ee",
       "path": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/4.%E8%AE%A9info%E6%96%87%E6%A1%A3%E6%94%AF%E6%8C%81ts.html",
       "headers": [
         {
@@ -3395,19 +3440,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "scss语法小记",
-      "frontmatter": {},
-      "regularPath": "/note/cloud-ship/scss%E8%AF%AD%E6%B3%95%E5%B0%8F%E8%AE%B0.html",
-      "relativePath": "note/cloud-ship/scss语法小记.md",
-      "key": "v-beccf3c6",
-      "path": "/note/cloud-ship/scss%E8%AF%AD%E6%B3%95%E5%B0%8F%E8%AE%B0.html"
-    },
-    {
       "title": "classnames模块",
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/classnames%E6%A8%A1%E5%9D%97.html",
       "relativePath": "note/cloud-ship/classnames模块.md",
-      "key": "v-ddfdc122",
+      "key": "v-5305357c",
       "path": "/note/cloud-ship/classnames%E6%A8%A1%E5%9D%97.html",
       "headers": [
         {
@@ -3428,11 +3465,39 @@ export const siteData = {
       ]
     },
     {
+      "title": "5.传统写法",
+      "frontmatter": {},
+      "regularPath": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/5.%E4%BC%A0%E7%BB%9F%E5%86%99%E6%B3%95.html",
+      "relativePath": "note/cloud-ship/StoryBook引入/5.传统写法.md",
+      "key": "v-60f57b22",
+      "path": "/note/cloud-ship/StoryBook%E5%BC%95%E5%85%A5/5.%E4%BC%A0%E7%BB%9F%E5%86%99%E6%B3%95.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "storiesOf创建docs页",
+          "slug": "storiesof创建docs页"
+        },
+        {
+          "level": 2,
+          "title": "如何在storybook中引入全局文件？",
+          "slug": "如何在storybook中引入全局文件"
+        }
+      ]
+    },
+    {
+      "title": "scss语法小记",
+      "frontmatter": {},
+      "regularPath": "/note/cloud-ship/scss%E8%AF%AD%E6%B3%95%E5%B0%8F%E8%AE%B0.html",
+      "relativePath": "note/cloud-ship/scss语法小记.md",
+      "key": "v-f0bd81ac",
+      "path": "/note/cloud-ship/scss%E8%AF%AD%E6%B3%95%E5%B0%8F%E8%AE%B0.html"
+    },
+    {
       "title": "CSSTransition库方法再封装",
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/svg%E5%BC%95%E5%85%A5/CSSTransition%E5%BA%93%E6%96%B9%E6%B3%95%E5%86%8D%E5%B0%81%E8%A3%85.html",
       "relativePath": "note/cloud-ship/svg引入/CSSTransition库方法再封装.md",
-      "key": "v-21ec7a5c",
+      "key": "v-7392849f",
       "path": "/note/cloud-ship/svg%E5%BC%95%E5%85%A5/CSSTransition%E5%BA%93%E6%96%B9%E6%B3%95%E5%86%8D%E5%B0%81%E8%A3%85.html",
       "headers": [
         {
@@ -3462,7 +3527,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/svg%E5%BC%95%E5%85%A5/fortawesome%E7%9A%84%E4%BD%BF%E7%94%A8.html",
       "relativePath": "note/cloud-ship/svg引入/fortawesome的使用.md",
-      "key": "v-f26968bc",
+      "key": "v-46b8dea2",
       "path": "/note/cloud-ship/svg%E5%BC%95%E5%85%A5/fortawesome%E7%9A%84%E4%BD%BF%E7%94%A8.html",
       "headers": [
         {
@@ -3507,7 +3572,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/svg%E5%BC%95%E5%85%A5/fontawesome%E5%BA%93%E6%96%B9%E6%B3%95%E5%86%8D%E5%B0%81%E8%A3%85.html",
       "relativePath": "note/cloud-ship/svg引入/fontawesome库方法再封装.md",
-      "key": "v-a9a471dc",
+      "key": "v-04d1775f",
       "path": "/note/cloud-ship/svg%E5%BC%95%E5%85%A5/fontawesome%E5%BA%93%E6%96%B9%E6%B3%95%E5%86%8D%E5%B0%81%E8%A3%85.html",
       "headers": [
         {
@@ -3527,7 +3592,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/jest%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8.html",
       "relativePath": "note/cloud-ship/testing-library测试库/jest简单使用.md",
-      "key": "v-b1c2c172",
+      "key": "v-00c24f94",
       "path": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/jest%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8.html",
       "headers": [
         {
@@ -3542,7 +3607,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/%E5%8F%AF%E4%BB%A5%E4%BB%8E%E5%93%AA%E4%BA%9B%E8%A7%92%E5%BA%A6%E5%8E%BB%E6%B5%8B%E8%AF%95.html",
       "relativePath": "note/cloud-ship/testing-library测试库/可以从哪些角度去测试.md",
-      "key": "v-b810a294",
+      "key": "v-56cac283",
       "path": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/%E5%8F%AF%E4%BB%A5%E4%BB%8E%E5%93%AA%E4%BA%9B%E8%A7%92%E5%BA%A6%E5%8E%BB%E6%B5%8B%E8%AF%95.html",
       "headers": [
         {
@@ -3587,7 +3652,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/%E6%B5%8B%E8%AF%95%E5%91%BD%E4%BB%A4.html",
       "relativePath": "note/cloud-ship/testing-library测试库/测试命令.md",
-      "key": "v-8f7c45b2",
+      "key": "v-8225ab18",
       "path": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/%E6%B5%8B%E8%AF%95%E5%91%BD%E4%BB%A4.html",
       "headers": [
         {
@@ -3603,26 +3668,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "测试库官方文档",
-      "frontmatter": {},
-      "regularPath": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/%E6%B5%8B%E8%AF%95%E5%BA%93%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3.html",
-      "relativePath": "note/cloud-ship/testing-library测试库/测试库官方文档.md",
-      "key": "v-9a11b88c",
-      "path": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/%E6%B5%8B%E8%AF%95%E5%BA%93%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "测试库官方文档地址",
-          "slug": "测试库官方文档地址"
-        }
-      ]
-    },
-    {
       "title": "测试库的扩展",
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/%E6%B5%8B%E8%AF%95%E5%BA%93%E7%9A%84%E6%89%A9%E5%B1%95.html",
       "relativePath": "note/cloud-ship/testing-library测试库/测试库的扩展.md",
-      "key": "v-1b1dd0f5",
+      "key": "v-2bbb147c",
       "path": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/%E6%B5%8B%E8%AF%95%E5%BA%93%E7%9A%84%E6%89%A9%E5%B1%95.html",
       "headers": [
         {
@@ -3647,7 +3697,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/%E6%B5%8B%E8%AF%95%E8%AF%AD%E6%B3%95.html",
       "relativePath": "note/cloud-ship/testing-library测试库/测试语法.md",
-      "key": "v-30053a25",
+      "key": "v-36b08772",
       "path": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/%E6%B5%8B%E8%AF%95%E8%AF%AD%E6%B3%95.html",
       "headers": [
         {
@@ -3663,11 +3713,26 @@ export const siteData = {
       ]
     },
     {
+      "title": "测试库官方文档",
+      "frontmatter": {},
+      "regularPath": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/%E6%B5%8B%E8%AF%95%E5%BA%93%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3.html",
+      "relativePath": "note/cloud-ship/testing-library测试库/测试库官方文档.md",
+      "key": "v-4aa1ec47",
+      "path": "/note/cloud-ship/testing-library%E6%B5%8B%E8%AF%95%E5%BA%93/%E6%B5%8B%E8%AF%95%E5%BA%93%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "测试库官方文档地址",
+          "slug": "测试库官方文档地址"
+        }
+      ]
+    },
+    {
       "title": "启动命令",
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/ts-react%E9%A1%B9%E7%9B%AE%E7%9A%84%E5%90%AF%E5%8A%A8/%E5%90%AF%E5%8A%A8%E5%91%BD%E4%BB%A4.html",
       "relativePath": "note/cloud-ship/ts-react项目的启动/启动命令.md",
-      "key": "v-7e15974a",
+      "key": "v-7cda1252",
       "path": "/note/cloud-ship/ts-react%E9%A1%B9%E7%9B%AE%E7%9A%84%E5%90%AF%E5%8A%A8/%E5%90%AF%E5%8A%A8%E5%91%BD%E4%BB%A4.html",
       "headers": [
         {
@@ -3682,7 +3747,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/%E6%B3%A8%E6%84%8F%E6%A8%A1%E5%9D%97%E7%89%88%E6%9C%AC.html",
       "relativePath": "note/cloud-ship/注意模块版本.md",
-      "key": "v-54d8c3c0",
+      "key": "v-948b5d66",
       "path": "/note/cloud-ship/%E6%B3%A8%E6%84%8F%E6%A8%A1%E5%9D%97%E7%89%88%E6%9C%AC.html",
       "headers": [
         {
@@ -3712,7 +3777,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/button%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90.html",
       "relativePath": "note/cloud-ship/组件库的准备工作/button需求分析.md",
-      "key": "v-26071609",
+      "key": "v-7e21ef56",
       "path": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/button%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90.html",
       "headers": [
         {
@@ -3747,7 +3812,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E6%B7%BB%E5%8A%A0%E8%89%B2%E5%BD%A9%E4%BD%93%E7%B3%BB.html",
       "relativePath": "note/cloud-ship/组件库的准备工作/添加色彩体系.md",
-      "key": "v-6aae14b1",
+      "key": "v-b9155e04",
       "path": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E6%B7%BB%E5%8A%A0%E8%89%B2%E5%BD%A9%E4%BD%93%E7%B3%BB.html",
       "headers": [
         {
@@ -3773,11 +3838,31 @@ export const siteData = {
       ]
     },
     {
+      "title": "组件库通用样式体系",
+      "frontmatter": {},
+      "regularPath": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E7%BB%84%E4%BB%B6%E5%BA%93%E9%80%9A%E7%94%A8%E6%A0%B7%E5%BC%8F%E4%BD%93%E7%B3%BB.html",
+      "relativePath": "note/cloud-ship/组件库的准备工作/组件库通用样式体系.md",
+      "key": "v-306754fc",
+      "path": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E7%BB%84%E4%BB%B6%E5%BA%93%E9%80%9A%E7%94%A8%E6%A0%B7%E5%BC%8F%E4%BD%93%E7%B3%BB.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "全局变量",
+          "slug": "全局变量"
+        },
+        {
+          "level": 2,
+          "title": "样式赋值",
+          "slug": "样式赋值"
+        }
+      ]
+    },
+    {
       "title": "组件库各部分结构",
       "frontmatter": {},
       "regularPath": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E7%BB%84%E4%BB%B6%E5%BA%93%E5%90%84%E9%83%A8%E5%88%86%E7%BB%93%E6%9E%84.html",
       "relativePath": "note/cloud-ship/组件库的准备工作/组件库各部分结构.md",
-      "key": "v-0b76f536",
+      "key": "v-a5d0cd9c",
       "path": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E7%BB%84%E4%BB%B6%E5%BA%93%E5%90%84%E9%83%A8%E5%88%86%E7%BB%93%E6%9E%84.html",
       "headers": [
         {
@@ -3798,103 +3883,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "组件库通用样式体系",
-      "frontmatter": {},
-      "regularPath": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E7%BB%84%E4%BB%B6%E5%BA%93%E9%80%9A%E7%94%A8%E6%A0%B7%E5%BC%8F%E4%BD%93%E7%B3%BB.html",
-      "relativePath": "note/cloud-ship/组件库的准备工作/组件库通用样式体系.md",
-      "key": "v-2c51ddf5",
-      "path": "/note/cloud-ship/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/%E7%BB%84%E4%BB%B6%E5%BA%93%E9%80%9A%E7%94%A8%E6%A0%B7%E5%BC%8F%E4%BD%93%E7%B3%BB.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "全局变量",
-          "slug": "全局变量"
-        },
-        {
-          "level": 2,
-          "title": "样式赋值",
-          "slug": "样式赋值"
-        }
-      ]
-    },
-    {
-      "title": "如何自定义vuepress首页风格",
-      "frontmatter": {},
-      "regularPath": "/note/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89vuepress%E9%A6%96%E9%A1%B5%E9%A3%8E%E6%A0%BC.html",
-      "relativePath": "note/如何自定义vuepress首页风格.md",
-      "key": "v-174b7cfb",
-      "path": "/note/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89vuepress%E9%A6%96%E9%A1%B5%E9%A3%8E%E6%A0%BC.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、主题目录",
-          "slug": "一、主题目录"
-        },
-        {
-          "level": 2,
-          "title": "二、配置首页",
-          "slug": "二、配置首页"
-        },
-        {
-          "level": 2,
-          "title": "三、配置README.md文件",
-          "slug": "三、配置readme-md文件"
-        },
-        {
-          "level": 2,
-          "title": "参考文章",
-          "slug": "参考文章"
-        }
-      ]
-    },
-    {
-      "title": "懒加载",
-      "frontmatter": {},
-      "regularPath": "/note/%E5%9B%BE%E7%89%87%E6%87%92%E5%8A%A0%E8%BD%BD.html",
-      "relativePath": "note/图片懒加载.md",
-      "key": "v-663a6a18",
-      "path": "/note/%E5%9B%BE%E7%89%87%E6%87%92%E5%8A%A0%E8%BD%BD.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "什么是懒加载",
-          "slug": "什么是懒加载"
-        },
-        {
-          "level": 2,
-          "title": "应用场景",
-          "slug": "应用场景"
-        },
-        {
-          "level": 2,
-          "title": "解决方案",
-          "slug": "解决方案"
-        },
-        {
-          "level": 2,
-          "title": "小结",
-          "slug": "小结"
-        }
-      ]
-    },
-    {
-      "title": "JS中的数据类型",
-      "frontmatter": {
-        "title": "JS中的数据类型",
-        "author": "云上舟",
-        "date": "2022-3-16"
-      },
-      "regularPath": "/note/%E6%A8%A1%E6%9D%BF.html",
-      "relativePath": "note/模板.md",
-      "key": "v-7df632ce",
-      "path": "/note/%E6%A8%A1%E6%9D%BF.html"
-    },
-    {
       "title": "typescript巩固",
       "frontmatter": {},
       "regularPath": "/note/typescript%E5%B7%A9%E5%9B%BA.html",
       "relativePath": "note/typescript巩固.md",
-      "key": "v-c2a8ec4e",
+      "key": "v-6c9ba7a6",
       "path": "/note/typescript%E5%B7%A9%E5%9B%BA.html",
       "headers": [
         {
@@ -4040,11 +4033,71 @@ export const siteData = {
       ]
     },
     {
+      "title": "懒加载",
+      "frontmatter": {},
+      "regularPath": "/note/%E5%9B%BE%E7%89%87%E6%87%92%E5%8A%A0%E8%BD%BD.html",
+      "relativePath": "note/图片懒加载.md",
+      "key": "v-1235cc81",
+      "path": "/note/%E5%9B%BE%E7%89%87%E6%87%92%E5%8A%A0%E8%BD%BD.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "什么是懒加载",
+          "slug": "什么是懒加载"
+        },
+        {
+          "level": 2,
+          "title": "应用场景",
+          "slug": "应用场景"
+        },
+        {
+          "level": 2,
+          "title": "解决方案",
+          "slug": "解决方案"
+        },
+        {
+          "level": 2,
+          "title": "小结",
+          "slug": "小结"
+        }
+      ]
+    },
+    {
+      "title": "如何自定义vuepress首页风格",
+      "frontmatter": {},
+      "regularPath": "/note/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89vuepress%E9%A6%96%E9%A1%B5%E9%A3%8E%E6%A0%BC.html",
+      "relativePath": "note/如何自定义vuepress首页风格.md",
+      "key": "v-e39f18f0",
+      "path": "/note/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89vuepress%E9%A6%96%E9%A1%B5%E9%A3%8E%E6%A0%BC.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、主题目录",
+          "slug": "一、主题目录"
+        },
+        {
+          "level": 2,
+          "title": "二、配置首页",
+          "slug": "二、配置首页"
+        },
+        {
+          "level": 2,
+          "title": "三、配置README.md文件",
+          "slug": "三、配置readme-md文件"
+        },
+        {
+          "level": 2,
+          "title": "参考文章",
+          "slug": "参考文章"
+        }
+      ]
+    },
+    {
       "title": "项目中axios的配置",
       "frontmatter": {},
       "regularPath": "/note/%E9%A1%B9%E7%9B%AE%E4%B8%ADaxios%E7%9A%84%E9%85%8D%E7%BD%AE.html",
       "relativePath": "note/项目中axios的配置.md",
-      "key": "v-453a12b6",
+      "key": "v-772aa09c",
       "path": "/note/%E9%A1%B9%E7%9B%AE%E4%B8%ADaxios%E7%9A%84%E9%85%8D%E7%BD%AE.html",
       "headers": [
         {
@@ -4070,10 +4123,22 @@ export const siteData = {
       ]
     },
     {
+      "title": "JS中的数据类型",
+      "frontmatter": {
+        "title": "JS中的数据类型",
+        "author": "云上舟",
+        "date": "2022-3-16"
+      },
+      "regularPath": "/note/%E6%A8%A1%E6%9D%BF.html",
+      "relativePath": "note/模板.md",
+      "key": "v-cb5ba634",
+      "path": "/note/%E6%A8%A1%E6%9D%BF.html"
+    },
+    {
       "frontmatter": {},
       "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%8F%AF%E4%BB%A5%E5%B0%9D%E8%AF%95%E5%81%9A%E7%9A%84%E7%BB%84%E4%BB%B6/%E5%AE%9E%E7%94%A8%E6%80%A7%E9%AB%98%E7%9A%84%E7%BB%84%E4%BB%B6.html",
       "relativePath": "非显示内容/可以尝试做的组件/实用性高的组件.md",
-      "key": "v-2d358bc4",
+      "key": "v-b6409caa",
       "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%8F%AF%E4%BB%A5%E5%B0%9D%E8%AF%95%E5%81%9A%E7%9A%84%E7%BB%84%E4%BB%B6/%E5%AE%9E%E7%94%A8%E6%80%A7%E9%AB%98%E7%9A%84%E7%BB%84%E4%BB%B6.html"
     },
     {
@@ -4081,7 +4146,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/canvas%E7%94%9F%E6%88%90%E6%B5%B7%E6%8A%A5.html",
       "relativePath": "非显示内容/开发中用到的技术记录/canvas生成海报.md",
-      "key": "v-f83c422e",
+      "key": "v-4a9ca736",
       "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/canvas%E7%94%9F%E6%88%90%E6%B5%B7%E6%8A%A5.html"
     },
     {
@@ -4089,7 +4154,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/%E4%BB%A3%E7%A0%81%E6%96%87%E4%BB%B6%E5%BC%80%E5%A4%B4%E8%87%AA%E5%8A%A8%E6%B3%A8%E9%87%8A.html",
       "relativePath": "非显示内容/开发中用到的技术记录/代码文件开头自动注释.md",
-      "key": "v-7541e414",
+      "key": "v-7caffe61",
       "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/%E4%BB%A3%E7%A0%81%E6%96%87%E4%BB%B6%E5%BC%80%E5%A4%B4%E8%87%AA%E5%8A%A8%E6%B3%A8%E9%87%8A.html"
     },
     {
@@ -4097,7 +4162,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/%E5%88%A4%E6%96%AD%E6%B5%8F%E8%A7%88%E5%99%A8%E7%B1%BB%E5%9E%8B.html",
       "relativePath": "非显示内容/开发中用到的技术记录/判断浏览器类型.md",
-      "key": "v-0716f586",
+      "key": "v-414cb44a",
       "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/%E5%88%A4%E6%96%AD%E6%B5%8F%E8%A7%88%E5%99%A8%E7%B1%BB%E5%9E%8B.html",
       "headers": [
         {
@@ -4112,7 +4177,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",
       "relativePath": "非显示内容/开发中用到的技术记录/正则表达式.md",
-      "key": "v-7e8f666e",
+      "key": "v-7c32c456",
       "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",
       "headers": [
         {
@@ -4127,7 +4192,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8F%92%E4%BB%B6%E5%8F%8A%E5%8A%9F%E8%83%BD%E6%80%A7%E7%BD%91%E9%A1%B5/%E6%8F%92%E4%BB%B6%E5%88%97%E4%B8%BE.html",
       "relativePath": "非显示内容/开发中用到的插件及功能性网页/插件列举.md",
-      "key": "v-08dcc815",
+      "key": "v-a7b96a3c",
       "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E5%BC%80%E5%8F%91%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E6%8F%92%E4%BB%B6%E5%8F%8A%E5%8A%9F%E8%83%BD%E6%80%A7%E7%BD%91%E9%A1%B5/%E6%8F%92%E4%BB%B6%E5%88%97%E4%B8%BE.html",
       "headers": [
         {
@@ -4163,18 +4228,11 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/React/%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98.html",
-      "relativePath": "非显示内容/面试/React/基础面试题.md",
-      "key": "v-375d25eb",
-      "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/React/%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98.html"
-    },
-    {
       "title": "标准的项目配置",
       "frontmatter": {},
       "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9C%80%E8%A6%81%E5%90%91%E4%BB%96%E4%BA%BA%E5%AF%BB%E6%B1%82%E5%B8%AE%E5%8A%A9%E7%9A%84%E9%97%AE%E9%A2%98/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.html",
       "relativePath": "非显示内容/需要向他人寻求帮助的问题/问题记录.md",
-      "key": "v-f31a2878",
+      "key": "v-027b1711",
       "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9C%80%E8%A6%81%E5%90%91%E4%BB%96%E4%BA%BA%E5%AF%BB%E6%B1%82%E5%B8%AE%E5%8A%A9%E7%9A%84%E9%97%AE%E9%A2%98/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.html",
       "headers": [
         {
@@ -4186,9 +4244,16 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/React/%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98.html",
+      "relativePath": "非显示内容/面试/React/基础面试题.md",
+      "key": "v-406a53f8",
+      "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/React/%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/TypeScript/ts%E9%9D%A2%E7%BB%8F.html",
       "relativePath": "非显示内容/面试/TypeScript/ts面经.md",
-      "key": "v-69730f4a",
+      "key": "v-60aff757",
       "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/TypeScript/ts%E9%9D%A2%E7%BB%8F.html"
     },
     {
@@ -4196,7 +4261,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/Vue/%E5%9F%BA%E7%A1%80%E9%97%AE%E9%A2%98.html",
       "relativePath": "非显示内容/面试/Vue/基础问题.md",
-      "key": "v-5bae931f",
+      "key": "v-7751abec",
       "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/Vue/%E5%9F%BA%E7%A1%80%E9%97%AE%E9%A2%98.html",
       "headers": [
         {
@@ -4245,7 +4310,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/%E5%88%9D%E7%BA%A7%E9%9D%A2%E7%BB%8F.html",
       "relativePath": "非显示内容/面试/初级面经.md",
-      "key": "v-41af5ae5",
+      "key": "v-faeade9c",
       "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/%E5%88%9D%E7%BA%A7%E9%9D%A2%E7%BB%8F.html"
     },
     {
@@ -4253,21 +4318,21 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/%E4%B8%AA%E4%BA%BA%E6%8E%A8%E8%8D%90.html",
       "relativePath": "非显示内容/面试/面试技巧/个人推荐.md",
-      "key": "v-622f18db",
+      "key": "v-fac48330",
       "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/%E4%B8%AA%E4%BA%BA%E6%8E%A8%E8%8D%90.html"
     },
     {
       "frontmatter": {},
       "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/%E9%A1%B9%E7%9B%AE%E9%9A%BE%E4%BA%AE%E7%82%B9.html",
       "relativePath": "非显示内容/面试/面试技巧/项目难亮点.md",
-      "key": "v-31712d65",
+      "key": "v-ece7f29c",
       "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/%E9%A1%B9%E7%9B%AE%E9%9A%BE%E4%BA%AE%E7%82%B9.html"
     },
     {
       "frontmatter": {},
       "regularPath": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/%E5%86%85%E5%AE%B9%E5%B1%95%E7%A4%BA.html",
       "relativePath": "非显示内容/面试/面试技巧/内容展示.md",
-      "key": "v-3e8f5b5e",
+      "key": "v-5efe00eb",
       "path": "/%E9%9D%9E%E6%98%BE%E7%A4%BA%E5%86%85%E5%AE%B9/%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7/%E5%86%85%E5%AE%B9%E5%B1%95%E7%A4%BA.html"
     }
   ],
@@ -4358,6 +4423,10 @@ export const siteData = {
           {
             "title": "各作用域的理解",
             "path": "/book/各作用域的理解.md"
+          },
+          {
+            "title": "BEM规范",
+            "path": "/book/BEM规范.md"
           }
         ]
       },
