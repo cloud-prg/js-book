@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@mdit-vue/plugin-toc": "^0.7.1",
+    "caniuse-lite": "^1.0.30001418",
     "markdown-it": "^13.0.1",
     "vuepress": "^1.9.7"
   },
