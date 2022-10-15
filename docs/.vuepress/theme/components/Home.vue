@@ -11,8 +11,8 @@
         {{ data.tagline || $description || 'Welcome to your VuePress site' }}
       </p>
 
-      <p v-if="data.actionText && data.actionLink" class="action">
-        <NavLink class="action-button" :item="actionLink" />
+      <p v-if="actionLinkItem.text && actionLinkItem.link" class="action">
+        <NavLink class="action-button" :item="actionLinkItem" />
       </p>
     </header>
 
@@ -40,23 +40,32 @@ export default {
   name: 'Home',
 
   components: { NavLink },
+  data() {
+    return {
+      actionLinkItem: {
+        link: '',
+        text: '',
+      }
+    }
+  },
   methods: {
   },
   created() {
   },
   mounted() {
+    let windowObj = null;
+    if (typeof window == 'undefined') {
+      windowObj = globalThis
+    } else {
+      windowObj = window
+    }
+    this.actionLinkItem.link = `${windowObj?.location.href}home/home.html#介绍`
+    this.actionLinkItem.text = `进入博客`
   },
   computed: {
     data() {
       return this.$page.frontmatter
     },
-
-    actionLink() {
-      return {
-        link: this.data.actionLink,
-        text: this.data.actionText
-      }
-    }
   }
 }
 </script>
