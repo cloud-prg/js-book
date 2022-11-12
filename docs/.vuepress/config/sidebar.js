@@ -3,7 +3,7 @@ const book = require('./sidebar/book');
 const components = require('./sidebar/components');
 const dailyapi = require('./sidebar/dailyapi');
 const note = require('./sidebar/note');
-const additional = require("./sidebar/not-tecnoloty");
+const additional = require("./sidebar/not-tecnology");
 const home = require('./sidebar/home');
 
 const sidebar = [
@@ -15,6 +15,5 @@ const sidebar = [
   basic,
   additional
 ]
-
 
 module.exports = sidebar;
