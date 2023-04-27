@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vite搭配Vue3全家桶的基本配置 | 云上舟</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="个人学习博客">
+    
+    <link rel="preload" href="/js-book/assets/css/0.styles.8a3be0d4.css" as="style"><link rel="preload" href="/js-book/assets/js/app.f61b122d.js" as="script"><link rel="preload" href="/js-book/assets/js/2.2de41c35.js" as="script"><link rel="preload" href="/js-book/assets/js/3.693556bf.js" as="script"><link rel="preload" href="/js-book/assets/js/65.b9d86ac1.js" as="script"><link rel="prefetch" href="/js-book/assets/js/10.2e929d5c.js"><link rel="prefetch" href="/js-book/assets/js/100.599ab4eb.js"><link rel="prefetch" href="/js-book/assets/js/101.624e6e5d.js"><link rel="prefetch" href="/js-book/assets/js/102.0f56ae3d.js"><link rel="prefetch" href="/js-book/assets/js/103.7b431756.js"><link rel="prefetch" href="/js-book/assets/js/104.f8ebd95f.js"><link rel="prefetch" href="/js-book/assets/js/105.79d2a0f1.js"><link rel="prefetch" href="/js-book/assets/js/106.2c07c8e6.js"><link rel="prefetch" href="/js-book/assets/js/107.de5dc7d7.js"><link rel="prefetch" href="/js-book/assets/js/108.e2ddf741.js"><link rel="prefetch" href="/js-book/assets/js/109.3b9ae586.js"><link rel="prefetch" href="/js-book/assets/js/11.63d27d24.js"><link rel="prefetch" href="/js-book/assets/js/110.bc9af71e.js"><link rel="prefetch" href="/js-book/assets/js/111.11b42a30.js"><link rel="prefetch" href="/js-book/assets/js/112.8cd34611.js"><link rel="prefetch" href="/js-book/assets/js/113.0c5af703.js"><link rel="prefetch" href="/js-book/assets/js/12.73e770b0.js"><link rel="prefetch" href="/js-book/assets/js/13.65637008.js"><link rel="prefetch" href="/js-book/assets/js/14.cb506622.js"><link rel="prefetch" href="/js-book/assets/js/15.44ab434e.js"><link rel="prefetch" href="/js-book/assets/js/16.3fdd61b9.js"><link rel="prefetch" href="/js-book/assets/js/17.90cca224.js"><link rel="prefetch" href="/js-book/assets/js/18.7005bc07.js"><link rel="prefetch" href="/js-book/assets/js/19.9820bbef.js"><link rel="prefetch" href="/js-book/assets/js/20.fe043307.js"><link rel="prefetch" href="/js-book/assets/js/21.9f9c401e.js"><link rel="prefetch" href="/js-book/assets/js/22.7a337db5.js"><link rel="prefetch" href="/js-book/assets/js/23.7b17a651.js"><link rel="prefetch" href="/js-book/assets/js/24.06fb07c6.js"><link rel="prefetch" href="/js-book/assets/js/25.7dedce4d.js"><link rel="prefetch" href="/js-book/assets/js/26.2f8625e9.js"><link rel="prefetch" href="/js-book/assets/js/27.5db7d134.js"><link rel="prefetch" href="/js-book/assets/js/28.3b8d7011.js"><link rel="prefetch" href="/js-book/assets/js/29.c1897dfb.js"><link rel="prefetch" href="/js-book/assets/js/30.97b487e8.js"><link rel="prefetch" href="/js-book/assets/js/31.8158df5d.js"><link rel="prefetch" href="/js-book/assets/js/32.ed0d71d8.js"><link rel="prefetch" href="/js-book/assets/js/33.519067fc.js"><link rel="prefetch" href="/js-book/assets/js/34.05907c2b.js"><link rel="prefetch" href="/js-book/assets/js/35.a15df5ee.js"><link rel="prefetch" href="/js-book/assets/js/36.fdce16c2.js"><link rel="prefetch" href="/js-book/assets/js/37.8d00a8d9.js"><link rel="prefetch" href="/js-book/assets/js/38.b1d12b76.js"><link rel="prefetch" href="/js-book/assets/js/39.f3328998.js"><link rel="prefetch" href="/js-book/assets/js/4.9676d5a3.js"><link rel="prefetch" href="/js-book/assets/js/40.d9678df0.js"><link rel="prefetch" href="/js-book/assets/js/41.a8470368.js"><link rel="prefetch" href="/js-book/assets/js/42.e27efb7b.js"><link rel="prefetch" href="/js-book/assets/js/43.ffe0e34e.js"><link rel="prefetch" href="/js-book/assets/js/44.80738e92.js"><link rel="prefetch" href="/js-book/assets/js/45.9e91c4f4.js"><link rel="prefetch" href="/js-book/assets/js/46.dbcc8520.js"><link rel="prefetch" href="/js-book/assets/js/47.7157c5bb.js"><link rel="prefetch" href="/js-book/assets/js/48.6c4e1081.js"><link rel="prefetch" href="/js-book/assets/js/49.9b09fddf.js"><link rel="prefetch" href="/js-book/assets/js/5.927391fc.js"><link rel="prefetch" href="/js-book/assets/js/50.1ad577e1.js"><link rel="prefetch" href="/js-book/assets/js/51.b93749b0.js"><link rel="prefetch" href="/js-book/assets/js/52.5a0c24a2.js"><link rel="prefetch" href="/js-book/assets/js/53.178b9a40.js"><link rel="prefetch" href="/js-book/assets/js/54.c5ae96f5.js"><link rel="prefetch" href="/js-book/assets/js/55.237318f7.js"><link rel="prefetch" href="/js-book/assets/js/56.1592395e.js"><link rel="prefetch" href="/js-book/assets/js/57.87a1ca7a.js"><link rel="prefetch" href="/js-book/assets/js/58.6e8033dc.js"><link rel="prefetch" href="/js-book/assets/js/59.98c84e21.js"><link rel="prefetch" href="/js-book/assets/js/6.17dc4b34.js"><link rel="prefetch" href="/js-book/assets/js/60.4b132455.js"><link rel="prefetch" href="/js-book/assets/js/61.39d4c778.js"><link rel="prefetch" href="/js-book/assets/js/62.4a007e57.js"><link rel="prefetch" href="/js-book/assets/js/63.24f0c87b.js"><link rel="prefetch" href="/js-book/assets/js/64.8c684a13.js"><link rel="prefetch" href="/js-book/assets/js/66.e954c398.js"><link rel="prefetch" href="/js-book/assets/js/67.83a582d2.js"><link rel="prefetch" href="/js-book/assets/js/68.b940db63.js"><link rel="prefetch" href="/js-book/assets/js/69.f923d6a4.js"><link rel="prefetch" href="/js-book/assets/js/7.fd8d6830.js"><link rel="prefetch" href="/js-book/assets/js/70.e81a8bf1.js"><link rel="prefetch" href="/js-book/assets/js/71.76a541e0.js"><link rel="prefetch" href="/js-book/assets/js/72.c9d23f79.js"><link rel="prefetch" href="/js-book/assets/js/73.d7b22b48.js"><link rel="prefetch" href="/js-book/assets/js/74.08dc0e9b.js"><link rel="prefetch" href="/js-book/assets/js/75.964d6fa1.js"><link rel="prefetch" href="/js-book/assets/js/76.3c034d35.js"><link rel="prefetch" href="/js-book/assets/js/77.ba88385c.js"><link rel="prefetch" href="/js-book/assets/js/78.abff29df.js"><link rel="prefetch" href="/js-book/assets/js/79.c482a28f.js"><link rel="prefetch" href="/js-book/assets/js/8.292159d2.js"><link rel="prefetch" href="/js-book/assets/js/80.73b9ed7b.js"><link rel="prefetch" href="/js-book/assets/js/81.e5d12904.js"><link rel="prefetch" href="/js-book/assets/js/82.7343cec4.js"><link rel="prefetch" href="/js-book/assets/js/83.72b6a14e.js"><link rel="prefetch" href="/js-book/assets/js/84.4d2dd943.js"><link rel="prefetch" href="/js-book/assets/js/85.c8706d09.js"><link rel="prefetch" href="/js-book/assets/js/86.ba743348.js"><link rel="prefetch" href="/js-book/assets/js/87.521e67ce.js"><link rel="prefetch" href="/js-book/assets/js/88.24596a1f.js"><link rel="prefetch" href="/js-book/assets/js/89.a7cb6521.js"><link rel="prefetch" href="/js-book/assets/js/9.14dc661d.js"><link rel="prefetch" href="/js-book/assets/js/90.ed6d3b49.js"><link rel="prefetch" href="/js-book/assets/js/91.d9d9cf02.js"><link rel="prefetch" href="/js-book/assets/js/92.f9fa8314.js"><link rel="prefetch" href="/js-book/assets/js/93.4c916426.js"><link rel="prefetch" href="/js-book/assets/js/94.f480ae68.js"><link rel="prefetch" href="/js-book/assets/js/95.735537a4.js"><link rel="prefetch" href="/js-book/assets/js/96.f5ef6517.js"><link rel="prefetch" href="/js-book/assets/js/97.35a26a0d.js"><link rel="prefetch" href="/js-book/assets/js/98.d4246364.js"><link rel="prefetch" href="/js-book/assets/js/99.90d9fa94.js">
+    <link rel="stylesheet" href="/js-book/assets/css/0.styles.8a3be0d4.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/js-book/" class="home-link router-link-active"><!----> <span class="site-name">云上舟</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/js-book/home/home.html" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他博客" class="dropdown-title"><span class="title">其他博客</span> <span class="arrow down"></span></button> <button type="button" aria-label="其他博客" class="mobile-dropdown-title"><span class="title">其他博客</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/YunShangZhou" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/js-book/home/home.html" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他博客" class="dropdown-title"><span class="title">其他博客</span> <span class="arrow down"></span></button> <button type="button" aria-label="其他博客" class="mobile-dropdown-title"><span class="title">其他博客</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/YunShangZhou" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/js-book/home/home.html" class="sidebar-link">序言</a></li><li><section class="sidebar-group collapsable depth-0"><a href="/js-book/book/BEM规范" class="sidebar-heading clickable"><span>博客</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/js-book/note/ES6之变量声明" class="sidebar-heading clickable open"><span>想法/笔记</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/js-book/note/ES6之变量声明.html" class="sidebar-link">ES6之变量声明</a></li><li><a href="/js-book/note/ES6之解构赋值.html" class="sidebar-link">ES6之解构赋值</a></li><li><a href="/js-book/note/typescript巩固.html" class="sidebar-link">typescript巩固</a></li><li><a href="/js-book/note/如何自定义vuepress首页风格.html" class="sidebar-link">如何自定义vuepress首页风格</a></li><li><a href="/js-book/note/图片懒加载.html" class="sidebar-link">图片懒加载</a></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><a href="/js-book/note/Vue/Vue3基本使用" class="sidebar-heading clickable"><span>Vue</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><a href="/js-book/note/Vite/Vite搭配Vue3全家桶的基本配置" class="sidebar-heading clickable open active"><span>Vite</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/js-book/note/Vite/Vite搭配Vue3全家桶的基本配置.html" class="active sidebar-link">Vite搭配Vue3全家桶的基本配置</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/js-book/note/Vite/Vite搭配Vue3全家桶的基本配置.html#一、创建vite" class="sidebar-link">一、创建Vite</a></li><li class="sidebar-sub-header"><a href="/js-book/note/Vite/Vite搭配Vue3全家桶的基本配置.html#二、配置vite-config-ts" class="sidebar-link">二、配置vite.config.ts</a></li><li class="sidebar-sub-header"><a href="/js-book/note/Vite/Vite搭配Vue3全家桶的基本配置.html#配置vuex" class="sidebar-link">配置vuex</a></li><li class="sidebar-sub-header"><a href="/js-book/note/Vite/Vite搭配Vue3全家桶的基本配置.html#配置路由" class="sidebar-link">配置路由</a></li><li class="sidebar-sub-header"><a href="/js-book/note/Vite/Vite搭配Vue3全家桶的基本配置.html#配置axios" class="sidebar-link">配置axios</a></li><li class="sidebar-sub-header"><a href="/js-book/note/Vite/Vite搭配Vue3全家桶的基本配置.html#问题记录" class="sidebar-link">问题记录</a></li><li class="sidebar-sub-header"><a href="/js-book/note/Vite/Vite搭配Vue3全家桶的基本配置.html#vite的webpack打包" class="sidebar-link">vite的webpack打包</a></li><li class="sidebar-sub-header"><a href="/js-book/note/Vite/Vite搭配Vue3全家桶的基本配置.html#配置总结" class="sidebar-link">配置总结</a></li></ul></li></ul></section></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/js-book/components/树形控件的简单实现" class="sidebar-heading clickable"><span>组件实现</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/js-book/dailyapi/手写一个ajax" class="sidebar-heading clickable"><span>手写API</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/js-book/basic/前言" class="sidebar-heading clickable"><span>基础巩固</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/js-book/not-tecnology/第一年总结" class="sidebar-heading clickable"><span>非技术部分</span> <span class="arrow right"></span></a> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="vite搭配vue3全家桶的基本配置"><a href="#vite搭配vue3全家桶的基本配置" class="header-anchor">#</a> Vite搭配Vue3全家桶的基本配置</h1> <p></p><div class="table-of-contents"><ul><li><a href="#一、创建vite">一、创建Vite</a></li><li><a href="#二、配置vite-config-ts">二、配置vite.config.ts</a><ul><li><a href="#配置-路径别名">配置 路径别名</a></li><li><a href="#配置element-plus按需引入">配置Element Plus按需引入</a></li></ul></li><li><a href="#配置vuex">配置vuex</a></li><li><a href="#配置路由">配置路由</a></li><li><a href="#配置axios">配置axios</a></li><li><a href="#问题记录">问题记录</a><ul><li><a href="#_1-alias失效">1.alias失效</a></li><li><a href="#_1-问题的原因及解决">1.问题的原因及解决</a></li></ul></li><li><a href="#vite的webpack打包">vite的webpack打包</a></li><li><a href="#配置总结">配置总结</a></li></ul></div><p></p> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>Nodejs版本要大于 12 。(若低于此版本，可用gnvm node版本控制工具)
+<br>
+版本显示命令<code>node -v</code></p></div> <h2 id="一、创建vite"><a href="#一、创建vite" class="header-anchor">#</a> 一、创建Vite</h2> <ol><li><p>快捷创建，可选择UI框架，<code>npm init @vitejs/app</code></p></li> <li><p>快捷创建vue,若npm为6.x, 则执行 <code>npm init vite@latest my-vue-app --template vue</code></p></li> <li><p>快捷创建vue,若npm为7+, 则执行 <code>npm init vite@latest my-vue-app -- --template vue</code></p></li></ol> <h2 id="二、配置vite-config-ts"><a href="#二、配置vite-config-ts" class="header-anchor">#</a> 二、配置vite.config.ts</h2> <h3 id="配置-路径别名"><a href="#配置-路径别名" class="header-anchor">#</a> 配置 <strong>路径别名</strong></h3> <p>在<code>defineConfig</code> 中，配置 <code>resolve</code>, <code>resolve</code>下配置<code>alias</code>,搭配 <code>path</code>模块的<code>path.resolve(___dirname,路径)</code></p> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>需要引入<code>path</code>模块</p></div> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> defineConfig <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vite'</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> resolve <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;path&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> vue <span class="token keyword">from</span> <span class="token string">'@vitejs/plugin-vue'</span>
+
+
+<span class="token keyword">const</span> <span class="token function-variable function">pathResolve</span> <span class="token operator">=</span> <span class="token punctuation">(</span>dir<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span>dir<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// https://vitejs.dev/config/</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+
+  resolve<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">// https://vitejs.dev/config/#resolve-alias</span>
+    alias<span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token string-property property">&quot;@&quot;</span><span class="token operator">:</span> <span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span><span class="token string">&quot;./src&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token string-property property">&quot;utils&quot;</span><span class="token operator">:</span> <span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">&quot;src/utils&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+</code></pre></div><h3 id="配置element-plus按需引入"><a href="#配置element-plus按需引入" class="header-anchor">#</a> 配置Element Plus按需引入</h3> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>需要引入两个模块: <code>unplugin-auto-import</code>、<code>unplugin-vue-components</code></p></div> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> defineConfig <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vite'</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> resolve <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;path&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> vue <span class="token keyword">from</span> <span class="token string">'@vitejs/plugin-vue'</span>
+<span class="token keyword">import</span> AutoImport <span class="token keyword">from</span> <span class="token string">'unplugin-auto-import/vite'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Components <span class="token keyword">from</span> <span class="token string">'unplugin-vue-components/vite'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> ElementPlusResolver <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'unplugin-vue-components/vite'</span><span class="token punctuation">;</span> 
+
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">definedConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token comment">// xxx</span>
+    plugins<span class="token operator">:</span><span class="token punctuation">[</span><span class="token punctuation">{</span>
+        <span class="token function">vue</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token function">AutoImport</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+			resolvers<span class="token operator">:</span><span class="token punctuation">[</span> <span class="token function">ElementPlusResolver</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">]</span>
+    	<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    	Components<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            resolvers<span class="token operator">:</span> <span class="token punctuation">[</span>  <span class="token function">ElementPlusResolver</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h4 id="在main-js添加el-plus"><a href="#在main-js添加el-plus" class="header-anchor">#</a> 在main.js添加el-plus</h4> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token comment">// 添加elementUI组件库</span>
+<span class="token keyword">import</span> ElementPlus <span class="token keyword">from</span> <span class="token string">&quot;element-plus&quot;</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 添加中文</span>
+<span class="token keyword">import</span> zhCn <span class="token keyword">from</span> <span class="token string">&quot;element-plus/es/locale/lang/message/style.scss&quot;</span>
+
+<span class="token comment">// 添加指定样式</span>
+<span class="token keyword">import</span> <span class="token string">&quot;element-plus/es/components/message/style.css&quot;</span>
+<span class="token keyword">import</span> <span class="token string">&quot;element-plus/es/components/message-box/style.css&quot;</span>
+
+<span class="token keyword">const</span> app <span class="token operator">=</span> <span class="token function">createApp</span><span class="token punctuation">(</span><span class="token string">&quot;App&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>ElementPlus<span class="token punctuation">,</span><span class="token punctuation">{</span>local<span class="token operator">:</span> zhCn<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="配置vuex"><a href="#配置vuex" class="header-anchor">#</a> 配置vuex</h2> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>​需要模块vuex,安装命令:<code>npm install vuex@next</code></p></div> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token comment">// src/store/index.ts</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> createStore <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;vuex&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">createStore</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    state<span class="token operator">:</span><span class="token punctuation">{</span>
+        count<span class="token operator">:</span> <span class="token number">0</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    mutations<span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token function">setCount</span><span class="token punctuation">(</span>state<span class="token punctuation">,</span>count<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            state<span class="token punctuation">.</span>count <span class="token operator">=</span> count<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    actions<span class="token operator">:</span><span class="token punctuation">{</span>
+        <span class="token function">getCount</span><span class="token punctuation">(</span><span class="token punctuation">{</span> commit <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token function">commit</span><span class="token punctuation">(</span><span class="token string">&quot;setCount&quot;</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-ts extra-class"><pre class="language-ts"><code><span class="token comment">// src/main.ts</span>
+<span class="token comment">// ...</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>store<span class="token punctuation">)</span>
+</code></pre></div><h2 id="配置路由"><a href="#配置路由" class="header-anchor">#</a> 配置路由</h2> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>​需要模块<code>vue-router</code>，安装命令: <code>npm install vue-route@4</code></p></div> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token comment">// src/router/index.ts</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> createRouter<span class="token punctuation">,</span>createWebHashHistory<span class="token punctuation">,</span> RouteRecordRaw<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;vue-router&quot;</span><span class="token punctuation">;</span>
+
+
+<span class="token keyword">const</span> routes<span class="token operator">:</span> <span class="token builtin">Array</span><span class="token operator">&lt;</span>RouteRecordRaw<span class="token operator">&gt;</span> <span class="token operator">=</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        path<span class="token operator">:</span><span class="token string">&quot;/home&quot;</span><span class="token punctuation">,</span>
+        name<span class="token operator">:</span><span class="token string">&quot;Home&quot;</span><span class="token punctuation">,</span>
+        <span class="token function-variable function">component</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">import</span><span class="token punctuation">(</span><span class="token string">&quot;@/views/home.vue&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        path<span class="token operator">:</span><span class="token string">&quot;/&quot;</span><span class="token punctuation">,</span>
+        redirect<span class="token operator">:</span><span class="token string">&quot;/home&quot;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+
+<span class="token keyword">export</span> <span class="token keyword">const</span> Router <span class="token operator">=</span> <span class="token function">createRouter</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    history<span class="token operator">:</span> <span class="token function">createWebHashHistory</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    routes
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> Router<span class="token punctuation">;</span>
+</code></pre></div><div class="language-ts extra-class"><pre class="language-ts"><code><span class="token comment">// src/main.ts</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>router<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="配置axios"><a href="#配置axios" class="header-anchor">#</a> 配置axios</h2> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>​需要模块<code>axios</code>,安装命令: <code>npm install axios</code></p></div> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token comment">// src/utils/http.ts</span>
+<span class="token keyword">import</span> Axios <span class="token keyword">from</span> <span class="token string">&quot;axios&quot;</span><span class="token punctuation">;</span>
+
+
+
+<span class="token keyword">const</span> <span class="token constant">BASE_URL</span> <span class="token operator">=</span> <span class="token string">&quot;&quot;</span> <span class="token punctuation">;</span> <span class="token comment">// 默认前缀</span>
+<span class="token keyword">const</span> <span class="token constant">TIME_OUT</span> <span class="token operator">=</span> <span class="token keyword">undefined</span><span class="token punctuation">;</span> <span class="token comment">// 默认超时</span>
+
+<span class="token keyword">const</span> instance <span class="token operator">=</span> Axios<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    baseURL<span class="token operator">:</span> <span class="token constant">BASE_URL</span><span class="token punctuation">,</span>
+    timeout<span class="token operator">:</span> <span class="token constant">TIME_OUT</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+
+<span class="token comment">// 默认请求体头部 post请求</span>
+instance<span class="token punctuation">.</span>defaults<span class="token punctuation">.</span>headers<span class="token punctuation">.</span>post <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string-property property">&quot;Content-Type&quot;</span> <span class="token operator">:</span> <span class="token string">&quot;application/x-www-urlencoded&quot;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 请求拦截</span>
+instance<span class="token punctuation">.</span>interceptors<span class="token punctuation">.</span>request<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>config<span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+
+    <span class="token keyword">return</span> config
+<span class="token punctuation">}</span><span class="token punctuation">,</span>error<span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+
+    <span class="token keyword">return</span> <span class="token builtin">Promise</span><span class="token punctuation">.</span><span class="token function">reject</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 响应拦截</span>
+instance<span class="token punctuation">.</span>interceptors<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>config<span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+
+    
+<span class="token punctuation">}</span><span class="token punctuation">,</span>error<span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+
+    <span class="token keyword">return</span> <span class="token builtin">Promise</span><span class="token punctuation">.</span><span class="token function">reject</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> instance<span class="token punctuation">;</span>
+</code></pre></div><div class="language-ts extra-class"><pre class="language-ts"><code><span class="token comment">// src/Api/user.ts</span>
+<span class="token keyword">import</span> $http <span class="token keyword">from</span> <span class="token string">&quot;@/utils/http&quot;</span><span class="token punctuation">;</span>
+
+
+<span class="token comment">// 添加用户登录请求 如果data约定好，可以添加ts 接口类型</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token function-variable function">userLogin</span> <span class="token operator">=</span> <span class="token punctuation">(</span>data<span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token function">$http</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    url<span class="token operator">:</span> <span class="token string">&quot;xxx&quot;</span><span class="token punctuation">,</span>
+    method<span class="token operator">:</span> <span class="token string">&quot;post&quot;</span><span class="token punctuation">,</span>
+    data<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+</code></pre></div><h2 id="问题记录"><a href="#问题记录" class="header-anchor">#</a> 问题记录</h2> <h3 id="_1-alias失效"><a href="#_1-alias失效" class="header-anchor">#</a> 1.alias失效</h3> <p>在vite.config.ts中，关于<code>alias</code>别名失效了，使 <code>@/utils/http</code> 这一段引入，报了错。以下是原配置:</p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> defineConfig <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vite'</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> resolve <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;path&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token function-variable function">pathResolve</span> <span class="token operator">=</span> <span class="token punctuation">(</span>dir<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span>dir<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  plugins<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token function">vue</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  resolve<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">// https://vitejs.dev/config/#resolve-alias</span>
+    alias<span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token string-property property">&quot;@&quot;</span><span class="token operator">:</span> <span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span><span class="token string">&quot;./src&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token string-property property">&quot;utils&quot;</span><span class="token operator">:</span> <span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">&quot;src/utils&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="_1-问题的原因及解决"><a href="#_1-问题的原因及解决" class="header-anchor">#</a> 1.问题的原因及解决</h3> <p>如果用了ts那么还需要在tsconfig.js中进行额外配置，注意path对象是在compilerOptions对象里面</p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token string-property property">&quot;compilerOptions&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+<span class="token string-property property">&quot;paths&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token string-property property">&quot;@/*&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span><span class="token string">&quot;./src/*&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="vite的webpack打包"><a href="#vite的webpack打包" class="header-anchor">#</a> vite的webpack打包</h2> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token comment">// xxx</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token comment">// xx</span>
+ build<span class="token operator">:</span> <span class="token punctuation">{</span>
+    target<span class="token operator">:</span> <span class="token string">&quot;es2015&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 主要用于兼容低版本浏览器 可以解决chrome65版本打包</span>
+    cssTarget<span class="token operator">:</span> <span class="token string">'chrome65'</span><span class="token punctuation">,</span> <span class="token comment">// 兼容低版本浏览器上样式问题</span>
+    assetsDir<span class="token operator">:</span> <span class="token string">'./assets'</span><span class="token punctuation">,</span> <span class="token comment">// 打包配置路径</span>
+    rollupOptions<span class="token operator">:</span> <span class="token punctuation">{</span>
+      input<span class="token operator">:</span> <span class="token punctuation">{</span>    <span class="token comment">// 主要用于配置多页面</span>
+        platForm<span class="token operator">:</span> <span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'platform.html'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        merchant<span class="token operator">:</span> <span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'merchant.html'</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="配置总结"><a href="#配置总结" class="header-anchor">#</a> 配置总结</h2> <p><code>Vite</code>+<code>Vue3</code>的搭建，基本上有:</p> <ol><li>Vuex: 状态管理工具 (可用其他插件代替，比如pinia)</li> <li>axios: 异步请求api</li> <li>vue-router: 路由管理器</li> <li>element-plus: UI组件库 (可用其他UI组件库搭配使用)</li> <li>打包配置，详情配置参阅官方文档 [<a href="https://vitejs.cn/config/" target="_blank" rel="noopener noreferrer">配置 Vite {#configuring-vite} | Vite中文网 (vitejs.cn)<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>](https://vitejs.cn/config/)</li></ol></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/js-book/note/Vue/vue3的通信方式.html" class="prev">
+        vue3的通信方式
+      </a></span> <span class="next"><a href="/js-book/components/弹框组件的实现.html">
+        弹框组件的实现
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/js-book/assets/js/app.f61b122d.js" defer></script><script src="/js-book/assets/js/2.2de41c35.js" defer></script><script src="/js-book/assets/js/3.693556bf.js" defer></script><script src="/js-book/assets/js/65.b9d86ac1.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[113],{511:function(t,e,n){"use strict";n.r(e);var s=n(55),i=Object(s.a)({},(function(){var t=this.$createElement,e=this._self._c||t;return e("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[e("p",[this._v("1.项目优化，防抖处理、长列表滚动加载、图片懒加载、骨架屏、gzip打包优化等。")])])}),[],!1,null,null,null);e.default=i.exports}}]);
