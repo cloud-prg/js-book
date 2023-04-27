@@ -19,9 +19,6 @@ function Food(name, price) {
 console.log(new Food('cheese', 5).name);
 // expected output: "cheese"
 ```
-
-
-
 ## apply介绍
 apply() 方法调用一个具有给定this值的函数，以及以一个数组（或类数组对象）的形式提供的参数。
 ```js
@@ -81,10 +78,10 @@ var arrayLike = {
 Array.prototype.push.call(arrayLike,"a","b")
 ```
 
-- 记忆函数
+- 防抖
 改变传入fn的上下文。
 ```js
-function memorize(fn,delay){
+function debounce(fn,delay){
  let timeout;
 	return function(){
 	 timeout && clearTimeout(timeout);
